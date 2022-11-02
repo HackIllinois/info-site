@@ -1,4 +1,4 @@
-import './main.scss';
+import "./main.scss";
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
