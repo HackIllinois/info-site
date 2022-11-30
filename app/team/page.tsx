@@ -1,79 +1,41 @@
 import Navbar from "../components/navbar";
 import "./main.scss"
 
+const headers = [
+    {
+        team: "Co-Directors",
+        people: ["Deeya Bodas", "Jonathan Gao"],
+        position: ["Co Director", "Co Director"],
+        facts: ["A Fact", "B Fact"]
+    },
+    {
+        team: "Systems",
+        people: ["Ashay Parikh", "Lasya Neti", "Rachel Shum", "Jareth Gomes", "Aniket Gargya"],
+        facts: ["A Fact", "B Fact", "C Fact", "D Fact", "E Fact"]
+    }
+];
+
+
 const Page = () => {
     return (
         <div>
-        <div>
-            <h1>Co-Directors</h1>
-            <div className="section">
-                <div className="column">
-                    <div className="box"> 
-                        <h2>Deeya Bodas</h2>
-                        <p>Some text..</p>              
-                    </div>
-                </div>
-
-                <div className="column">
-                    <div className="box"> 
-                        <h2>Jon</h2>
-
-                        <p >Title here...</p>   
-                        <p className="fun">Fun fact here...</p>    
-        
-                    </div>
-                </div>
-                </div>
-                
-
+            {headers.map(({team, people, facts}) => (
                 <div>
-                <h1> Systems</h1>
-                <div className="section">
-
-                <div className="column">
-                    <div className="box"> 
-                        <h2>Laasya</h2>
-                        <p>Some text..</p>              
-                    </div>
-                    <div className="column">
-                    <div className="box"> 
-                        <h2>Aniket Gargya</h2>
-                        <p>Some text..</p>              
+                    <h1>{team}</h1>
+                    <div className="section">
+                        {people.map((name, i) => (
+                            <div className="column">
+                                <div className="box"> 
+                                    <h2>{people[i]}</h2>
+                                    <p>{facts[i]}</p>              
+                                </div>
+                            </div>
+                        ))}
                     </div>
                 </div>
-                <div className="column">
-                    <div className="box"> 
-                        <h2>Deeya Bodas</h2>
-                        <p>Some text..</p>              
-                    </div>
-                </div>
-                <div className="column">
-                    <div className="box"> 
-                        <h2>Deeya Bodas</h2>
-                        <p>Some text..</p>              
-                    </div>
-                </div>
-                </div>
-                </div>
-                </div>
-                <div>
-                <h1> Experience</h1>
-                </div>
+            ))}
+            
 
-                <div>
-                <h1> Outreach</h1>
-                </div>
-
-                <div>
-                <h1>Design </h1>
-                </div>
-
-                <div>
-                <h1>Marketing </h1>
-                </div>
-                
-                
-            </div>
         </div>
     );
 };
