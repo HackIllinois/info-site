@@ -1,5 +1,7 @@
 import Navbar from "../components/navbar";
 import "./main.scss"
+import PageSvg from "../assets/team/team-page-svg";
+
 
 const headers = [
     {
@@ -18,7 +20,7 @@ const headers = [
 
 const Page = () => {
     return (
-        <div>
+        <div className="display">
             {headers.map(({team, people, facts}) => (
                 <div>
                     <h1>{team}</h1>
@@ -34,7 +36,11 @@ const Page = () => {
                     </div>
                 </div>
             ))}
-            
+            {/* <img src={PageSvg}></img> */}
+            <div className="page-svg"> 
+                <PageSvg />
+            </div>
+
 
         </div>
     );
