@@ -9,7 +9,7 @@ const links = [
         text: "About"
     },
     {
-        href: "/#",
+        href: "/faq",
         text: "FAQ"
     },
     {
@@ -25,7 +25,9 @@ const links = [
 const Navbar = () => {
     return (
         <nav>
-            <img src={HACKILLINOIS_LOGO} className="hackillinois-logo" />
+            <a href="/#">
+                <img src={HACKILLINOIS_LOGO} className="hackillinois-logo" />
+            </a>
             <div className="links">
                 {links.map(({ href, text }, i) => <Link key={i} href={href} className="link">{text}</Link>)}
             </div>

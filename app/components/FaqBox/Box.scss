@@ -39,6 +39,7 @@
     letter-spacing: 0em;
     // text-align: left;
     width: 80%;
+    margin-left: 10px;
 
 }
 
@@ -56,42 +57,45 @@
     margin: auto 35px;
     text-align: center;
     // background-color: #FDF5CD;
-    
+
 
 }
 
 .description.opened {
     // transition: max-height 1.5s ease-in-out;
     opacity: 1;
-    max-height: 2000px;
+    max-height: fit-content;
 }
 
 
 .closed {
     .vertical {
-      transition: all 0.5s ease-in-out;
-      transform: rotate(-90deg);
+        transition: all 0.5s ease-in-out;
+        transform: rotate(-90deg);
     }
+
     .horizontal {
-      transition: all 0.5s ease-in-out;
-      transform: rotate(-90deg);
-      opacity: 1;
+        transition: all 0.2s ease-in-out;
+        transform: rotate(-90deg);
+        opacity: 1;
     }
 }
-  
+
 .opened {
     opacity: 1;
+
     .vertical {
         transition: all 0.5s ease-in-out;
         transform: rotate(90deg);
     }
+
     .horizontal {
         transition: all 0.5s ease-in-out;
         transform: rotate(90deg);
         opacity: 0;
     }
 }
-  
+
 .circle-plus {
     // height: 4em;
     width: 4em;
@@ -129,4 +133,5 @@
     top: 50%;
     margin-top: -15px;
 }
+
 // Toggle code assisted by: https://codepen.io/Inlesco/pen/XXRRmY
