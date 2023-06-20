@@ -13,7 +13,7 @@ const links = [
         text: "FAQ"
     },
     {
-        href: "/#",
+        href: "/team",
         text: "Team"
     },
     {

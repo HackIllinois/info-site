@@ -21,6 +21,10 @@ nav {
 
         &:not(:last-child) {
             margin-right: 90px;
+
+            @media screen and (max-width: 750px) {
+                margin-right: 25px;
+            }
         }
     }
 }

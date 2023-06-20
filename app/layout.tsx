@@ -1,6 +1,6 @@
 import Navbar from "./components/navbar";
 
-import "./main.scss";
+import "./layout.scss";
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
     return (
