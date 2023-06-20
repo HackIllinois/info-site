@@ -1,0 +1,60 @@
+.faq-main {
+    background-color: #FFFFFF;
+
+    min-height: fit-content;
+    width: 100%;
+    margin: auto;
+
+
+}
+
+.main-title {
+    text-align: center;
+    color: #68C8BF;
+    // font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    padding-bottom: 25px;
+}
+
+.faq-content {
+    display: flex;
+    flex-direction: row;
+
+    @media screen and (max-width: 700px) {
+        flex-direction: column;
+    }
+
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.faq-content>div {
+    width: 48%;
+
+    @media screen and (max-width: 700px) {
+        width: 88%;
+    }
+
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 0;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.side-1 {
+    margin: auto;
+}
+
+.logo {
+    height: 170px;
+    width: 387px;
+    left: 738px;
+    top: 316px;
+    border-radius: 0px;
+}
