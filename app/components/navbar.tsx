@@ -31,7 +31,7 @@ const Navbar = () => {
             <div className="links">
                 {links.map(({ href, text }, i) => <Link key={i} href={href} className="link">{text}</Link>)}
             </div>
-            <button>Join Us</button>
+            <button className="joinButton">Join Us</button>
         </nav>
     );
 };
