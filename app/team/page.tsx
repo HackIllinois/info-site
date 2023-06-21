@@ -2,6 +2,7 @@ import Navbar from "../components/navbar";
 import "./main.scss"
 import PageSvg from "../assets/team/team-page-svg";
 import PAGEFOOTER from "../assets/team-footer.svg";
+import PAGEFOOTSHAPES from "../assets/team-footer-shapes.svg";
 
 const headers = [
     {
@@ -38,6 +39,7 @@ const Page = () => {
             ))}
             {/* <img src={PageSvg}></img> */}
             <img src={PAGEFOOTER} className="page-svg" />
+            <img src={PAGEFOOTSHAPES} className="page-svg-2" />
             {/* <div className="page-svg"> 
                 <PageSvg />
             </div> */}

@@ -1,0 +1,108 @@
+.page {
+    overflow-x: hidden;
+}
+
+.logo-div {
+    width: 100%;
+    min-height: 53vw;
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.section-div {
+    margin-top: 10%;
+    width: 100%;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    overflow-y: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.textbox {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+
+    @media screen and (max-width: 650px) {
+        flex-direction: column-reverse;
+    }
+}
+
+.p-text {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.tilted-hack {
+    // max-width: 16%;
+    height: 100%;
+    margin-left: 13%;
+    margin-right: 5%;
+    transform: translateY(-20%);
+
+    @media screen and (max-width: 650px) {
+        width: 40%;
+        margin-left: 35%;
+        transform: translateY(0%);
+    }
+}
+
+.dots-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+}
+
+.icon-div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.text-div {
+    z-index: 3;
+    margin-top: 38%;
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 28.76px;
+}
+
+.main-logo {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+}
+
+.dots {
+    z-index: 2;
+    margin-top: 10%;
+    width: 40%;
+}
+
+.dotsTwo {
+    z-index: 2;
+    margin-top: 21%;
+    width: 40%;
+}
+
+.dotsThree {
+    z-index: 2;
+    margin-top: 32%;
+    width: 40%;
+}
+
+.iconPosition {
+    z-index: 2;
+    margin-top: 15%;
+    width: 55%;
+}
