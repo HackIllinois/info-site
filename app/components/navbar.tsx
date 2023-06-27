@@ -16,10 +16,11 @@ const links = [
         href: "/team",
         text: "Team"
     },
-    {
-        href: "/#",
-        text: "History"
-    }
+    // we dont need this imo
+    // {
+    //     href: "/#",
+    //     text: "History"
+    // } 
 ];
 
 const Navbar = () => {
