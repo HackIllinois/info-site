@@ -28,7 +28,7 @@ const headers = [
         team: "Experience",
         people: ["Rachel Shum", "Jennifer Xia", "Join our summer team!"],
         position: ["Experience Co-Lead", "Experience Co-Lead", ""],
-        facts: ["..", "..", "This could be you :)"],
+        facts: ["I like eggs and matcha... but not together!", "I enjoy creative writing :) but I am also in a perpetual state of being unmotivated and having writer's block", "This could be you :)"],
         photos: [rachel.src]
     },
     {
@@ -49,7 +49,7 @@ const headers = [
         team: "Outreach",
         people: ["Amit Prasad", "Join our summer team!"],
         position: ["Outreach Lead", ""],
-        facts: ["...", "This could be you :)"],
+        facts: ["I went on an exchange program in middle school to Japan.", "This could be you :)"],
         photos: []
     },
 ];
