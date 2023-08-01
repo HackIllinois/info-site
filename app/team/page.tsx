@@ -86,7 +86,7 @@ const Page = () => {
             </Container>
             <div className={styles.footerArt}>
                 <img src="team-footer-shapes.svg" className={styles.shapes} />
-                <img src="team-footer-talking.svg" className={styles.characters} />
+                <img src="team-footer-characters.svg" className={styles.characters} />
             </div>
         </>
     );
