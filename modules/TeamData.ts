@@ -23,7 +23,7 @@ export const TeamData = [
                 name: "Lasya Neti",
                 position: "Systems Lead",
                 funFact: "I met Jake from State Farm!",
-                photo: "team/lasya.jpeg"
+                photo: "/team/lasya.jpeg"
             },
             {
                 name: "Join our fall team!",
@@ -40,7 +40,7 @@ export const TeamData = [
                 name: "Rachel Shum",
                 position: "Experience Co-Lead",
                 funFact: "I like eggs and matcha... but not together!",
-                photo: "team/rachel.jpeg"
+                photo: "/team/rachel.jpeg"
             },
             {
                 name: "Jennifer Xia",
@@ -64,14 +64,14 @@ export const TeamData = [
                 name: "Alex Fang",
                 position: "Design Co-Lead",
                 funFact: "..",
-                photo: "team/alex.jpeg"
+                photo: "/team/alex.jpeg"
             },
             {
                 name: "Jasmine Lin",
                 position: "Design Co-Lead",
                 funFact:
                     "I love collecting plants but I'm very bad at keeping them alive",
-                photo: "team/jasmine.jpeg"
+                photo: "/team/jasmine.jpeg"
             },
             {
                 name: "Join our fall team!",
@@ -88,7 +88,7 @@ export const TeamData = [
                 name: "Emily Tung",
                 position: "Marketing Lead",
                 funFact: "..",
-                photo: "team/emily.jpeg"
+                photo: "/team/emily.jpeg"
             },
             {
                 name: "Join our fall team!",

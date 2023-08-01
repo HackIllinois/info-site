@@ -11,6 +11,8 @@ import rachel from "../assets/team/rachel.jpeg";
 import { TeamData } from "@/modules/TeamData";
 import styles from "./page.module.scss";
 import Container from "../components/Container/Container";
+import React from "react";
+import Image from "next/image";
 
 type team = {
     teamName: string;
@@ -45,24 +47,30 @@ const Page = () => {
                 //     </div>
                 // </div>
             ))} */}
-            {TeamData.map((team: team) => (
-                <div className={styles.teamLayout}>
+            {TeamData.map((team: team, index: React.Key) => (
+                <div className={styles.teamLayout} key={index}>
                     <h1>{team.teamName}</h1>
                     <div className={styles.membersLayout}>
-                        {team.teamMembers.map((member: teamMember) => (
-                            <div className={styles.memberCard}>
-                                <div className={styles.photo}>
-                                    <img
-                                        src={
-                                            member.photo
-                                                ? member.photo
-                                                : "team/default.svg"
-                                        }
+                        {team.teamMembers.map(
+                            (member: teamMember, key: React.Key) => (
+                                <div className={styles.memberCard} key={key}>
+                                    <Image
+                                        src={member.photo}
+                                        // src={
+                                        //     member.photo
+                                        //         ? member.photo
+                                        //         : "/team/default.svg"
+                                        // }
+                                        alt={member.name}
+                                        width={256}
+                                        height={256}
+                                        className={styles.photo}
                                     />
+
+                                    <span>{member.name}</span>
                                 </div>
-                                <span>{member.name}</span>
-                            </div>
-                        ))}
+                            )
+                        )}
                     </div>
                 </div>
             ))}
