@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import PAGEFOOTER from "../assets/team-footer.svg";
-import { TeamData } from "@/modules/TeamData";
+import { data } from "@/modules/TeamData";
 import styles from "./page.module.scss";
 import Container from "../components/Container/Container";
 
@@ -22,7 +21,7 @@ const Page = () => {
     return (
         <>
             <Container>
-                {TeamData.map((team: team, index: React.Key) => (
+                {data.map((team: team, index: React.Key) => (
                     <div className={styles.teamLayout} key={index}>
                         <h1>{team.teamName}</h1>
                         <div className={styles.membersLayout}>
@@ -81,7 +80,10 @@ const Page = () => {
             </Container>
             <div className={styles.footerArt}>
                 <img src="team-footer-shapes.svg" className={styles.shapes} />
-                <img src="team-footer-characters.svg" className={styles.characters} />
+                <img
+                    src="team-footer-characters.svg"
+                    className={styles.characters}
+                />
             </div>
         </>
     );

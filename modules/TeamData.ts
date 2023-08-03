@@ -1,4 +1,4 @@
-export const TeamData = [
+export const data = [
     {
         teamName: "Co-Directors",
         teamMembers: [

@@ -1,0 +1,13 @@
+.teamListItem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    column-gap: 2%;
+
+    .teamListItemText {
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: 3.75rem;
+    }
+}

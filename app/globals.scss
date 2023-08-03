@@ -24,6 +24,11 @@ body {
     color: #3e3e3e;
 }
 
+//Globally remove list bullet symbol
+ul {
+    list-style-type: none;
+}
+
 h1 {
     align-items: center;
     text-align: center;
