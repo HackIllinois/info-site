@@ -16,12 +16,12 @@
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    width: 23.75rem;
+    width: 23.25rem;
     min-height: 33.5rem;
     border: 0.25rem solid #c3e9e5;
     background-color: #e1f4f2;
     border-radius: 2rem;
-    padding: 3rem 2rem;
+    padding: 3rem 2%;
 
     .emojiAndPhoto {
         position: relative;
@@ -47,6 +47,7 @@
             border-radius: 50%;
             border: 0.25rem solid #ffffff;
             background-color: #ffffff;
+            object-fit: cover;
         }
     }
 
@@ -89,13 +90,12 @@
     .shapes {
         width: 100%;
         max-width: 100%;
-        margin-top: -10%;
+        margin-top: -5%;
         grid-area: 1/1;
     }
 
     .characters {
-        max-width: 100%;
-        margin-top: -2rem;
+        max-width: 75%;
         grid-area: 1/1;
         justify-self: end;
         z-index: 1;

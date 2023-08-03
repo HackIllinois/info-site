@@ -78,11 +78,6 @@ const Page = () => {
                         </div>
                     </div>
                 ))}
-                {/* {<img src={PageSvg}></img>} */}
-                {/* <img src={PAGEFOOTSHAPES} className="page-svg-2" /> */}
-                {/* <div className="page-svg"> 
-                <PageSvg />
-            </div> */}
             </Container>
             <div className={styles.footerArt}>
                 <img src="team-footer-shapes.svg" className={styles.shapes} />
