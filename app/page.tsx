@@ -69,44 +69,75 @@ const Page = () => {
                     </div>
                 </div>
                 {/* Bottom Section, including Team and Contact us */}
-                <div className={styles.teamsSection}>
-                    <h1>HackIllinois Teams</h1>
-                    <div className={styles.body}>
-                        <div className={styles.list}>
-                            <ul>
-                                {data.map((team: listOfTeams) => (
-                                    <div className={styles.listItem}>
-                                        <Image
-                                            src={team.icon}
-                                            height={16}
-                                            width={16}
-                                            alt={team.name}
-                                        />
-                                        <li className={styles.listItemText}>
-                                            {team.name}
-                                        </li>
-                                    </div>
-                                ))}
-                            </ul>
-                            <Button
-                                text={"Meet the Teams"}
-                                navigateTo="/team"
-                                backgroundColor={"#68C8BF"}
-                                textColor={"#FCE891"}
-                            />
+                <div className={styles.bottomSection}>
+                    <div className={styles.teamsSection}>
+                        <h1>HackIllinois Teams</h1>
+                        <div className={styles.body}>
+                            <div className={styles.list}>
+                                <ul>
+                                    {data.map((team: listOfTeams) => (
+                                        <div className={styles.listItem}>
+                                            <Image
+                                                src={team.icon}
+                                                height={16}
+                                                width={16}
+                                                alt={team.name}
+                                            />
+                                            <li className={styles.listItemText}>
+                                                {team.name}
+                                            </li>
+                                        </div>
+                                    ))}
+                                </ul>
+                                <Button
+                                    text={"Meet the Teams"}
+                                    navigateTo="/team"
+                                    backgroundColor={"#68C8BF"}
+                                    textColor={"#FCE891"}
+                                />
+                            </div>
+                            <div className={styles.pictures}>
+                                <img
+                                    src="/about/teams-pic1.png"
+                                    alt="teams-pic1"
+                                />
+                                <img
+                                    src="/about/teams-earth-vector.svg"
+                                    alt="vector"
+                                />
+                            </div>
                         </div>
-                        <div className={styles.pictures}>
-                            <img src="/about/teams-pic1.png" alt="teams-pic1" />
-                            <Image
-                                src="/about/teams-earth-vector.svg"
-                                width={280}
-                                height={280}
-                                alt="vector"
-                            />
+                        <img
+                            src="/about/shapes/yellow-dotted-line.svg"
+                            alt="vector"
+                        />
+                    </div>
+                    <div className={styles.contactSection}>
+                        <h1>Connect With Us</h1>
+                        <div className={styles.contactBody}>
+                            <div>
+                                <p>
+                                    Keep in touch with us through our social
+                                    medias! You will be the first to know about
+                                    any HackIllinois events or exciting news.
+                                    Dont forget to check our FAQ, you just might
+                                    find your answer there! 🥳 Still have any
+                                    questions? Feel free to reach out to us at{" "}
+                                    <a>contact@hackillinois.org</a>.
+                                </p>
+                            </div>
+                            <img src="/about/connect-vector.svg" alt="vector" />
                         </div>
                     </div>
                 </div>
             </Container>
+            <div className={styles.bottomVectors}>
+                <img
+                    src="/about/shapes/yellow-horizontal-line.svg"
+                    alt="vector"
+                />
+                <img src="/about/shapes/green-circles-group.svg" alt="vector" />
+            </div>
 
             {/* <h1>Info Hack!</h1> */}
         </div>

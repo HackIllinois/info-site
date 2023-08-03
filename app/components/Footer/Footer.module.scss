@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #b4e4df;
+    padding: 2.25rem 2.5%; // 2.5% is half of the Container's 5%
+
+    > span {
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 2.75rem;
+    }
+}
