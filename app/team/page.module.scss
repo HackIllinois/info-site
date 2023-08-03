@@ -2,6 +2,12 @@
     margin-top: 10rem;
 }
 
+.teamLayout {
+    > h1 {
+        text-align: center;
+    }
+}
+
 .membersLayout {
     display: flex;
     flex-flow: row wrap;

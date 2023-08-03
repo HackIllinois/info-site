@@ -1,13 +1,56 @@
-.teamListItem {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    column-gap: 2%;
+.teamsSection {
+    background-image: url("/about/teams-triangle.svg");
+    background-size: auto 75%;
+    background-repeat: no-repeat;
+    padding: 3.75% 0;
+    margin: 0 5%;
 
-    .teamListItemText {
-        font-size: 3rem;
-        font-weight: 500;
-        line-height: 3.75rem;
+    .body {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        column-gap: 5%;
+        margin-top: 2rem;
+
+        .list {
+            display: inline-flex;
+            flex-direction: column;
+            row-gap: 2.25rem;
+            margin-left: 2.5%;
+            .listItem {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+                column-gap: 2rem;
+
+                .listItemText {
+                    font-size: 3rem;
+                    font-weight: 500;
+                    line-height: 3.75rem;
+                }
+            }
+        }
+
+        .pictures {
+            display: grid;
+            grid-row-start: auto;
+            padding-bottom: 9rem;
+            > img:first-child {
+                max-width: 100%;
+                border-radius: 2.5rem;
+                max-height: 40rem;
+                grid-area: 1/1;
+            }
+
+            > img:nth-child(2) {
+                grid-area: 1/1;
+                margin-left: auto;
+                margin-top: auto;
+                margin-bottom: -9rem;
+                margin-right: -5rem;
+                justify-content: start;
+            }
+        }
     }
 }
