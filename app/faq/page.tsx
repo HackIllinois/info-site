@@ -1,6 +1,6 @@
 import "./faq.scss";
-import Box from "../components/FaqBox/Box";
-import LOGO from "../assets/FAQ/LOGO.svg";
+import Box from "@/components/FaqBox/Box";
+import LOGO from "../../public/FAQ/LOGO.svg";
 
 const Page = () => {
 

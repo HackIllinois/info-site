@@ -1,7 +1,7 @@
 import Link from "next/link";
 import "./navbar.styles.scss";
 
-import HACKILLINOIS_LOGO from "../assets/hackillinois-logo.svg";
+import HACKILLINOIS_LOGO from "../public/hackillinois-logo.svg";
 
 const links = [
     {
@@ -15,12 +15,12 @@ const links = [
     {
         href: "/team",
         text: "Team"
-    },
+    }
     // we dont need this imo
     // {
     //     href: "/#",
     //     text: "History"
-    // } 
+    // }
 ];
 
 const Navbar = () => {
@@ -30,7 +30,11 @@ const Navbar = () => {
                 <img src={HACKILLINOIS_LOGO} className="hackillinois-logo" />
             </a>
             <div className="links">
-                {links.map(({ href, text }, i) => <Link key={i} href={href} className="link">{text}</Link>)}
+                {links.map(({ href, text }, i) => (
+                    <Link key={i} href={href} className="link">
+                        {text}
+                    </Link>
+                ))}
             </div>
             <button className="joinButton">Join Us</button>
         </nav>

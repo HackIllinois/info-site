@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { data } from "@/modules/TeamData";
 import styles from "./page.module.scss";
-import Container from "../components/Container/Container";
+import Container from "@/components/Container/Container";
 
 type team = {
     teamName: string;

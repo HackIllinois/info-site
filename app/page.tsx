@@ -8,8 +8,8 @@ import { data } from "@/modules/ListOfTeams";
 import Image from "next/image";
 
 import styles from "./page.module.scss";
-import Button from "./components/Button/Button";
-import Container from "./components/Container/Container";
+import Button from "@/components/Button/Button";
+import Container from "@/components/Container/Container";
 
 type listOfTeams = {
     name: string;
