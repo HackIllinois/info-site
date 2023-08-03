@@ -5,15 +5,15 @@ export const TeamData = [
             {
                 name: "Ronit Anadani",
                 position: "Co-Director",
-                funFact: "..",
-                photo: "",
-                emoji: "😂"
+                funFact: "...",
+                photo: "/team/RonitAnandani.jpg",
+                emoji: "🤔"
             },
             {
                 name: "Pinakin Kanade",
                 position: "Co-Director",
-                funFact: "..",
-                photo: "",
+                funFact: "...",
+                photo: "/team/PinakinKanade.jpg",
                 emoji: "😂"
             }
         ]
@@ -25,15 +25,44 @@ export const TeamData = [
                 name: "Lasya Neti",
                 position: "Systems Lead",
                 funFact: "I met Jake from State Farm!",
-                photo: "/team/lasya.jpeg",
+                photo: "/team/LasyaNeti.jpg",
+                emoji: "😭"
+            },
+            {
+                name: "Nick King",
+                position: "Web Lead",
+                funFact: "...",
+                photo: "",
                 emoji: "😂"
             },
             {
-                name: "Join our fall team!",
-                position: "",
-                funFact: "This could be you :)",
-                photo: "",
-                emoji: "😂"
+                name: "Sophia Liu",
+                position: "IOS Lead",
+                funFact: "I am very passionate about cybersecurity education!",
+                photo: "/team/SophiaLiu.jpg",
+                emoji: "🎨"
+            },
+            {
+                name: "Leah Ludwikowski",
+                position: "Android Lead",
+                funFact: "I love cats but I've never been allowed to have one",
+                photo: "/team/LeahLudwikowski.jpg",
+                emoji: "❄️"
+            },
+            {
+                name: "Aydan Pirani",
+                position: "API Lead",
+                funFact:
+                    "I once fell out of a boat while whitewater rafting and had to be rescued by my friend!",
+                photo: "/team/AydanPirani.jpg",
+                emoji: "👨‍💻"
+            },
+            {
+                name: "Tan Debnath",
+                position: "Web",
+                funFact: "...",
+                photo: "/team/TanmoyDebnath.jpg",
+                emoji: "😼"
             }
         ]
     },
@@ -43,24 +72,46 @@ export const TeamData = [
             {
                 name: "Rachel Shum",
                 position: "Experience Co-Lead",
-                funFact: "I like eggs and matcha... but not together!",
-                photo: "/team/rachel.jpeg",
+                funFact: "I like eggs and matcha... but not together",
+                photo: "/team/RachelShum.jpg",
                 emoji: "😂"
             },
             {
                 name: "Jennifer Xia",
                 position: "Experience Co-Lead",
-                funFact:
-                    "I enjoy creative writing :) but I am also in a perpetual state of being unmotivated and having writer's block",
-                photo: "",
-                emoji: "😂"
+                funFact: "I enjoy creative writing :) just not consistently :(",
+                photo: "/team/JenniferXia.jpg",
+                emoji: "🤨"
             },
             {
-                name: "Join our fall team!",
+                name: "Charlie Wang",
                 position: "",
-                funFact: "This could be you :)",
-                photo: "",
-                emoji: "😂"
+                funFact:
+                    "I once went on a 2 week road trip across the east coast and crashed my car on the last day",
+                photo: "/team/CharlieWang.jpg",
+                emoji: "😴"
+            },
+            {
+                name: "Shrushti Jagtap",
+                position: "",
+                funFact: "...",
+                photo: "/team/ShrushtiJagtap.jpg",
+                emoji: "🌻"
+            },
+            {
+                name: "Meghna Jayaraj",
+                position: "",
+                funFact: "I have lived in eight different cities!",
+                photo: "/team/MeghnaJayaraj.jpg",
+                emoji: "🐨"
+            },
+            {
+                name: "Angelina Deol",
+                position: "",
+                funFact:
+                    "I have an unhealthy obsession with the sitcom Brooklyn Nine Nine ;)",
+                photo: "/team/AngelinaDeol.jpg",
+                emoji: "🤩"
             }
         ]
     },
@@ -71,7 +122,7 @@ export const TeamData = [
                 name: "Alex Fang",
                 position: "Design Co-Lead",
                 funFact: "..",
-                photo: "/team/alex.jpeg",
+                photo: "/team/AlexFang.jpg",
                 emoji: "😂"
             },
             {
@@ -79,15 +130,29 @@ export const TeamData = [
                 position: "Design Co-Lead",
                 funFact:
                     "I love collecting plants but I'm very bad at keeping them alive",
-                photo: "/team/jasmine.jpeg",
-                emoji: "😂"
+                photo: "/team/JasmineLin.jpg",
+                emoji: "🐸"
             },
             {
-                name: "Join our fall team!",
+                name: "Emily Chen",
                 position: "",
-                funFact: "This could be you :)",
-                photo: "",
-                emoji: "😂"
+                funFact: "I'm addicted to iced coffee",
+                photo: "/team/EmilyChen.jpg",
+                emoji: "🤍"
+            },
+            {
+                name: "Nynika Badam",
+                position: "",
+                funFact: "I was abroad in Stockholm for the spring semester",
+                photo: "/team/NynikaBadam.jpg",
+                emoji: "🤭"
+            },
+            {
+                name: "Nancy Zhang",
+                position: "",
+                funFact: "My most used app on my phone is Spotify",
+                photo: "/team/NancyZhang.jpg",
+                emoji: "🦭"
             }
         ]
     },
@@ -97,16 +162,32 @@ export const TeamData = [
             {
                 name: "Emily Tung",
                 position: "Marketing Lead",
-                funFact: "..",
-                photo: "/team/emily.jpeg",
-                emoji: "😂"
+                funFact: "I used to competitively swim for 11 years",
+                photo: "/team/EmilyTung.jpg",
+                emoji: "🎆"
             },
             {
-                name: "Join our fall team!",
+                name: "Lily Windmiller",
                 position: "",
-                funFact: "This could be you :)",
-                photo: "",
-                emoji: "😂"
+                funFact:
+                    "I have visited 9 national parks so far, and I hope to visit them all one day! My favorite so far is the Rocky Mountains :)",
+                photo: "/team/LilyWindmiller.jpg",
+                emoji: "✨"
+            },
+            {
+                name: "Hela Kasibhotla",
+                position: "",
+                funFact:
+                    "I love Taco Bell - like I literally wrote my common app essay about it",
+                photo: "/team/HelaKasibhotla.jpg",
+                emoji: "🥲"
+            },
+            {
+                name: "Samuel Tinubu",
+                position: "",
+                funFact: "...",
+                photo: "/team/SamuelTinubu.jpg",
+                emoji: "🫥"
             }
         ]
     },
@@ -117,37 +198,31 @@ export const TeamData = [
                 name: "Amit Prasad",
                 position: "Outreach Lead",
                 funFact:
-                    "I went on an exchange program in middle school to Japan.",
-                photo: "",
-                emoji: "😂"
+                    "I went on an exchange program in middle school to Japan",
+                photo: "/team/AmitPrasad.jpg",
+                emoji: "🗿"
             },
             {
-                name: "Join our fall team!",
+                name: "Samuel Gerstein",
                 position: "",
-                funFact: "This could be you :)",
-                photo: "",
-                emoji: "😂"
+                funFact: "I DJ house and techno music in my free time",
+                photo: "/team/SamuelGerstein.jpg",
+                emoji: "🪩"
             },
             {
-                name: "Join our fall team!",
+                name: "Howard Ding",
                 position: "",
-                funFact: "This could be you :)",
+                funFact: "...",
                 photo: "",
-                emoji: "😂"
+                emoji: "😣"
             },
             {
-                name: "Join our fall team!",
+                name: "Pranav Yandamuri",
                 position: "",
-                funFact: "This could be you :)",
-                photo: "",
-                emoji: "😂"
-            },
-            {
-                name: "Join our fall team!",
-                position: "",
-                funFact: "This could be you :)",
-                photo: "",
-                emoji: "😂"
+                funFact:
+                    "I enjoy playing piano and hope to create my own music",
+                photo: "/team/PranavYandamuri.jpg",
+                emoji: "😁"
             }
         ]
     }
