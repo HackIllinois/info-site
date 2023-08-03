@@ -1,6 +1,5 @@
 import "./faq.scss";
 import Box from "@/components/FaqBox/Box";
-import LOGO from "../../public/FAQ/LOGO.svg";
 
 const Page = () => {
 
@@ -20,7 +19,7 @@ const Page = () => {
                 </div>
 
                 <div className="side-2">
-                    <img className="logo" src={LOGO} />
+                    <img className="logo" src='/faq/logo.svg' />
                     <br/><br/>
                     <Box title="What is the role of each team?" description="1. HackIllinois is composed of five teams, who work closely together to create HackIllinois! <br/><br/> 2. The Experience Team organizes the logistics and operations behind our events, including (but not limited to) scheduling, mentor/speaker outreach, attendee amenities, etc. During the event, they manage content ranging from workshops taught by industry professionals to our infamous nerf gun tournament! <br/><br/> 3. The Outreach Team builds and maintains relationships with companies and corporate sponsors in order to effectively raise funding for HackIllinois, as well as plan and execute company-sponsored events. Past sponsors include the likes of Fortune 500 companies and MAANG. <br/><br/> 4. The Systems Team handles the technology infrastructure for HackIllinois, creating our website, mobile apps, and API. Systems is divided into four subteams: web, android, iOS, and API. You can see our past websites and our most recent android and iOS apps! <br/><br/> 5. The Design Team designs the brand, graphics, and UI/UX for various media, such as posters, websites, mobile apps, and swag! You can catch them brainstorming away in Figma or creating t-shirt mock-ups in Illustrator. <br/><br/> 6. The Marketing Team creates promotional content, runs social media platforms, and collaborates with external organizations for increasing our event scope and audience, with the overarching goal of promoting diversity and inclusion in HackIllinois." />
                     <br/><br/>

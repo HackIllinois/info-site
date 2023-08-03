@@ -1,8 +1,3 @@
-import MAIN_LOGO from "app/assets/main-logo.svg";
-import MAIN_DOTS from "app/assets/main-dots.svg";
-import HACK_LOGO from "app/assets/hackillinois-main.svg";
-import WHY_HACK from "app/assets/what-is-hack.svg";
-import MISSION from "app/assets/shape-friends.svg";
 import "./mainpage.styles.scss";
 import { data } from "@/modules/ListOfTeams";
 import Image from "next/image";
@@ -20,14 +15,14 @@ const Page = () => {
     return (
         <div className="page">
             <div className="logo-div">
-                <img src={MAIN_LOGO} className="main-logo" />
+                <img src='main-logo.svg' className="main-logo" />
                 <div className="dots-div">
-                    <img src={MAIN_DOTS} className="main-logo dots" />
-                    <img src={MAIN_DOTS} className="main-logo dotsTwo" />
-                    <img src={MAIN_DOTS} className="main-logo dotsThree" />
+                    <img src='main-dots.svg' className="main-logo dots" />
+                    <img src='main-dots.svg' className="main-logo dotsTwo" />
+                    <img src='main-dots.svg' className="main-logo dotsThree" />
                 </div>
                 <div className="icon-div">
-                    <img src={HACK_LOGO} className="iconPosition" />
+                    <img src='hackillinois-main.svg' className="iconPosition" />
                 </div>
                 <h2 className="text-div">
                     The University of Illinois at Urbana Champaign’s premier,
@@ -49,7 +44,7 @@ const Page = () => {
                             new skills and technologies to create innovative
                             hacks such as websites, mobile apps, and many more!
                         </p>
-                        <img src={WHY_HACK} className="tilted-hack" />
+                        <img src='what-is-hack.svg' className="tilted-hack" />
                     </div>
                 </div>
                 <div className="section-div">

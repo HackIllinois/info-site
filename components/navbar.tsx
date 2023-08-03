@@ -1,8 +1,6 @@
 import Link from "next/link";
 import "./navbar.styles.scss";
 
-import HACKILLINOIS_LOGO from "../public/hackillinois-logo.svg";
-
 const links = [
     {
         href: "/#",
@@ -27,7 +25,7 @@ const Navbar = () => {
     return (
         <nav>
             <a href="/#">
-                <img src={HACKILLINOIS_LOGO} className="hackillinois-logo" />
+                <img src='hackillinois-logo.svg' className="hackillinois-logo" />
             </a>
             <div className="links">
                 {links.map(({ href, text }, i) => (
