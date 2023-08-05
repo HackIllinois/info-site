@@ -1,0 +1,247 @@
+.teamLayout:not(:first-child) {
+    margin-top: 10rem;
+}
+
+.teamLayout {
+    > h1 {
+        text-align: center;
+    }
+}
+
+.membersLayout {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem 4rem;
+    margin-top: 3rem;
+    align-items: stretch;
+}
+
+.memberCard {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23.25rem;
+    min-height: 33.5rem;
+    border: 0.25rem solid #c3e9e5;
+    background-color: #e1f4f2;
+    border-radius: 2rem;
+    padding: 3rem 2%;
+
+    .emojiAndPhoto {
+        position: relative;
+
+        .emojiContainer {
+            position: absolute;
+            right: 0;
+            width: 5rem;
+            height: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            border: 0.1875rem solid #fce891;
+            background-color: #fdf5cd;
+
+            .emoji {
+                font-size: 2.25rem;
+            }
+        }
+
+        .photo {
+            border-radius: 50%;
+            border: 0.25rem solid #ffffff;
+            background-color: #ffffff;
+            object-fit: cover;
+        }
+    }
+
+    .nameAndPosition {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 0 1rem;
+        .name {
+            font-size: 2rem;
+            font-weight: 500;
+            line-height: 2.5rem;
+        }
+        .position {
+            font-size: 1.25rem;
+            font-weight: 400;
+            line-height: 1.5rem;
+        }
+    }
+
+    .funFactTitle {
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        font-weight: 500;
+    }
+
+    .funFact {
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+    }
+}
+
+.footerArt {
+    padding: 0 2%;
+    max-width: 100%;
+    display: grid;
+    grid-row-start: auto;
+
+    .shapes {
+        width: 100%;
+        max-width: 100%;
+        margin-top: -5%;
+        grid-area: 1/1;
+    }
+
+    .characters {
+        max-width: 75%;
+        grid-area: 1/1;
+        justify-self: end;
+        z-index: 1;
+    }
+}
+
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// * {
+//     margin: 0;
+//     padding: 0;
+// }
+
+// *,
+// *::before,
+// *::after {
+//     box-sizing: inherit;
+// }
+
+// html {
+//     box-sizing: border-box;
+//     font-size: 16px;
+// }
+
+// body {
+//     font-weight: 400;
+//     line-height: 1.6;
+//     // TBD
+//     font-family: "Montserrat", sans-serif;
+//     color: #3E3E3E;
+// }
+
+// h2 {
+//     align-items: center;
+//     font-family: 'Montserrat';
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 30px;
+//     line-height: 39px;
+// }
+
+// h3 {
+//     align-items: center;
+//     font-family: 'Montserrat';
+//     font-style: normal;
+//     font-weight: 300;
+//     font-size: 20px;
+// }
+
+// p {
+//     font-weight: 500;
+// }
+
+// .fun {
+//     width: 260px;
+//     height: 29px;
+
+//     font-family: 'Montserrat';
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 24px;
+//     line-height: 29px;
+//     text-align: center;
+
+//     color: #000000;
+
+// }
+
+// .section {
+//     display: flex;
+//     text-align: center;
+//     flex-wrap: wrap;
+//     margin-left: 15%;
+//     margin-right: 15%;
+//     padding-bottom: 80px;
+// }
+
+// .column {
+//     flex: 1 0 30%;
+//     display: inline-block;
+//     align-items: center;
+//     justify-content: center;
+//     margin-top: 30px;
+// }
+
+// .box {
+//     align-items: center;
+//     max-width: 372px;
+//     height: 537px;
+//     padding: 48px 56px;
+//     background: #E1F4F2;
+//     border: 4px solid #C3E9E5;
+//     border-radius: 32px;
+//     margin: auto;
+// }
+
+// @media screen and (max-width: 1000px) {
+//     h1 {
+//         font-size: 30px;
+//     }
+
+//     h2 {
+//         font-size: 23px;
+//     }
+
+//     .section {
+//         margin-left: 5%;
+//         margin-right: 5%;
+//         padding-bottom: 80px;
+//     }
+
+//     .column {
+//         flex: 1 0 32%;
+//         display: inline-block;
+//         align-items: center;
+//         justify-content: center;
+//         margin-top: 20px;
+//     }
+
+//     .box {
+//         align-items: center;
+//         max-width: 90%;
+//         height: 537px;
+//         padding: 48px 56px;
+//         background: #E1F4F2;
+//         border: 4px solid #C3E9E5;
+//         border-radius: 32px;
+//         margin: auto;
+//     }
+// }
+
+// .page-svg {
+//     position: sticky;
+//     float: right;
+//     width: 100%;
+// }
+
+// .pfp{
+//     width: 260px;
+//     height: 260px;
+//     border-radius: 50%;
+//     border: 4px solid #FFFFFF;
+// }
