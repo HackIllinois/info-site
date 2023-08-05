@@ -1,6 +1,7 @@
-import Navbar from "./components/navbar";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/Footer/Footer";
 
-import "./layout.scss";
+import "./globals.scss";
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
     return (
@@ -9,6 +10,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             <body>
                 <Navbar />
                 {children}
+                <Footer />
             </body>
         </html>
     );

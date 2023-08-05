@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    font-weight: 400;
+    line-height: 1.6;
+    // TBD
+    font-family: "Montserrat", sans-serif;
+    color: #3e3e3e;
+}
+
+//Globally remove list bullet symbol
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    // align-items: center;
+    // text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 3.75rem;
+    color: #fba036;
+}
+
+@media screen and (max-width: 640px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1536px) {
+    html {
+        font-size: 16px;
+    }
+}
