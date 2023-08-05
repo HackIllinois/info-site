@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar";
 import "./main.scss"
-import PageSvg from "../assets/team/team-page-svg";
+import PageSvg from "../../public/assets/team/team-page-svg";
 import PAGEFOOTER from "../assets/team-footer.svg";
 import PAGEFOOTSHAPES from "../assets/team-footer-shapes.svg";
 import lasya from "../assets/team/lasya.jpeg";
