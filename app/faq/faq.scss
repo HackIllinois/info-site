@@ -1,11 +1,11 @@
 .faq-main {
+    position: relative;
     background-color: #FFFFFF;
-
-    min-height: fit-content;
+    overflow: hidden;
     width: 100%;
     margin: auto;
-
-
+    padding-bottom: 8%;
+    z-index: 2;
 }
 
 .main-title {
@@ -15,15 +15,17 @@
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
-    padding-bottom: 25px;
+    padding-bottom: 75px;
 }
 
 .faq-content {
+    position: relative;
     display: flex;
     flex-direction: row;
+    min-height: fit-content;
 
     @media screen and (max-width: 700px) {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     justify-content: center;
@@ -34,10 +36,7 @@
 .faq-content>div {
     width: 48%;
 
-    @media screen and (max-width: 700px) {
-        width: 88%;
-    }
-
+    
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -45,16 +44,33 @@
     justify-content: center;
     align-items: center;
     align-content: flex-start;
+
+    @media screen and (max-width: 700px) {
+        width: 88%;
+        margin: auto;
+        padding-top: 8%;
+    }
 }
 
-.side-1 {
+.side-1, .side-2 {
     margin: auto;
 }
 
 .logo {
-    height: 170px;
-    width: 387px;
+    height: 255px;
+    width: 580.5px;
     left: 738px;
     top: 316px;
     border-radius: 0px;
+    
+    @media screen and (max-width: 700px) {
+        width: 100%;
+    }
+}
+
+.faq-background {
+    position: absolute;
+    z-index: -3;
+    bottom: 0px;
+    transform: translateY(30vh);
 }

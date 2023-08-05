@@ -26,6 +26,7 @@ const Page = () => {
                     <Box title="What is being on staff like? What’s the time commitment? Are meetings in-person or virtual?" description="1. We would describe HackIllinois staff as a family of collaborators, working together to spread our passions to others. This may includes everything from discussing progress each weekly meeting to random late-night boba runs. See our <a href='(https://www.notion.so/About-5cbaed94a44349528765f883be168768'>About</a> section for more staff testimonials! <br/><br/> 2. Staff members are expected to attend one-hour weekly meetings and contribute to assigned tasks for around an additional one hour each week. However, time commitment ebbs and flows with timeline—for instance, commitment for most teams grows as HackIllinois nears—so exact time commitment changes. <br/><br/> 3. Meetings are virtual during the summer and in-person during the school year." />
                 </div>
             </div>
+            <img className="faq-background" src="/faq/background.svg" />
         </div>
     )
 };
