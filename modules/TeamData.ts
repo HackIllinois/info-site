@@ -31,9 +31,9 @@ export const data = [
             {
                 name: "Nick King",
                 position: "Web Lead",
-                funFact: "...",
-                photo: "",
-                emoji: "😂"
+                funFact: "I lived in Spain last Summer!",
+                photo: "/team/NickKing.jpg",
+                emoji: "🎺"
             },
             {
                 name: "Sophia Liu",
