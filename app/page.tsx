@@ -15,14 +15,14 @@ const Page = () => {
     return (
         <div className="page">
             <div className="logo-div">
-                <img src='main-logo.svg' className="main-logo" />
+                <img src="main-logo.svg" className="main-logo" />
                 <div className="dots-div">
-                    <img src='main-dots.svg' className="main-logo dots" />
-                    <img src='main-dots.svg' className="main-logo dotsTwo" />
-                    <img src='main-dots.svg' className="main-logo dotsThree" />
+                    <img src="main-dots.svg" className="main-logo dots" />
+                    <img src="main-dots.svg" className="main-logo dotsTwo" />
+                    <img src="main-dots.svg" className="main-logo dotsThree" />
                 </div>
                 <div className="icon-div">
-                    <img src='hackillinois-main.svg' className="iconPosition" />
+                    <img src="hackillinois-main.svg" className="iconPosition" />
                 </div>
                 <h2 className="text-div">
                     The University of Illinois at Urbana Champaign’s premier,
@@ -44,7 +44,7 @@ const Page = () => {
                             new skills and technologies to create innovative
                             hacks such as websites, mobile apps, and many more!
                         </p>
-                        <img src='what-is-hack.svg' className="tilted-hack" />
+                        <img src="what-is-hack.svg" className="tilted-hack" />
                     </div>
                 </div>
                 <div className="section-div">
@@ -60,7 +60,7 @@ const Page = () => {
                             innovative and creative spirits of students
                             nationwide!
                         </p>
-                        {/* <img src={MISSION} className="tilted-hack" /> */}
+                        <img src="our-mission.svg" className="our-mission" />
                     </div>
                 </div>
                 {/* Bottom Section, including Team and Contact us */}
@@ -123,6 +123,73 @@ const Page = () => {
                             </div>
                             <img src="/about/connect-vector.svg" alt="vector" />
                         </div>
+
+                        <div className={styles.icons}>
+                                    <div>
+                                    <a
+                                        href="https://www.facebook.com/hackillinois/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <img
+                                            className={styles.icon}
+                                            src="/icons/facebook.svg"
+                                        />
+                                    </a>
+                                    <a
+                                        href="https://instagram.com/HackIllinois"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <img
+                                            className={styles.icon}
+                                            src="/icons/instagram.svg"
+                                        />
+                                    </a>
+                                    <a
+                                        href="https://twitter.com/HackIllinois"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <img
+                                            className={styles.icon}
+                                            src="/icons/twitter.svg"
+                                        /> 
+                                    </a>
+                                    </div>
+                                    <div>
+                                    <a
+                                        href="https://www.linkedin.com/company/hackillinois/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <img
+                                            className={styles.icon}
+                                            src="/icons/linkedin.svg"
+                                        />
+                                    </a>
+                                    <a
+                                        href="https://github.com/HackIllinois"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <img
+                                            className={styles.icon}
+                                            src="/icons/github.svg"
+                                        />
+                                    </a>
+                                    <a
+                                        href="mailto:contact@hackillinois.org"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <img
+                                            className={styles.icon}
+                                            src="/icons/email.svg"
+                                        />
+                                    </a>
+                                    </div>
+                            </div>
                     </div>
                 </div>
             </Container>

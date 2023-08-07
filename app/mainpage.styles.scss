@@ -3,11 +3,17 @@
 }
 
 .logo-div {
+    // position: relative;
     width: 100%;
     min-height: 53vw;
     display: flex;
     justify-content: center;
     overflow-y: auto;
+    height: fit-content;
+
+    @media screen and (max-width: 650px) {
+        min-height: 75vw;
+    }
 }
 
 .section-div {
@@ -17,7 +23,7 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
-    overflow-y: auto;
+    // overflow-y: auto;
     // padding-left: 5%;
     // padding-right: 5%;
 }
@@ -51,6 +57,16 @@
     }
 }
 
+.our-mission {
+    width: 50vw;
+    transform: translateY(-50%);
+
+    @media screen and (max-width: 650px) {
+        width: 80%;
+        transform: translateY(0%);
+    }
+}
+
 .dots-div {
     width: 100%;
     height: auto;
@@ -74,6 +90,10 @@
     text-align: center;
     font-size: 15px;
     line-height: 28.76px;
+
+    @media screen and (max-width: 650px) {
+        margin-top: 55%;
+    }
 }
 
 .main-logo {
