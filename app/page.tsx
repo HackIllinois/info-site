@@ -118,7 +118,7 @@ const Page = () => {
                                     Dont forget to check our FAQ, you just might
                                     find your answer there! 🥳 Still have any
                                     questions? Feel free to reach out to us at{" "}
-                                    <a>contact@hackillinois.org</a>.
+                                    <a href="mailto:contact@hackillinois.org">contact@hackillinois.org</a>.
                                 </p>
                             </div>
                             <img src="/about/connect-vector.svg" alt="vector" />
