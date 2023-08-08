@@ -25,11 +25,8 @@ const Box = ({ title, description }) => {
                 </div>
                 <p className="title-text">{title}</p>
             </div>
-
-            <div className="temp">
-                <div className={open ? "description opened" : "description"}>
-                    <p dangerouslySetInnerHTML={{ __html: description }}></p>
-                </div>
+            <div className={open ? "description opened" : "description"}>
+                <p dangerouslySetInnerHTML={{ __html: description }}></p>
             </div>
         </div>
     );

@@ -11,7 +11,6 @@
 .title {
     position: relative;
     margin: 2%;
-    // padding-left: 15%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -30,7 +29,7 @@
     transform: translate(-50%, -100%);
     background-color: #FBA036;
     transition: width 1s ease-in-out;
-    transition-delay: 1.5s;
+
     // margin-bottom: 25px;
 }
 
@@ -44,51 +43,37 @@
     font-weight: 550;
     line-height: 36px;
     letter-spacing: 0em;
-    // text-align: left;
     width: 80%;
     margin-left: 10px;
-
 }
 
 .toggle {
     width: 15%;
     margin: auto;
-    // transform: translateY(35%);
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
-.toggle:hover {
-    cursor: pointer;
-}
 
 .description {
     position: relative;
-    // max-height: 0px;
-    // opacity: 0;
-    transition: all 1.5s ease-in-out;
+    transition: max-height 1.5s cubic-bezier(0, 1, 0, 1);
     margin: auto 35px;
     text-align: center;
-    margin-top: -300%;
-    
-    // background-color: #FDF5CD;
-
-    @media screen and (max-width: 950px){
-        margin-top: -600%;
-    }
-
-
-}
-
-.temp {
+    max-height: 0;
     overflow: hidden;
+    padding-top: 5px;
+
+    &.opened {
+        transition: max-height 1s ease-in-out;
+        max-height: 200vh;
+    }
 }
 
-.description.opened {
-    // transition: max-height 1.5s ease-in-out;
-    // opacity: 1;
-    // max-height: fit-content;
-    margin-top: 10px;
-    overflow: visible;
-}
+
+
 
 
 .closed {
