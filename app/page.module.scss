@@ -102,6 +102,36 @@
                 height: 32rem;
             }
         }
+
+        .icons {
+            position: relative;
+            display: flex;
+            width: 80vw;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            .icon {
+                padding: 0 45px;
+            }
+
+            
+            @media screen and (max-width: 650px) {
+                width: 90vw;
+                > div {
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-evenly;
+                }
+
+                
+
+                .icon {
+                    padding: 5px;
+                }
+            }
+        }
     }
 }
 
@@ -154,6 +184,10 @@
                 > img {
                     width: 12rem;
                     height: 18rem;
+                }
+
+                a {
+                    text-decoration: none;
                 }
             }
         }
