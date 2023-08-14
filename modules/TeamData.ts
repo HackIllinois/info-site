@@ -3,16 +3,16 @@ export const data = [
         teamName: "Co-Directors",
         teamMembers: [
             {
-                name: "Ronit Anadani",
+                name: "Ronit Anandani",
                 position: "Co-Director",
-                funFact: "...",
+                funFact: "I love Pizza...without cheese 😆",
                 photo: "/team/RonitAnandani.jpg",
                 emoji: "🤔"
             },
             {
                 name: "Pinakin Kanade",
                 position: "Co-Director",
-                funFact: "...",
+                funFact: "I used to play the bassoon competitively for 6 years!",
                 photo: "/team/PinakinKanade.jpg",
                 emoji: "😂"
             }
@@ -121,7 +121,7 @@ export const data = [
             {
                 name: "Alex Fang",
                 position: "Design Co-Lead",
-                funFact: "..",
+                funFact: "I love drawing cats",
                 photo: "/team/AlexFang.jpg",
                 emoji: "😂"
             },
@@ -185,7 +185,7 @@ export const data = [
             {
                 name: "Samuel Tinubu",
                 position: "",
-                funFact: "...",
+                funFact: "I honestly don't know how to respond to text messages",
                 photo: "/team/SamuelTinubu.jpg",
                 emoji: "🫥"
             }
