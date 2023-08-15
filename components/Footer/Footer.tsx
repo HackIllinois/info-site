@@ -13,7 +13,7 @@ const Footer = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <img src="/icons/email-border.svg" />
+                            <img src="/icons/email-border.svg" className={styles.icon} />
                         </a>
                         contact@hackillinois.org
                     </div>
@@ -27,14 +27,14 @@ const Footer = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <img src="/icons/instagram-border.svg" />
+                            <img src="/icons/instagram-border.svg" className={styles.icon} />
                         </a>
                         <a
                             href="https://www.linkedin.com/company/hackillinois/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <img src="/icons/linkedin-border.svg" />
+                            <img src="/icons/linkedin-border.svg" className={styles.icon} />
                         </a>
                     </div>
                 </div>
