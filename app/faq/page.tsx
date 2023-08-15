@@ -38,10 +38,6 @@ const Page = () => {
                             title="What is being on staff like? What’s the time commitment? Are meetings in-person or virtual?"
                             description="1. We would describe HackIllinois staff as a family of collaborators, working together to spread our passions to others. This may includes everything from discussing progress each weekly meeting to random late-night boba runs. See our <a href='/#'>About</a> section for more staff testimonials! <br/><br/> 2. Staff members are expected to attend one-hour weekly meetings and contribute to assigned tasks for around an additional one hour each week. However, time commitment ebbs and flows with timeline—for instance, commitment for most teams grows as HackIllinois nears—so exact time commitment changes. <br/><br/> 3. Meetings are virtual during the summer and in-person during the school year."
                         />
-                        <Box
-                            title="I want to attend, mentor, or speak at one of HackIllinois’s events. How do I learn more?"
-                            description="Check out our social medias for the latest information on our events."
-                        />
                     </Container>
                 </div>
                 <img
