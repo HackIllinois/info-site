@@ -4,15 +4,16 @@ export const data = [
         teamMembers: [
             {
                 name: "Ronit Anandani",
-                position: "Co-Director",
+                position: "",
                 funFact: "I love Pizza...without cheese 😆",
                 photo: "/team/RonitAnandani.jpg",
                 emoji: "🤔"
             },
             {
                 name: "Pinakin Kanade",
-                position: "Co-Director",
-                funFact: "I used to play the bassoon competitively for 6 years!",
+                position: "",
+                funFact:
+                    "I used to play the bassoon competitively for 6 years!",
                 photo: "/team/PinakinKanade.jpg",
                 emoji: "😂"
             }
@@ -37,7 +38,7 @@ export const data = [
             },
             {
                 name: "Sophia Liu",
-                position: "IOS Lead",
+                position: "iOS Lead",
                 funFact: "I am very passionate about cybersecurity education!",
                 photo: "/team/SophiaLiu.jpg",
                 emoji: "🎨"
@@ -60,7 +61,8 @@ export const data = [
             {
                 name: "Tan Debnath",
                 position: "Web",
-                funFact: "...",
+                funFact:
+                    "Inspired by a book, I once hitchhiked on a truck to a random destination. 10/10 would recommend not being stupid",
                 photo: "/team/TanmoyDebnath.jpg",
                 emoji: "😼"
             }
@@ -94,7 +96,7 @@ export const data = [
             {
                 name: "Shrushti Jagtap",
                 position: "",
-                funFact: "...",
+                funFact: "I think sleep is fun!",
                 photo: "/team/ShrushtiJagtap.jpg",
                 emoji: "🌻"
             },
@@ -185,7 +187,8 @@ export const data = [
             {
                 name: "Samuel Tinubu",
                 position: "",
-                funFact: "I honestly don't know how to respond to text messages",
+                funFact:
+                    "I honestly don't know how to respond to text messages",
                 photo: "/team/SamuelTinubu.jpg",
                 emoji: "🫥"
             }
