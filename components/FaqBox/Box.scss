@@ -1,20 +1,17 @@
 .box-main {
-    position: relative;
-    background-color: #FCE891;
-    width: 75%;
-    height: fit-content;
-    border-radius: 32px;
-    padding: 8px;
-    margin: auto;
+    background-color: #fce891;
+    display: block;
+    width: 90%;
+    border-radius: 2rem;
 }
 
 .title {
-    position: relative;
-    margin: 2%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    column-gap: 1.5rem;
+    padding: 2.25rem 2.25rem 1.75rem 2.25rem; // bottom padding has 0.5rem less to accommodate the orange line that appears when description is visible
 }
 
 .title:hover {
@@ -27,7 +24,7 @@
     width: 0;
     height: 5px;
     transform: translate(-50%, -100%);
-    background-color: #FBA036;
+    background-color: #fba036;
     transition: width 1s ease-in-out;
 
     // margin-bottom: 25px;
@@ -38,33 +35,26 @@
 }
 
 .title-text {
-    color: black;
-    font-size: 22px;
-    font-weight: 550;
-    line-height: 36px;
-    letter-spacing: 0em;
-    width: 80%;
-    margin-left: 10px;
+    color: #3e3e3e;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.25rem;
 }
 
 .toggle {
-    width: 15%;
-    margin: auto;
-
     &:hover {
         cursor: pointer;
     }
 }
 
-
 .description {
     position: relative;
     transition: max-height 1.5s cubic-bezier(0, 1, 0, 1);
-    margin: auto 35px;
+    margin: 0 2.25rem;
     text-align: center;
     max-height: 0;
     overflow: hidden;
-    padding-top: 5px;
+    padding: 0.25rem;
 
     &.opened {
         transition: max-height 1s ease-in-out;
@@ -72,19 +62,19 @@
     }
 }
 
-
-
-
+.description-text {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
 
 .closed {
     .vertical {
         transition: all 0.5s ease-in-out;
-        transform: rotate(-90deg);
     }
 
     .horizontal {
         transition: all 0.5s ease-in-out;
-        transform: rotate(-90deg);
         opacity: 1;
     }
 }
@@ -104,42 +94,33 @@
     }
 }
 
-.circle-plus {
-    // height: 4em;
-    width: 4em;
-    font-size: 1em;
-    opacity: .7;
-
-}
-
-.circle-plus .circle {
-    position: relative;
-    width: 2.55em;
-    height: 2.55em;
+.circle {
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 100%;
-    border: solid .23em #FBA036;
+    border: 0.25rem solid #fba036;
+    position: relative;
 }
 
-.circle-plus .circle .horizontal {
+.line {
+    margin: 0 auto;
     position: absolute;
-    background-color: #FBA036;
-    width: 30px;
-    height: 5px;
-    left: 50%;
-    margin-left: -15px;
-    top: 50%;
-    margin-top: -2.5px;
+    background-color: #fba036;
 }
 
-.circle-plus .circle .vertical {
-    position: absolute;
-    background-color: #FBA036;
-    width: 5px;
-    height: 30px;
-    left: 50%;
-    margin-left: -2.5px;
-    top: 50%;
-    margin-top: -15px;
+.horizontal {
+    width: 80%;
+    height: 0.25rem;
+    top: 45%;
+    left: 10%;
+}
+
+.vertical {
+    background-color: #fba036;
+    width: 0.25rem;
+    height: 80%;
+    top: 10%;
+    left: 45%;
 }
 
 // Toggle code assisted by: https://codepen.io/Inlesco/pen/XXRRmY
