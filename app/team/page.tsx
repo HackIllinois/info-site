@@ -31,6 +31,14 @@ const Page = () => {
                                         className={styles.memberCard}
                                         key={key}
                                     >
+                                        <div className={styles.nameAndPosition}>
+                                            <span className={styles.name}>
+                                                {member.name}
+                                            </span>
+                                            <span className={styles.position}>
+                                                {member.position}
+                                            </span>
+                                        </div>
                                         <div className={styles.emojiAndPhoto}>
                                             <div
                                                 className={
@@ -41,33 +49,18 @@ const Page = () => {
                                                     {member.emoji}
                                                 </span>
                                             </div>
-                                            <Image
+                                            <img
                                                 src={
                                                     member.photo
                                                         ? member.photo
                                                         : "team/default.svg"
                                                 }
                                                 alt={member.name}
-                                                width={256}
-                                                height={256}
                                                 className={styles.photo}
                                             />
                                         </div>
-                                        <div className={styles.nameAndPosition}>
-                                            <span className={styles.name}>
-                                                {member.name}
-                                            </span>
-                                            <span className={styles.position}>
-                                                {member.position}
-                                            </span>
-                                        </div>
-                                        <div>
-                                            <span
-                                                className={styles.funFactTitle}
-                                            >
-                                                Fun Fact:{" "}
-                                            </span>
-                                            <span className={styles.funFact}>
+                                        <div className={styles.funFact}>
+                                            <span className={styles.fact}>
                                                 {member.funFact}
                                             </span>
                                         </div>
