@@ -28,7 +28,7 @@ const Box = ({ title, description }) => {
             <div className={open ? "description opened" : "description"}>
                 <p
                     dangerouslySetInnerHTML={{ __html: description }}
-                    className="description-text"
+                    className={"description-text"}
                 ></p>
             </div>
         </div>

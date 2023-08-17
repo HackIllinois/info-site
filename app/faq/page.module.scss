@@ -10,8 +10,8 @@
 .faqContent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    overflow: hidden;
-    min-height: 175vh;
+    grid-template-rows: auto;
+    min-height: 150vh; // to provide breathing space to bottom art
 }
 
 .side1 {
@@ -25,7 +25,7 @@
 
 .backgroundLeft {
     grid-area: 1/1;
-    transform: translateY(40%);
+    transform: translateY(30%);
 }
 
 .side2 {
@@ -59,6 +59,7 @@
         > div {
             display: flex;
             row-gap: 3rem;
+            align-items: center;
         }
     }
 
@@ -76,6 +77,7 @@
         > div {
             display: flex;
             row-gap: 3rem;
+            align-items: center;
         }
     }
 
@@ -84,6 +86,58 @@
         margin-top: auto;
         margin-left: auto;
         max-width: 100%;
+    }
+
+    .logo {
+        width: 100%;
+        padding: 0 0 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .faqContent {
+        display: grid;
+        grid-template-columns: 1fr;
+       // grid-template-rows: repeat(2, 1fr);
+    }
+    .side1 {
+        z-index: 2;
+        grid-area: 1/1;
+        > div {
+            display: flex;
+            row-gap: 3rem;
+            align-items: center;
+        }
+    }
+
+    .backgroundLeft {
+        // display: none;
+        max-width: 100%;
+        grid-area: 1/1;
+        margin-right: auto;
+        transform: translateY(20%);
+    }
+
+    .side2 {
+        z-index: 2;
+        grid-area: 2/1;
+        > div {
+            display: flex;
+            row-gap: 3rem;
+            align-items: center;
+        }
+    }
+
+    .backgroundRight {
+        grid-area: 2/1;
+        margin-top: auto;
+        margin-left: auto;
+        max-width: 100%;
+        transform: translateY(-10%);
+    }
+
+    .logo {
+        width: 100%;
     }
 }
 
@@ -98,6 +152,7 @@
         > div {
             display: flex;
             row-gap: 3rem;
+            align-items: center;
         }
     }
 
@@ -115,6 +170,7 @@
         > div {
             display: flex;
             row-gap: 3rem;
+            align-items: center;
         }
     }
 
@@ -130,11 +186,10 @@
     }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .faqContent {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        min-height: 100vh;
     }
     .side1 {
         z-index: 2;
@@ -146,7 +201,6 @@
     }
 
     .backgroundLeft {
-        // display: none;
         max-width: 100%;
         grid-area: 1/1;
         margin-right: auto;
