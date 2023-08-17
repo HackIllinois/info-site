@@ -53,9 +53,17 @@
             color: #fff;
         }
 
-        > span:nth-child(2) {
+        > a > span {
+            font-size: 1.125rem;
+            font-weight: 500;
+            line-height: 1.25rem;
+            color: #fff;
             text-decoration: underline;
         }
+
+        // > span:nth-child(2) {
+        //     text-decoration: underline;
+        // }
     }
 }
 

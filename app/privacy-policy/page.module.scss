@@ -1,0 +1,68 @@
+.mainTitle {
+    text-align: center;
+    color: #2c2c2c;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.mainDescriptionContainer {
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+    .mainDescription {
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 150%;
+    }
+}
+.pointsContainer {
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    .point {
+        margin-top: 1rem;
+        .pointTitle {
+            font-size: 1.5rem;
+            color: #2c2c2c;
+            font-weight: 600;
+        }
+        .pointDescription {
+            font-size: 1.25rem;
+            font-weight: 500;
+            line-height: 150%;
+        }
+    }
+}
+
+.subPointsContainer {
+    display: inline-flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    .subPoint {
+        .subPointTitle {
+            font-size: 1.25rem;
+            color: #2c2c2c;
+            font-weight: 600;
+        }
+        .subPointDescription {
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 150%;
+        }
+    }
+}
+
+.lastUpdated {
+    > span {
+        font-size: 1.25rem;
+        line-height: 150%;
+    }
+    > span:nth-of-type(1) {
+        font-size: 1.25rem;
+        font-weight: 500;
+        line-height: 150%;
+        margin-right: 0.5rem;
+    }
+}
