@@ -1,3 +1,13 @@
+.privacyPolicy {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 25rem;
+
+    > div:first-child {
+        grid-area: 1/1;
+    }
+}
+
 .mainTitle {
     text-align: center;
     color: #2c2c2c;
@@ -64,5 +74,107 @@
         font-weight: 500;
         line-height: 150%;
         margin-right: 0.5rem;
+    }
+}
+
+.background {
+    grid-area: 1/1;
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    z-index: -1;
+
+    > img {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    > img:nth-of-type(1) {
+        margin-top: auto;
+        transform: translateY(50%) translateX(-5%);
+    }
+
+    > img:nth-of-type(2) {
+        margin-left: auto;
+        margin-top: auto;
+        transform: translateY(125%);
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .background {
+        grid-area: 1/1;
+        display: inline-flex;
+        width: 100%;
+        flex-direction: row;
+        z-index: -1;
+
+        > img {
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        > img:nth-of-type(1) {
+            margin-top: auto;
+            transform: translateY(100%);
+        }
+
+        > img:nth-of-type(2) {
+            margin-left: auto;
+            margin-top: auto;
+            transform: translateY(150%);
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .background {
+        grid-area: 1/1;
+        display: inline-flex;
+        width: 100%;
+        flex-direction: row;
+        z-index: -1;
+
+        > img {
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        > img:nth-of-type(1) {
+            margin-top: auto;
+            transform: translateY(70%) translateX(-5%);
+        }
+
+        > img:nth-of-type(2) {
+            margin-left: auto;
+            margin-top: auto;
+            transform: translateY(150%);
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .background {
+        grid-area: 1/1;
+        display: inline-flex;
+        width: 100%;
+        flex-direction: row;
+        z-index: -1;
+
+        > img {
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        > img:nth-of-type(1) {
+            margin-top: auto;
+            transform: translateY(50%) translateX(-5%);
+        }
+
+        > img:nth-of-type(2) {
+            margin-left: auto;
+            margin-top: auto;
+            transform: translateY(150%);
+        }
     }
 }

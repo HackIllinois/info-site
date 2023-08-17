@@ -6,3 +6,12 @@
     max-width: 100%;
     overflow-x: hidden;
 }
+
+.compactContainer {
+    padding: 0 10%;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 100%;
+    overflow-x: hidden;
+}
