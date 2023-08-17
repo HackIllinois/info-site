@@ -68,17 +68,41 @@
     .footer {
         > div:nth-child(1) {
             > div {
+                > span:nth-child(1) {
+                    font-size: 1.25rem;
+                }
+
+                > span:nth-child(2) {
+                    font-size: 1rem;
+                }
                 > div {
                     align-items: flex-start;
                     column-gap: 0.25rem;
+                    font-size: 0.875rem;
+                    margin-top: 1rem;
+                }
+            }
+        }
+        > div:nth-child(2) {
+            > div {
+                > span:nth-child(1) {
+                    font-size: 1.25rem;
+                }
+
+                > span:nth-child(2) {
                     font-size: 1rem;
+                }
+                > div {
+                    align-items: flex-start;
+                    column-gap: 0.25rem;
+                    font-size: 0.875rem;
                     margin-top: 1rem;
                 }
             }
         }
     }
     .icon {
-        width: 2rem;
-        height: 2rem;
+        width: 1.5rem;
+        height: 1.5rem;
     }
 }
