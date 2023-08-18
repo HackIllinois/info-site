@@ -1,10 +1,39 @@
 import Container from "@/components/Container/Container";
 import styles from "./page.module.scss";
+import Button from "@/components/Button/Button";
 
 const JoinUs = () => {
     return (
         <div>
-            <div className={styles.topSection}></div>
+            <div className={styles.topSection}>
+                <div className={styles.backgroundLeft}>
+                    <img
+                        src="/joinUs/background-left.svg"
+                        className={styles.backgroundLeft}
+                    />
+                </div>
+                <div className={styles.joinOurTeamContainer}>
+                    <span>Join Our Team</span>
+                    <p>
+                        Interested in shaping the future of HackIllinois? Our
+                        applications are currently open until{" "}
+                        <b>August xx, 2023</b>!
+                    </p>
+                    <Button
+                        compact
+                        text={"Apply Here"}
+                        navigateTo="/join-us"
+                        backgroundColor={"#313332"}
+                        textColor={"#fff"}
+                    />
+                </div>
+                <div className={styles.backgroundRight}>
+                    <img
+                        src="/joinUs/background-right.svg"
+                        className={styles.backgroundRight}
+                    />
+                </div>
+            </div>
             <Container compact>
                 <div className={styles.bottomSection}>
                     <div className={styles.howToJoinContainer}>

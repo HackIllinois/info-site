@@ -7,13 +7,19 @@ interface ButtonProps {
     textColor: string;
     text: string;
     navigateTo: string;
+    compact?: boolean;
 }
+
+const defaultProps = {
+    compact: false
+};
 
 const Button: React.FC<ButtonProps> = ({
     backgroundColor,
     textColor,
     text,
-    navigateTo
+    navigateTo,
+    compact
 }) => {
     const router = useRouter();
 
@@ -24,12 +30,14 @@ const Button: React.FC<ButtonProps> = ({
     return (
         <button
             onClick={handleOnClick}
-            className={styles.button}
+            className={compact ? styles.compactButton : styles.button}
             style={{ backgroundColor: backgroundColor, color: textColor }}
         >
             <span className={styles.text}>{text}</span>
         </button>
     );
 };
+
+Button.defaultProps = defaultProps;
 
 export default Button;
