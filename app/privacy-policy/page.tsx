@@ -69,21 +69,22 @@ const PrivacyPolicy = () => {
                                                                     privacyPolicySubpoint.title
                                                                 }
                                                             </span>
-                                                            <div>
+                                                            <ul>
                                                                 {privacyPolicySubpoint.description.map(
                                                                     (
                                                                         el: string
                                                                     ) => (
-                                                                        <p
+                                                                        <li
                                                                             className={
                                                                                 styles.subPointDescription
                                                                             }
                                                                         >
+                                                                            &#x2022;{" "}
                                                                             {el}
-                                                                        </p>
+                                                                        </li>
                                                                     )
                                                                 )}
-                                                            </div>
+                                                            </ul>
                                                         </div>
                                                     )
                                                 )}
