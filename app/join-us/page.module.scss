@@ -1,0 +1,79 @@
+.bottomSection {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+
+    .howToJoinContainer {
+        > span {
+            font-size: 2rem;
+            font-weight: 600;
+            line-height: 150%;
+        }
+        > div {
+            display: flex;
+            flex-direction: column;
+            > span {
+                font-size: 1.25rem;
+                font-weight: 600;
+                margin-top: 1.5rem;
+            }
+
+            // > span:not(:first-child) {
+            //     margin-top: 1.5rem;
+            // }
+
+            > p {
+                font-weight: 500;
+                line-height: 150%;
+                margin: 0;
+            }
+        }
+    }
+
+    .wantToLearnContainer {
+        > span {
+            font-size: 2rem;
+            font-weight: 600;
+            line-height: 150%;
+        }
+        > div {
+            margin-top: 1.5rem;
+            > span {
+                font-size: 1.25rem;
+                font-weight: 600;
+            }
+
+            > p {
+                font-weight: 500;
+                line-height: 150%;
+                margin: 0;
+            }
+        }
+        > div:nth-of-type(2) {
+            display: flex;
+            flex-direction: row;
+            column-gap: 2rem;
+            > input {
+                padding: 0.5rem;
+                border-radius: 2rem;
+                border: 0.0625rem solid #171d1c;
+            }
+
+            > button {
+                background-color: #168277;
+                color: #fff;
+                border-radius: 2rem;
+                padding: 0.5rem 1rem;
+                border: 0;
+
+                &:hover {
+                    cursor: pointer;
+                    scale: 1.05;
+                }
+
+                
+            }
+
+        }
+    }
+}
