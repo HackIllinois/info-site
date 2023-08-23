@@ -10,16 +10,12 @@ interface ButtonProps {
     compact?: boolean;
 }
 
-const defaultProps = {
-    compact: false
-};
-
 const Button: React.FC<ButtonProps> = ({
     backgroundColor,
     textColor,
     text,
     navigateTo,
-    compact
+    compact = false
 }) => {
     const router = useRouter();
 
@@ -37,7 +33,5 @@ const Button: React.FC<ButtonProps> = ({
         </button>
     );
 };
-
-Button.defaultProps = defaultProps;
 
 export default Button;

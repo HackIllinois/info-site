@@ -1,4 +1,4 @@
-export const data = [
+export const listOfSponsors = [
     {
         name: "Company A",
         website: "#",

@@ -1,6 +1,7 @@
 import Container from "@/components/Container/Container";
 import styles from "./page.module.scss";
-import { data } from "@/modules/ListOfSponsors";
+import { listOfSponsors } from "@/modules/ListOfSponsors";
+import { listOfPreviousHacks } from "@/modules/ListOfPreviousHacks";
 
 type sponsor = {
     name: string;
@@ -8,9 +9,15 @@ type sponsor = {
     logo: string;
 };
 
+type previousHack = {
+    name: string;
+    image: string;
+    link: string;
+};
+
 const History = () => {
     return (
-        <div>
+        <div className={styles.container}>
             <div className={styles.topSection}>
                 <div className={styles.ourHistory}>
                     <h1>Our History</h1>
@@ -36,18 +43,52 @@ const History = () => {
                 <Container>
                     <h1>Previous Sponsors</h1>
                 </Container>
-                <div className={styles.slideshow}>
-                    <div className={styles.move}>
-                        {data.map((sponsor: sponsor) => (
+                <div className={styles.sponsorListContainer}>
+                    <div className={styles.sponsorList}>
+                        {listOfSponsors.map((sponsor: sponsor) => (
                             <img src={sponsor.logo} alt={sponsor.name} />
                         ))}
                     </div>
-                    <div className={styles.move}>
-                        {data.map((sponsor: sponsor) => (
+                    <div className={styles.sponsorList}>
+                        {listOfSponsors.map((sponsor: sponsor) => (
                             <img src={sponsor.logo} alt={sponsor.name} />
                         ))}
                     </div>
                 </div>
+            </div>
+
+            <div className={styles.bottomSection}>
+                <Container>
+                    <h1>Previous Years</h1>
+                    <div className={styles.previousHacksList}>
+                        {listOfPreviousHacks.map(
+                            (previousHack: previousHack) => (
+                                <div className={styles.previousHack}>
+                                    <div className={styles.image}>
+                                        <a href={previousHack.link}>
+                                            <img src={previousHack.image} />
+                                        </a>
+                                    </div>
+                                    <div className={styles.separator}>
+                                        <div className={styles.line} />
+                                        <div className={styles.arrow} />
+                                    </div>
+                                    <span>
+                                        <a href={previousHack.link}>
+                                            {previousHack.name}
+                                        </a>
+                                    </span>
+                                </div>
+                            )
+                        )}
+                    </div>
+                </Container>
+                {/* <div>
+                    <img
+                        src="/history/background-dotted-square.svg"
+                        className={styles.backgroundDottedSquare}
+                    />
+                </div> */}
             </div>
         </div>
     );

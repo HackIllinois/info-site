@@ -1,3 +1,9 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 9rem;
+}
+
 .topSection {
     display: grid;
     grid-template-columns: 1fr 0.5fr;
@@ -20,20 +26,14 @@
         > img {
             max-width: 100%;
             overflow: hidden;
-            margin-bottom: 3rem;
         }
     }
 }
 
 .middleSection {
-    .slideshow {
-        // display: flex;
-        // flex-direction: row;
-        // flex-wrap: wrap;
-        // max-height: 10rem;
-        // overflow-x: scroll;
-        height: 150px;
-        margin: 0 auto;
+    .sponsorListContainer {
+        height: 7rem;
+        margin: 2rem auto 0;
         position: relative;
         transform: translate3d(0, 0, 0);
         display: flex;
@@ -41,33 +41,171 @@
         overflow: hidden;
     }
 
-    .move {
+    .sponsorList {
         height: 100%;
         transform: translate3d(0, 0, 0);
         display: flex;
-        animation: moveSlideshow 10s linear infinite;
+        animation: moveSponsorList 10s linear infinite;
         column-gap: 1rem;
     }
 
-    .move:nth-child(2) img {
+    .sponsorList:nth-child(2) img {
         opacity: 0.4;
     }
-    .move > img {
-        height: 150px;
+    .sponsorList > img {
+        height: 7rem;
         width: auto;
     }
 
-    .slideshow:hover .move {
+    .sponsorListContainer:hover .sponsorList {
         animation-play-state: paused;
     }
 
-    @keyframes moveSlideshow {
+    @keyframes moveSponsorList {
         0% {
             transform: translateX(0%);
         }
         100% {
-            transform: translateX(-50%);
-            /*The width of the page needs to be taken into consideration*/
+            transform: translateX(-50%); // Considering width of page
+        }
+    }
+}
+
+.bottomSection {
+    margin-bottom: 5rem;
+    // display: flex;
+    // flex-direction: column;
+    .previousHacksList {
+        display: flex;
+        flex-direction: row;
+        overflow-x: scroll;
+        margin-top: 2rem;
+
+        .previousHack {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .image {
+                padding: 0 2.25rem;
+            }
+
+            .separator {
+                display: flex;
+                width: 100%;
+                flex-direction: row;
+                margin: 2.25rem 0;
+                height: 0.1875rem;
+                .line {
+                    height: 100%;
+                    width: 100%;
+                    background: #68c8bf;
+                }
+            }
+
+            > span {
+                width: fit-content;
+                font-size: 1.25rem;
+                font-weight: 500;
+                letter-spacing: 0.0125rem;
+                text-align: center;
+
+                > a {
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+        }
+        > div:last-child {
+            .separator {
+                width: 150%;
+                .arrow {
+                    border: solid #68c8bf;
+                    border-width: 0 0.1875rem 0.1875rem 0;
+                    display: inline-block;
+                    padding: 0.375rem;
+                    transform: translateX(-0.9rem) translateY(-0.35rem)
+                        rotate(-45deg);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        row-gap: 3rem;
+    }
+    .topSection {
+        display: flex;
+        flex-direction: column;
+        padding: 0 5%;
+    }
+
+    .bottomSection {
+        .previousHacksList {
+            flex-direction: column;
+
+            .previousHack {
+                height: 15rem;
+                justify-content: center;
+
+                &:nth-child(odd) {
+                    flex-direction: row;
+                    width: 100%;
+
+                    .image {
+                        padding: 0 1.25rem 0 3.5rem;
+                        width: 50%;
+                        > a > img {
+                            width: 8.5rem;
+                            height: 8.5rem;
+                        }
+                    }
+                    > span {
+                        margin-right: auto;
+                        text-align: end;
+                        margin-left: 2.5rem;
+                    }
+
+                    .separator {
+                        height: 100%;
+                        width: 0.1875rem;
+                        .line {
+                            width: 0.1875rem;
+                        }
+                    }
+                }
+
+                &:nth-child(even) {
+                    flex-direction: row-reverse;
+                    width: 100%;
+                    .image {
+                        padding: 0 3.5rem 0 1.25rem;
+                        width: 50%;
+                        > a > img {
+                            width: 8.5rem;
+                            height: 8.5rem;
+                        }
+                    }
+
+                    > span {
+                        margin-left: auto;
+                        text-align: start;
+                        margin-right: 2.5rem;
+                    }
+
+                    .separator {
+                        height: 100%;
+                        width: 0.1875rem;
+                        transform: translateX(0.2rem);
+
+                        .line {
+                            width: 0.1875rem;
+                        }
+                    }
+                }
+            }
         }
     }
 }
