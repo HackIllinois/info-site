@@ -59,6 +59,7 @@
     &.opened {
         transition: max-height 1s ease-in-out;
         max-height: 200vh;
+        margin-bottom: 20px;
     }
 }
 
