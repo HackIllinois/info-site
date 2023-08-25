@@ -84,6 +84,12 @@ const Navbar = () => {
                             {text}
                         </a>
                     ))}
+                    <a
+                            href="/join-us"
+                            className={path === "/join-us" ? "link active" : "link"}
+                        >
+                            Join Us
+                        </a>
                 </div>
             </nav>
         </>
