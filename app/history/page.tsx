@@ -22,13 +22,22 @@ const History = () => {
                 <div className={styles.ourHistory}>
                     <h1>Our History</h1>
                     <p>
-                        Lorem ipsum dolor sit amet. At quia omnis et aliquam
-                        commodi est aliquam dolores et quas architecto id
-                        ratione recusandae nam velit libero aut suscipit odio.
-                        Sit velit ullam est sequi harum ut odit assumenda sed
-                        consequatur aperiam et repellendus maiores cum earum
-                        itaque. Ex quia quam a dolor praesentium id autem dolor
-                        ex dolorum dignissimos in deleniti nisi.
+                        HackIllinois was founded by a team of students at the
+                        University of Illinois at Urbana-Champaign in October
+                        2013 with the mission to bring people together and
+                        create. In the first year, a team of 50 students
+                        assembled to spearhead logistics, finance, promotion,
+                        and tech to create the first-ever HackIllinois. 750
+                        students from 21 schools came for the inaugural event,
+                        launching what would become one of the university’s
+                        biggest and favorite events.
+                    </p>
+                    <p>
+                        In the years since, HackIllinois has grown immensely:
+                        from working in the world of open source to hosting a
+                        plethora of other events to adapting to virtual and
+                        hybrid formats, HackIllinois strives to bring students
+                        together to learn, create, and explore. Hack yeah!
                     </p>
                 </div>
                 <div className={styles.ourHistoryBackground}>
