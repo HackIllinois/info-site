@@ -27,7 +27,7 @@ const JoinUs = () => {
                     <Button
                         compact
                         text={"Apply Here"}
-                        navigateTo="/join-us"
+                        navigateTo="https://forms.gle/3Nsth89B9i9KHosm9"
                         backgroundColor={"#313332"}
                         textColor={"#fff"}
                     />
