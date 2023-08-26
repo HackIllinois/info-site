@@ -1,14 +1,19 @@
 export const listOfPreviousHacks = [
-    // {
-    //     name: "2018",
-    //     image: "/history/previousHacks/2020.svg",
-    //     link: "https://2018.hackillinois.org"
-    // },
-    // {
-    //     name: "2019",
-    //     image: "/history/previousHacks/2020.svg",
-    //     link: "https://2019.hackillinois.org"
-    // },
+    {
+        name: "2017",
+        image: "/history/previousHacks/2020.svg",
+        link: "https://2017.hackillinois.org"
+    },
+    {
+        name: "2018",
+        image: "/history/previousHacks/2020.svg",
+        link: "https://2018.hackillinois.org"
+    },
+    {
+        name: "2019",
+        image: "/history/previousHacks/2020.svg",
+        link: "https://2019.hackillinois.org"
+    },
     {
         name: "2020",
         image: "/history/previousHacks/2020.svg",
