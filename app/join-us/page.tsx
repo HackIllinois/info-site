@@ -22,7 +22,7 @@ const JoinUs = () => {
                     <p>
                         Interested in shaping the future of HackIllinois? Our
                         applications are currently open until{" "}
-                        <b>August xx, 2023</b>!
+                        <b>September 6, 2023</b>!
                     </p>
                     <Button
                         compact
