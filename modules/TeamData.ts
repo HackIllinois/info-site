@@ -215,8 +215,8 @@ export const data = [
             {
                 name: "Howard Ding",
                 position: "",
-                funFact: "...",
-                photo: "",
+                funFact: "I'm learning to fly a plane",
+                photo: "/team/HowardDing.jpeg",
                 emoji: "😣"
             },
             {
