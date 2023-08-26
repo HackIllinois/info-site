@@ -42,7 +42,7 @@ const Page = () => {
                     <div className="textbox">
                         <br></br>
                         <p className="p-text">
-                            HackIllinois is the premiere student-run hackathon
+                            HackIllinois is the premier student-run hackathon
                             at the University of Illinois at Urbana-Champaign.
                             Each Spring, HackIllinois hosts nearly a thousand
                             students who work together for a weekend to learn
