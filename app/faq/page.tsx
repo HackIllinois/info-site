@@ -1,6 +1,11 @@
 import Container from "@/components/Container/Container";
 import styles from "./page.module.scss";
 import Box from "@/components/FaqBox/Box";
+import { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'HackIllinois | FAQ',
+}
 
 const Page = () => {
     return (

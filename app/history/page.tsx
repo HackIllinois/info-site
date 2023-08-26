@@ -2,6 +2,11 @@ import Container from "@/components/Container/Container";
 import styles from "./page.module.scss";
 import { listOfSponsors } from "@/modules/ListOfSponsors";
 import { listOfPreviousHacks } from "@/modules/ListOfPreviousHacks";
+import { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'HackIllinois | History',
+}
 
 type sponsor = {
     name: string;

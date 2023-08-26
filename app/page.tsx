@@ -5,6 +5,11 @@ import Image from "next/image";
 import styles from "./page.module.scss";
 import Button from "@/components/Button/Button";
 import Container from "@/components/Container/Container";
+import { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'HackIllinois | About',
+}
 
 type listOfTeams = {
     name: string;

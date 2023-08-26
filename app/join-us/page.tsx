@@ -1,6 +1,11 @@
 import Container from "@/components/Container/Container";
 import styles from "./page.module.scss";
 import Button from "@/components/Button/Button";
+import { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'HackIllinois | Join Us',
+}
 
 const JoinUs = () => {
     return (

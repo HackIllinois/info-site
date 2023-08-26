@@ -1,6 +1,11 @@
 import Container from "@/components/Container/Container";
 import styles from "./page.module.scss";
 import { data } from "@/modules/PrivacyPolicyData";
+import { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'HackIllinois | Privacy Policy',
+}
 
 type privacyPolicy = {
     title: string;
