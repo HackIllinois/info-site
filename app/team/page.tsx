@@ -57,6 +57,7 @@ const Page = () => {
                                                 }
                                                 alt={member.name}
                                                 className={styles.photo}
+                                                loading="lazy"
                                             />
                                         </div>
                                         <div className={styles.funFact}>
