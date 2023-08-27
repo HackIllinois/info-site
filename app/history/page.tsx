@@ -57,18 +57,6 @@ const History = () => {
                 <Container>
                     <h1>Previous Sponsors</h1>
                 </Container>
-                {/* <div className={styles.sponsorListContainer}>
-                    <div className={styles.sponsorList}>
-                        {listOfSponsors.slice(0, 11).map((sponsor: sponsor) => (
-                            <img src={sponsor.logo} alt={sponsor.name} />
-                        ))}
-                    </div>
-                    <div className={styles.sponsorList}>
-                        {listOfSponsors.slice(0, 11).map((sponsor: sponsor) => (
-                            <img src={sponsor.logo} alt={sponsor.name} />
-                        ))}
-                    </div>
-                </div> */}
                 <div className={styles.sponsorListContainer}>
                     <div className={styles.sponsorList}>
                         {listOfSponsors.slice(0, 11).map((sponsor: sponsor) => (
@@ -77,6 +65,34 @@ const History = () => {
                         {listOfSponsors.slice(0, 11).map((sponsor: sponsor) => (
                             <img src={sponsor.logo} alt={sponsor.name} />
                         ))}
+                    </div>
+                </div>
+                <div className={styles.sponsorListContainer}>
+                    <div className={styles.sponsorList}>
+                        {listOfSponsors
+                            .slice(11, 22)
+                            .map((sponsor: sponsor) => (
+                                <img src={sponsor.logo} alt={sponsor.name} />
+                            ))}
+                        {listOfSponsors
+                            .slice(11, 22)
+                            .map((sponsor: sponsor) => (
+                                <img src={sponsor.logo} alt={sponsor.name} />
+                            ))}
+                    </div>
+                </div>
+                <div className={styles.sponsorListContainer}>
+                    <div className={styles.sponsorList}>
+                        {listOfSponsors
+                            .slice(22, 33)
+                            .map((sponsor: sponsor) => (
+                                <img src={sponsor.logo} alt={sponsor.name} />
+                            ))}
+                        {listOfSponsors
+                            .slice(22, 33)
+                            .map((sponsor: sponsor) => (
+                                <img src={sponsor.logo} alt={sponsor.name} />
+                            ))}
                     </div>
                 </div>
             </div>
