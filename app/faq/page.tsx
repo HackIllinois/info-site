@@ -16,7 +16,7 @@ const Page = () => {
                     <Container>
                         <Box
                             title="I want to attend, mentor, or speak at one of HackIllinois’s events. How do I learn more?"
-                            description="Check out our social medias for the latest information on our events."
+                            description="Contact us at <a href='mailto:contact@hackillinois.org'>contact@hackillinois.org</a> for involvement or questions regarding HackIllinois. In addition, check out our social medias for the latest information on our events!"
                         />
                         <Box
                             title="Who organizes HackIllinois?"
