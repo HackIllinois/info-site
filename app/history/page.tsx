@@ -60,10 +60,10 @@ const History = () => {
                 <div className={styles.sponsorListContainer}>
                     <div className={styles.sponsorList}>
                         {listOfSponsors.slice(0, 11).map((sponsor: sponsor) => (
-                            <img src={sponsor.logo} alt={sponsor.name} />
+                            <a href={sponsor.website}><img src={sponsor.logo} alt={sponsor.name} /></a>
                         ))}
                         {listOfSponsors.slice(0, 11).map((sponsor: sponsor) => (
-                            <img src={sponsor.logo} alt={sponsor.name} />
+                            <a href={sponsor.website}><img src={sponsor.logo} alt={sponsor.name} /></a>
                         ))}
                     </div>
                 </div>
@@ -72,12 +72,12 @@ const History = () => {
                         {listOfSponsors
                             .slice(11, 22)
                             .map((sponsor: sponsor) => (
-                                <img src={sponsor.logo} alt={sponsor.name} />
+                                <a href={sponsor.website}><img src={sponsor.logo} alt={sponsor.name} /></a>
                             ))}
                         {listOfSponsors
                             .slice(11, 22)
                             .map((sponsor: sponsor) => (
-                                <img src={sponsor.logo} alt={sponsor.name} />
+                                <a href={sponsor.website}><img src={sponsor.logo} alt={sponsor.name} /></a>
                             ))}
                     </div>
                 </div>
@@ -86,12 +86,12 @@ const History = () => {
                         {listOfSponsors
                             .slice(22, 33)
                             .map((sponsor: sponsor) => (
-                                <img src={sponsor.logo} alt={sponsor.name} />
+                                <a href={sponsor.website}><img src={sponsor.logo} alt={sponsor.name} /></a>
                             ))}
                         {listOfSponsors
                             .slice(22, 33)
                             .map((sponsor: sponsor) => (
-                                <img src={sponsor.logo} alt={sponsor.name} />
+                                <a href={sponsor.website}><img src={sponsor.logo} alt={sponsor.name} /></a>
                             ))}
                     </div>
                 </div>

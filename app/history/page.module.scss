@@ -55,7 +55,7 @@
         animation-play-state: paused;
     }
 
-    .sponsorList > img {
+    .sponsorList > a > img {
         margin: 0 0.5rem;
         width: 14.5rem;
         height: 8.5rem;
@@ -160,17 +160,23 @@
         .sponsorListContainer {
             height: 6.5rem;
             .sponsorList {
-                > img {
+                > a > img {
                     margin: 0 0.25rem;
                     width: 10.5rem;
                     height: 6.5rem;
                 }
             }
+            .sponsorList:hover {
+                animation-play-state: running;
+            }
         }
+
     }
     .bottomSection {
         .previousHacksList {
+            position: relative;
             flex-direction: column;
+            height: 120vh;
 
             .previousHack {
                 display: grid;
