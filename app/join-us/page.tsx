@@ -1,39 +1,15 @@
-"use client";
-import { useState } from "react";
 import Container from "@/components/Container/Container";
 import styles from "./page.module.scss";
 import Button from "@/components/Button/Button";
 import { Metadata } from "next";
-import { subscribe } from "@/utils/api";
-const validator = require("validator");
+import Subscribe from "@/components/Subscribe/Subscribe";
 
 export const metadata: Metadata = {
     title: "HackIllinois | Join Us"
 };
 
 const JoinUs = () => {
-    const [email, setEmail] = useState("");
-
-    const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        setEmail(event.target.value);
-    };
-
-    const handleSubscription = async () => {
-        if (!validator.isEmail(email)) {
-            alert("Please enter a valid email address!");
-        } else {
-            console.log("sending request");
-            subscribe("2024_attendee_interest", email);
-            setEmail(""); // clear input field after submitting
-            console.log("request complete");
-        }
-    };
-
-    const handleKeydown = (event: React.KeyboardEvent<HTMLInputElement>) => {
-        if (event.key === "Enter") {
-            handleSubscription();
-        }
-    };
+    
     return (
         <div>
             <div className={styles.topSection}>
@@ -97,28 +73,12 @@ const JoinUs = () => {
                                 <b>joining the HackIllinois team</b>! For event
                                 applicants, it can be found{" "}
                                 <b>
-                                    <u>here</u>
+                                    <a href="https://hackillinois.org">here</a>
                                 </b>
                                 .
                             </p>
                         </div>
-                        <div>
-                            <input
-                                className={styles.input}
-                                type="email"
-                                name="email"
-                                placeholder="Email address"
-                                value={email}
-                                onChange={handleEmailChange}
-                                onKeyDown={handleKeydown}
-                            ></input>
-                            <button
-                                className={styles.joinbutton}
-                                onClick={() => handleSubscription()}
-                            >
-                                Submit
-                            </button>
-                        </div>
+                       <Subscribe />
                     </div>
                 </div>
             </Container>
