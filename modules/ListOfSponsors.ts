@@ -1,167 +1,167 @@
 export const listOfSponsors = [
     {
         name: "Google",
-        website: "#",
+        website: "https://www.google.com/",
         logo: "/history/sponsors/google.svg"
     },
     {
         name: "Apple",
-        website: "#",
+        website: "https://www.apple.com/",
         logo: "/history/sponsors/apple.svg"
     },
     {
         name: "Meta",
-        website: "#",
+        website: "https://about.meta.com/",
         logo: "/history/sponsors/meta.svg"
     },
     {
         name: "Microsoft",
-        website: "#",
+        website: "https://www.microsoft.com/",
         logo: "/history/sponsors/microsoft.svg"
     },
     {
         name: "Airbnb",
-        website: "#",
+        website: "https://www.airbnb.com/",
         logo: "/history/sponsors/airbnb.svg"
     },
     {
         name: "IBM",
-        website: "#",
+        website: "https://www.ibm.com/",
         logo: "/history/sponsors/ibm.svg"
     },
     {
         name: "Yahoo",
-        website: "#",
+        website: "https://www.yahoo.com/",
         logo: "/history/sponsors/yahoo.svg"
     },
     {
         name: "State Farm",
-        website: "#",
+        website: "https://www.statefarm.com/",
         logo: "/history/sponsors/statefarm.svg"
     },
     {
         name: "AT&T",
-        website: "#",
+        website: "https://www.att.com/",
         logo: "/history/sponsors/att.svg"
     },
     {
         name: "Wolfram",
-        website: "#",
+        website: "https://www.wolframalpha.com/",
         logo: "/history/sponsors/wolfram.svg"
     },
     {
         name: "IMC",
-        website: "#",
+        website: "https://www.imc.com/",
         logo: "/history/sponsors/imc.svg"
     },
     {
         name: "Dropbox",
-        website: "#",
+        website: "https://www.dropbox.com/",
         logo: "/history/sponsors/dropbox.svg"
     },
     {
         name: "Palantir",
-        website: "#",
+        website: "https://www.palantir.com/",
         logo: "/history/sponsors/palantir.svg"
     },
     {
         name: "Intel",
-        website: "#",
+        website: "https://www.intel.com/",
         logo: "/history/sponsors/intel.svg"
     },
     {
         name: "Google Cloud",
-        website: "#",
+        website: "https://cloud.google.com/",
         logo: "/history/sponsors/gcloud.svg"
     },
     {
         name: "Capital One",
-        website: "#",
+        website: "https://www.capitalone.com/",
         logo: "/history/sponsors/capitalone.svg"
     },
     {
         name: "Unity",
-        website: "#",
+        website: "https://unity.com/",
         logo: "/history/sponsors/unity.svg"
     },
     {
         name: "Bank of America",
-        website: "#",
+        website: "https://www.bankofamerica.com/",
         logo: "/history/sponsors/bofa.svg"
     },
     {
         name: "Bloomberg",
-        website: "#",
+        website: "https://www.bloomberg.com/",
         logo: "/history/sponsors/bloomberg.svg"
     },
     {
         name: "HRT",
-        website: "#",
+        website: "https://www.hudsonrivertrading.com/",
         logo: "/history/sponsors/hrt.svg"
     },
     {
         name: "Schlumberger",
-        website: "#",
+        website: "https://www.slb.com/",
         logo: "/history/sponsors/schlumberger.svg"
     },
     {
         name: "Firebase",
-        website: "#",
+        website: "https://firebase.google.com/",
         logo: "/history/sponsors/firebase.svg"
     },
     {
         name: "Caterpillar",
-        website: "#",
+        website: "https://www.caterpillar.com/",
         logo: "/history/sponsors/caterpillar.svg"
     },
     {
         name: "John Deere",
-        website: "#",
+        website: "https://about.deere.com/",
         logo: "/history/sponsors/johndeere.svg"
     },
     {
         name: "Fulcrum",
-        website: "#",
+        website: "https://fulcrumgt.com/",
         logo: "/history/sponsors/fulcrum.svg"
     },
     {
         name: "Salesforce",
-        website: "#",
+        website: "https://www.salesforce.com/",
         logo: "/history/sponsors/salesforce.svg"
     },
     {
         name: "Nvidia",
-        website: "#",
+        website: "https://www.nvidia.com/",
         logo: "/history/sponsors/nvidia.svg"
     },
     {
         name: "GitHub",
-        website: "#",
+        website: "https://github.com/",
         logo: "/history/sponsors/github.svg"
     },
     {
-        name: "Twwilio",
-        website: "#",
+        name: "Twilio",
+        website: "https://www.twilio.com/",
         logo: "/history/sponsors/twilio.svg"
     },
     {
         name: "Stripe",
-        website: "#",
+        website: "https://stripe.com/",
         logo: "/history/sponsors/stripe.svg"
     },
     {
         name: "Citadel",
-        website: "#",
+        website: "https://www.citadel.com/",
         logo: "/history/sponsors/citadel.svg"
     },
     {
         name: "Goldman Sachs",
-        website: "#",
+        website: "https://www.goldmansachs.com/",
         logo: "/history/sponsors/goldman.svg"
     },
     {
         name: "Jet Brains",
-        website: "#",
+        website: "https://www.jetbrains.com/",
         logo: "/history/sponsors/jetbrains.svg"
     }
 ];
