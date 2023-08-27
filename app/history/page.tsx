@@ -2,11 +2,11 @@ import Container from "@/components/Container/Container";
 import styles from "./page.module.scss";
 import { listOfSponsors } from "@/modules/ListOfSponsors";
 import { listOfPreviousHacks } from "@/modules/ListOfPreviousHacks";
-import { Metadata } from 'next'
- 
+import { Metadata } from "next";
+
 export const metadata: Metadata = {
-  title: 'HackIllinois | History',
-}
+    title: "HackIllinois | History"
+};
 
 type sponsor = {
     name: string;
@@ -57,14 +57,24 @@ const History = () => {
                 <Container>
                     <h1>Previous Sponsors</h1>
                 </Container>
-                <div className={styles.sponsorListContainer}>
+                {/* <div className={styles.sponsorListContainer}>
                     <div className={styles.sponsorList}>
-                        {listOfSponsors.map((sponsor: sponsor) => (
+                        {listOfSponsors.slice(0, 11).map((sponsor: sponsor) => (
                             <img src={sponsor.logo} alt={sponsor.name} />
                         ))}
                     </div>
                     <div className={styles.sponsorList}>
-                        {listOfSponsors.map((sponsor: sponsor) => (
+                        {listOfSponsors.slice(0, 11).map((sponsor: sponsor) => (
+                            <img src={sponsor.logo} alt={sponsor.name} />
+                        ))}
+                    </div>
+                </div> */}
+                <div className={styles.sponsorListContainer}>
+                    <div className={styles.sponsorList}>
+                        {listOfSponsors.slice(0, 11).map((sponsor: sponsor) => (
+                            <img src={sponsor.logo} alt={sponsor.name} />
+                        ))}
+                        {listOfSponsors.slice(0, 11).map((sponsor: sponsor) => (
                             <img src={sponsor.logo} alt={sponsor.name} />
                         ))}
                     </div>
