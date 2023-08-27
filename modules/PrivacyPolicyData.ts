@@ -45,9 +45,9 @@ export const data = [
                         title: "2.5. Third-Party Services",
                         description: [
                             "Our systems infrastructure uses the following third-party providers and distributors. For concerns about the data collection done by these services, please review their respective privacy policies.",
-                            "Websites: Netlify, Cloudflare",
-                            "API: Vercel, Cloudflare",
-                            "Mobile apps: App Store, Play Store"
+                            "Websites: <a href='https://www.netlify.com/'>Netlify</a>, <a href='https://www.cloudflare.com/'>Cloudflare</a>",
+                            "API: <a href='https://vercel.com/'>Vercel</a>, <a href='https://www.cloudflare.com/'>Cloudflare</a>",
+                            "Mobile apps: <a href='https://www.apple.com/app-store/'>App Store</a>, <a href='https://play.google.com/store/'>Play Store</a>"
                         ]
                     },
                     {

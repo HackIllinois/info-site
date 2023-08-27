@@ -84,9 +84,9 @@ const PrivacyPolicy = () => {
                                                                             className={
                                                                                 styles.subPointDescription
                                                                             }
+                                                                            dangerouslySetInnerHTML={{__html: el}}
                                                                         >
-                                                                            &#x2022;{" "}
-                                                                            {el}
+                                                                           
                                                                         </li>
                                                                     )
                                                                 )}
