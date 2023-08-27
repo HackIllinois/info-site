@@ -1,6 +1,6 @@
 export const data = [
     {
-        title: "HackIllinois’ Privacy Policy",
+        title: "HackIllinois Privacy Policy",
         description: [
             "HackIllinois respects the privacy and security of our participants and people who visit our website. This Privacy Policy describes how we use and protect the personal data we collect about you from our website and other services we provide",
             "This policy only applies to websites and subdomains that HackIllinois controls and not the personal data practices of our sponsor or partner organization sites. It is subject to change under the discretion of HackIllinois without notice."
