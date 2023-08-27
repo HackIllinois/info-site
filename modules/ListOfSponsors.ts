@@ -1,102 +1,167 @@
 export const listOfSponsors = [
     {
-        name: "Company A",
+        name: "Google",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/google.svg"
     },
     {
-        name: "Company A",
+        name: "Apple",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/apple.svg"
     },
     {
-        name: "Company A",
+        name: "Meta",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/meta.svg"
     },
     {
-        name: "Company A",
+        name: "Microsoft",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/microsoft.svg"
     },
     {
-        name: "Company A",
+        name: "Airbnb",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/airbnb.svg"
     },
     {
-        name: "Company A",
+        name: "IBM",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/ibm.svg"
     },
     {
-        name: "Company A",
+        name: "Yahoo",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/yahoo.svg"
     },
     {
-        name: "Company A",
+        name: "State Farm",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/statefarm.svg"
     },
     {
-        name: "Company A",
+        name: "AT&T",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/att.svg"
     },
     {
-        name: "Company A",
+        name: "Wolfram",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/wolfram.svg"
     },
     {
-        name: "Company A",
+        name: "IMC",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/imc.svg"
     },
     {
-        name: "Company A",
+        name: "Dropbox",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/dropbox.svg"
     },
     {
-        name: "Company A",
+        name: "Palantir",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/palantir.svg"
     },
     {
-        name: "Company A",
+        name: "Intel",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/intel.svg"
     },
     {
-        name: "Company A",
+        name: "Google Cloud",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/gcloud.svg"
     },
     {
-        name: "Company A",
+        name: "Capital One",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/capitalone.svg"
     },
     {
-        name: "Company A",
+        name: "Unity",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/unity.svg"
     },
     {
-        name: "Company A",
+        name: "Bank of America",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/bofa.svg"
     },
     {
-        name: "Company A",
+        name: "Bloomberg",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/bloomberg.svg"
     },
     {
-        name: "Company A",
+        name: "HRT",
         website: "#",
-        logo: "/history/sponsors/sponsor1.svg"
+        logo: "/history/sponsors/hrt.svg"
+    },
+    {
+        name: "Schlumberger",
+        website: "#",
+        logo: "/history/sponsors/schlumberger.svg"
+    },
+    {
+        name: "Firebase",
+        website: "#",
+        logo: "/history/sponsors/firebase.svg"
+    },
+    {
+        name: "Caterpillar",
+        website: "#",
+        logo: "/history/sponsors/caterpillar.svg"
+    },
+    {
+        name: "John Deere",
+        website: "#",
+        logo: "/history/sponsors/johndeere.svg"
+    },
+    {
+        name: "Fulcrum",
+        website: "#",
+        logo: "/history/sponsors/fulcrum.svg"
+    },
+    {
+        name: "Salesforce",
+        website: "#",
+        logo: "/history/sponsors/salesforce.svg"
+    },
+    {
+        name: "Nvidia",
+        website: "#",
+        logo: "/history/sponsors/nvidia.svg"
+    },
+    {
+        name: "GitHub",
+        website: "#",
+        logo: "/history/sponsors/github.svg"
+    },
+    {
+        name: "Twwilio",
+        website: "#",
+        logo: "/history/sponsors/twilio.svg"
+    },
+    {
+        name: "Stripe",
+        website: "#",
+        logo: "/history/sponsors/stripe.svg"
+    },
+    {
+        name: "Citadel",
+        website: "#",
+        logo: "/history/sponsors/citadel.svg"
+    },
+    {
+        name: "Goldman Sachs",
+        website: "#",
+        logo: "/history/sponsors/goldman.svg"
+    },
+    {
+        name: "Jet Brains",
+        website: "#",
+        logo: "/history/sponsors/jetbrains.svg"
     }
 ];

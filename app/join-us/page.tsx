@@ -22,12 +22,12 @@ const JoinUs = () => {
                     <p>
                         Interested in shaping the future of HackIllinois? Our
                         applications are currently open until{" "}
-                        <b>August xx, 2023</b>!
+                        <b>September 6, 2023</b>!
                     </p>
                     <Button
                         compact
                         text={"Apply Here"}
-                        navigateTo="/join-us"
+                        navigateTo="https://forms.gle/3Nsth89B9i9KHosm9"
                         backgroundColor={"#313332"}
                         textColor={"#fff"}
                     />
