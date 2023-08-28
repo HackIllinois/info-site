@@ -60,7 +60,7 @@ const Page = () => {
                             We aim to promote growth and collaboration among both new and 
                             experienced programmers. The HackIllinois team organizes annual events for 
                             students to connect and create projects with their peers. We strive to celebrate 
-                            the innovative and creative spirits of students nationwide!
+                            the innovative and creative spirits of students nationwide! 
                         </p>
                         <img src="our-mission.svg" className="our-mission" />
                     </div>
