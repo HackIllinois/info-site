@@ -52,7 +52,7 @@ const Page = () => {
                         <img src="what-is-hack.svg" className="tilted-hack" />
                     </div>
                 </div>
-                <div className="section-div">
+                <div className="our-mission-div">
                     <h1>Our Mission</h1>
                     <div className="textbox">
                         <br></br>

@@ -28,10 +28,29 @@
     // padding-right: 5%;
 }
 
+.our-mission-div {
+    margin-top: 10%;
+    width: 100%;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-bottom: -15rem;
+    // overflow-y: auto;
+    // padding-left: 5%;
+    // padding-right: 5%;
+
+    @media screen and (max-width: 1000px) {
+        margin-bottom: 0rem;
+    }
+
+}
+
 .textbox {
     width: auto;
     display: flex;
     flex-direction: row;
+    height: fit-content;
 
     @media screen and (max-width: 650px) {
         flex-direction: column-reverse;
@@ -41,6 +60,7 @@
 .p-text {
     margin-top: 15px;
     font-size: 20px;
+    height: fit-content;
 }
 
 .tilted-hack {

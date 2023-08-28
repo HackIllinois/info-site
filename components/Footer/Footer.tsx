@@ -46,6 +46,16 @@ const Footer = () => {
                                 className={styles.icon}
                             />
                         </a>
+                        <a
+                            href="https://www.facebook.com/hackillinois/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="/icons/facebook-border.svg"
+                                className={styles.icon}
+                            />
+                        </a>
                     </div>
                 </div>
             </div>
