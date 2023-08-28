@@ -1,8 +1,9 @@
 .box-main {
-    background-color: #fce891;
     display: block;
     width: 90%;
     border-radius: 2rem;
+    max-width: 100%;
+    background-color: #fce891;
 }
 
 .title {
@@ -22,12 +23,10 @@
     content: "";
     position: absolute;
     width: 0;
-    height: 5px;
+    height: 0.25rem;
     transform: translate(-50%, -100%);
     background-color: #fba036;
     transition: width 1s ease-in-out;
-
-    // margin-bottom: 25px;
 }
 
 .description.opened::before {
@@ -50,14 +49,17 @@
 .description {
     position: relative;
     transition: max-height 1.5s cubic-bezier(0, 1, 0, 1);
-    margin: 0 2.25rem;
     text-align: center;
     max-height: 0;
     overflow: hidden;
-    padding: 0.25rem;
+    padding: 0.25rem 0 0;
+
+    a {
+        color: #FBA036;
+    }
 
     &.opened {
-        transition: max-height 1s ease-in-out;
+        transition: max-height 1.5s ease-in-out;
         max-height: 200vh;
     }
 }
@@ -66,6 +68,17 @@
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 1.75rem;
+    padding: 2.25rem;
+    background-color: #fdf5cd;
+    border-radius: 0 0 2rem 2rem;
+
+    &::after {
+        border-radius: 2rem;
+    }
+}
+
+.description-text::after {
+    border-radius: 5rem;
 }
 
 .closed {

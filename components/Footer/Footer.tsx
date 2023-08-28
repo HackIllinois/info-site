@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./Footer.module.scss";
 
 const Footer = () => {
@@ -13,7 +14,10 @@ const Footer = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <img src="/icons/email-border.svg" className={styles.icon} />
+                            <img
+                                src="/icons/email-border.svg"
+                                className={styles.icon}
+                            />
                         </a>
                         contact@hackillinois.org
                     </div>
@@ -27,21 +31,39 @@ const Footer = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <img src="/icons/instagram-border.svg" className={styles.icon} />
+                            <img
+                                src="/icons/instagram-border.svg"
+                                className={styles.icon}
+                            />
                         </a>
                         <a
                             href="https://www.linkedin.com/company/hackillinois/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <img src="/icons/linkedin-border.svg" className={styles.icon} />
+                            <img
+                                src="/icons/linkedin-border.svg"
+                                className={styles.icon}
+                            />
                         </a>
+                        {/* <a
+                            href="https://www.facebook.com/hackillinois/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="/icons/facebook-border.svg"
+                                className={styles.icon}
+                            />
+                        </a> */}
                     </div>
                 </div>
             </div>
             <div>
                 <span>Copyright@2023</span>
-                <span>Privacy Policy</span>
+                <Link href="/privacy-policy">
+                    <span>Privacy Policy</span>
+                </Link>
             </div>
         </footer>
     );

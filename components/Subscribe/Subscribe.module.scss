@@ -1,0 +1,29 @@
+.subscribe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    column-gap: 2rem;
+    > input {
+        min-width: 75%;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        border: 0.0625rem solid #171d1c;
+        font-size: 1.125rem;
+        font-weight: 400;
+    }
+
+    > button {
+        background-color: #168277;
+        color: #fff;
+        border-radius: 2.5rem;
+        padding: 0.5rem 1rem;
+        border: 0;
+        font-size: 1.125rem;
+        font-weight: 600;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.05);
+        }
+    }
+}

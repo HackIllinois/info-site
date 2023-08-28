@@ -1,6 +1,11 @@
 import Container from "@/components/Container/Container";
 import styles from "./page.module.scss";
 import Box from "@/components/FaqBox/Box";
+import { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'HackIllinois | FAQ',
+}
 
 const Page = () => {
     return (
@@ -11,7 +16,7 @@ const Page = () => {
                     <Container>
                         <Box
                             title="I want to attend, mentor, or speak at one of HackIllinois’s events. How do I learn more?"
-                            description="Check out our social medias for the latest information on our events."
+                            description="Contact us at <a href='mailto:contact@hackillinois.org'>contact@hackillinois.org</a> for involvement or questions regarding HackIllinois. In addition, check out our social medias for the latest information on our events!"
                         />
                         <Box
                             title="Who organizes HackIllinois?"
@@ -32,11 +37,11 @@ const Page = () => {
                         <img className={styles.logo} src="/faq/logo.svg" />
                         <Box
                             title="What is the role of each team?"
-                            description="1. HackIllinois is composed of five teams, who work closely together to create HackIllinois! <br/><br/> 2. The Experience Team organizes the logistics and operations behind our events, including (but not limited to) scheduling, mentor/speaker outreach, attendee amenities, etc. During the event, they manage content ranging from workshops taught by industry professionals to our infamous nerf gun tournament! <br/><br/> 3. The Outreach Team builds and maintains relationships with companies and corporate sponsors in order to effectively raise funding for HackIllinois, as well as plan and execute company-sponsored events. Past sponsors include the likes of Fortune 500 companies and MAANG. <br/><br/> 4. The Systems Team handles the technology infrastructure for HackIllinois, creating our website, mobile apps, and API. Systems is divided into four subteams: web, android, iOS, and API. You can see our past websites and our most recent android and iOS apps! <br/><br/> 5. The Design Team designs the brand, graphics, and UI/UX for various media, such as posters, websites, mobile apps, and swag! You can catch them brainstorming away in Figma or creating t-shirt mock-ups in Illustrator. <br/><br/> 6. The Marketing Team creates promotional content, runs social media platforms, and collaborates with external organizations for increasing our event scope and audience, with the overarching goal of promoting diversity and inclusion in HackIllinois."
+                            description="HackIllinois is composed of five teams, who work closely together to create HackIllinois! <br/><br/> 1. The Experience Team organizes the logistics and operations behind our events, including (but not limited to) scheduling, mentor/speaker outreach, attendee amenities, etc. During the event, they manage content ranging from workshops taught by industry professionals to our infamous nerf gun tournament! <br/><br/> 2. The Outreach Team builds and maintains relationships with companies and corporate sponsors in order to effectively raise funding for HackIllinois, as well as plan and execute company-sponsored events. Past sponsors include the likes of Fortune 500 companies and MAANG. <br/><br/> 3. The Systems Team handles the technology infrastructure for HackIllinois, creating our website, mobile apps, and API. Systems is divided into four subteams: web, android, iOS, and API. You can see our past websites and our most recent android and iOS apps! <br/><br/> 4. The Design Team designs the brand, graphics, and UI/UX for various media, such as posters, websites, mobile apps, and swag! You can catch them brainstorming away in Figma or creating t-shirt mock-ups in Illustrator. <br/><br/> 5. The Marketing Team creates promotional content, runs social media platforms, and collaborates with external organizations for increasing our event scope and audience, with the overarching goal of promoting diversity and inclusion in HackIllinois."
                         />
                         <Box
                             title="What is being on staff like? What’s the time commitment? Are meetings in-person or virtual?"
-                            description="1. We would describe HackIllinois staff as a family of collaborators, working together to spread our passions to others. This may includes everything from discussing progress each weekly meeting to random late-night boba runs. See our <a href='/#'>About</a> section for more staff testimonials! <br/><br/> 2. Staff members are expected to attend one-hour weekly meetings and contribute to assigned tasks for around an additional one hour each week. However, time commitment ebbs and flows with timeline—for instance, commitment for most teams grows as HackIllinois nears—so exact time commitment changes. <br/><br/> 3. Meetings are virtual during the summer and in-person during the school year."
+                            description="1. We would describe HackIllinois staff as a family of collaborators, working together to spread our passions to others. This may includes everything from discussing progress each weekly meeting to random late-night boba runs. See our <a href='/#'>About</a> section for more staff testimonials! <br/><br/> 2. Staff members are expected to attend one-hour weekly meetings and contribute to assigned tasks for around an additional two-three hours each week. However, time commitment ebbs and flows with timeline—for instance, commitment for most teams grows as HackIllinois nears—so exact time commitment changes. <br/><br/> 3. Meetings are virtual during the summer and in-person during the school year."
                         />
                     </Container>
                 </div>

@@ -2,7 +2,7 @@
 import Link from "next/link";
 import "./navbar.styles.scss";
 import { useState } from "react";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 
 const links = [
     {
@@ -16,12 +16,21 @@ const links = [
     {
         href: "/team",
         text: "Team"
+    },
+    {
+        href: "/history",
+        text: "History"
     }
 ];
 
 const Navbar = () => {
     const [isOpen, setOpen] = useState(false);
     const path = usePathname();
+    const router = useRouter();
+
+    const handleOnClickJoinUs = () => {
+        router.push("/join-us");
+    };
 
     return (
         <>
@@ -34,12 +43,18 @@ const Navbar = () => {
                 </a>
                 <div className="links">
                     {links.map(({ href, text }, i) => (
-                        <Link key={i} href={href} className={path === href ? "link active" : "link"}>
+                        <Link
+                            key={i}
+                            href={href}
+                            className={path === href ? "link active" : "link"}
+                        >
                             {text}
                         </Link>
                     ))}
                 </div>
-                <button className="joinButton">Join Us</button>
+                <button onClick={handleOnClickJoinUs} className="joinButton">
+                    Join Us
+                </button>
             </nav>
 
             <nav className="mobile">
@@ -60,11 +75,21 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className={isOpen ? "mobileMenu menuOpen" : "mobileMenu"}>
-                {links.map(({ href, text }, i) => (
-                        <a key={i} href={href} className={path === href ? "link active" : "link"}>
+                    {links.map(({ href, text }, i) => (
+                        <a
+                            key={i}
+                            href={href}
+                            className={path === href ? "link active" : "link"}
+                        >
                             {text}
                         </a>
                     ))}
+                    <a
+                            href="/join-us"
+                            className={path === "/join-us" ? "link active" : "link"}
+                        >
+                            Join Us
+                        </a>
                 </div>
             </nav>
         </>

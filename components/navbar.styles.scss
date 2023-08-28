@@ -18,18 +18,19 @@
     }
 
     &.mobile {
-       transform: translateX(150%); 
+        transform: translateX(150%);
     }
 }
 
 .joinButton {
-    background: #68C8BF;
+    background: #68c8bf;
     color: white;
     border-radius: 30px;
-    border: 1px solid #68C8BF;
+    border: 1px solid #68c8bf;
     padding: 10px 20px;
     font-weight: 700;
     font-size: 20px;
+    cursor: pointer;
 
     @media screen and (max-width: 750px) {
         font-size: 15px;
@@ -38,6 +39,10 @@
     @media screen and (max-width: 500px) {
         font-size: 10px;
     }
+}
+
+.joinButton:hover {
+    cursor: pointer;
 }
 
 .links {
@@ -100,14 +105,12 @@
 .link:hover::after,
 .link:hover::before {
     width: 50%;
-
 }
 
 .link.active::before,
 .link.active::after {
     width: 50%;
 }
-
 
 .mobile {
     display: none;
@@ -116,21 +119,21 @@
     position: relative;
 
     .link::before,
-    .link.active::before { 
+    .link.active::before {
         border-bottom: 2px solid white;
     }
 
     .link::after,
-    .link.active::after { 
+    .link.active::after {
         border-bottom: 2px solid white;
     }
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 900px) {
     .navbar {
         display: none;
     }
-    
+
     .mobile {
         display: flex;
         flex-direction: column;
@@ -144,9 +147,7 @@
     align-items: center;
     width: 100%;
     position: relative;
-    
 }
-
 
 .hamburger {
     width: 60px;
@@ -154,7 +155,7 @@
     position: relative;
     margin: 35px 25px;
     transform: rotate(0deg) scale(0.7);
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
     z-index: 1001;
     cursor: pointer;
 
@@ -163,28 +164,27 @@
         position: absolute;
         height: 9px;
         width: 100%;
-        background: #FBA036;
+        background: #fba036;
         border-radius: 9px;
         opacity: 1;
         left: 0;
         transform: rotate(0deg);
-        transition: .5s ease-in-out;
+        transition: 0.5s ease-in-out;
 
         &:nth-child(1) {
             top: 0px;
             transform-origin: left center;
         }
-      
+
         &:nth-child(2) {
             top: 18px;
             transform-origin: left center;
         }
-      
+
         &:nth-child(3) {
             top: 36px;
             transform-origin: left center;
         }
-    
     }
 
     &.open {
@@ -194,12 +194,12 @@
                 top: -3px;
                 left: 8px;
             }
-              
+
             &:nth-child(2) {
                 width: 0%;
                 opacity: 0;
             }
-              
+
             &:nth-child(3) {
                 transform: rotate(-45deg);
                 top: 39px;
@@ -214,7 +214,7 @@
     // display: none;
     margin-top: -150%;
     position: absolute;
-    background-color: #95D8D2;
+    background-color: #95d8d2;
     display: flex;
     flex-direction: column;
     align-content: center;

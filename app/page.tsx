@@ -5,6 +5,11 @@ import Image from "next/image";
 import styles from "./page.module.scss";
 import Button from "@/components/Button/Button";
 import Container from "@/components/Container/Container";
+import { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'HackIllinois | About',
+}
 
 type listOfTeams = {
     name: string;
@@ -37,7 +42,7 @@ const Page = () => {
                     <div className="textbox">
                         <br></br>
                         <p className="p-text">
-                            HackIllinois is the premiere student-run hackathon
+                            HackIllinois is the premier student-run hackathon
                             at the University of Illinois at Urbana-Champaign.
                             Each Spring, HackIllinois hosts nearly a thousand
                             students who work together for a weekend to learn
@@ -47,18 +52,15 @@ const Page = () => {
                         <img src="what-is-hack.svg" className="tilted-hack" />
                     </div>
                 </div>
-                <div className="section-div">
+                <div className="our-mission-div">
                     <h1>Our Mission</h1>
                     <div className="textbox">
                         <br></br>
                         <p className="p-text">
-                            Our goal is to promote growth and collaboration
-                            among both new and experienced programmers. The
-                            HackIllinois team organize and plan events each year
-                            where students can come together to create projects
-                            with their peers. We strive to celebrate the
-                            innovative and creative spirits of students
-                            nationwide!
+                            We aim to promote growth and collaboration among both new and 
+                            experienced programmers. The HackIllinois team organizes annual events for 
+                            students to connect and create projects with their peers. We strive to celebrate 
+                            the innovative and creative spirits of students nationwide! 
                         </p>
                         <img src="our-mission.svg" className="our-mission" />
                     </div>
@@ -112,13 +114,10 @@ const Page = () => {
                         <div className={styles.contactBody}>
                             <div>
                                 <p>
-                                    Keep in touch with us through our social
-                                    medias! You will be the first to know about
-                                    any HackIllinois events or exciting news.
-                                    Dont forget to check our FAQ, you just might
-                                    find your answer there! 🥳 Still have any
-                                    questions? Feel free to reach out to us at{" "}
-                                    <a href="mailto:contact@hackillinois.org">contact@hackillinois.org</a>.
+                                Want to stay up-to-date with HackIllinois events or exciting news? 
+                                Keep in touch with us through our social medias! Be sure to check out our FAQ for common inquiries.
+                                Still have a question? Reach out to us at {" "}
+                            <a href="mailto:contact@hackillinois.org">contact@hackillinois.org</a>.
                                 </p>
                             </div>
                             <img src="/about/connect-vector.svg" alt="vector" />

@@ -4,6 +4,12 @@ import { data } from "@/modules/TeamData";
 import styles from "./page.module.scss";
 import Container from "@/components/Container/Container";
 
+import { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
+  title: 'HackIllinois | Team',
+}
+
 type team = {
     teamName: string;
     teamMembers: teamMember[];
@@ -57,6 +63,7 @@ const Page = () => {
                                                 }
                                                 alt={member.name}
                                                 className={styles.photo}
+                                                loading="lazy"
                                             />
                                         </div>
                                         <div className={styles.funFact}>
