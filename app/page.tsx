@@ -57,13 +57,10 @@ const Page = () => {
                     <div className="textbox">
                         <br></br>
                         <p className="p-text">
-                            Our goal is to promote growth and collaboration
-                            among both new and experienced programmers. The
-                            HackIllinois team organize and plan events each year
-                            where students can come together to create projects
-                            with their peers. We strive to celebrate the
-                            innovative and creative spirits of students
-                            nationwide!
+                            We aim to promote growth and collaboration among both new and 
+                            experienced programmers. The HackIllinois team organizes annual events for 
+                            students to connect and create projects with their peers. We strive to celebrate 
+                            the innovative and creative spirits of students nationwide!
                         </p>
                         <img src="our-mission.svg" className="our-mission" />
                     </div>
@@ -117,13 +114,10 @@ const Page = () => {
                         <div className={styles.contactBody}>
                             <div>
                                 <p>
-                                    Keep in touch with us through our social
-                                    medias! You will be the first to know about
-                                    any HackIllinois events or exciting news.
-                                    Dont forget to check our FAQ, you just might
-                                    find your answer there! 🥳 Still have any
-                                    questions? Feel free to reach out to us at{" "}
-                                    <a href="mailto:contact@hackillinois.org">contact@hackillinois.org</a>.
+                                Want to stay up-to-date with HackIllinois events or exciting news? 
+                                Keep in touch with us through our social medias! Be sure to check out our FAQ for common inquiries.
+                                Still have a question? Reach out to us at {" "}
+                            <a href="mailto:contact@hackillinois.org">contact@hackillinois.org</a>.
                                 </p>
                             </div>
                             <img src="/about/connect-vector.svg" alt="vector" />
