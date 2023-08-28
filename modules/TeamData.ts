@@ -81,7 +81,7 @@ export const data = [
             {
                 name: "Jennifer Xia",
                 position: "Experience Co-Lead",
-                funFact: "I enjoy creative writing :) just not consistently :(",
+                funFact: "I enjoy creative writing 😀 just not consistently 😕",
                 photo: "/team/JenniferXia.jpg",
                 emoji: "🤨"
             },

@@ -20,12 +20,13 @@ const Page = () => {
     return (
         <div className="page">
             <div className="logo-div">
-                <img src="main-logo.svg" className="main-logo" />
-                <div className="dots-div">
+                <img src="main-background.svg" className="main-logo" />
+                
+                {/* <div className="dots-div">
                     <img src="main-dots.svg" className="main-logo dots" />
                     <img src="main-dots.svg" className="main-logo dotsTwo" />
                     <img src="main-dots.svg" className="main-logo dotsThree" />
-                </div>
+                </div> */}
                 <div className="icon-div">
                     <img src="hackillinois-main.svg" className="iconPosition" />
                 </div>
@@ -44,7 +45,7 @@ const Page = () => {
                         <p className="p-text">
                             HackIllinois is the premier student-run hackathon
                             at the University of Illinois at Urbana-Champaign.
-                            Each Spring, HackIllinois hosts nearly a thousand
+                            Each spring, HackIllinois hosts nearly a thousand
                             students who work together for a weekend to learn
                             new skills and technologies to create innovative
                             hacks such as websites, mobile apps, and many more!
