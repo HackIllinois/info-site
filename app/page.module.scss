@@ -36,7 +36,7 @@
 
                     .listItemText {
                         font-size: 3rem;
-                        font-weight: 500;
+                        font-weight: 400;
                         line-height: 3.75rem;
                     }
                 }
@@ -84,6 +84,7 @@
             > div {
                 max-width: 50rem;
                 margin-top: 2rem;
+
                 > p {
                     font-size: 1.25rem;
                     // // font-weight: 500;
@@ -103,21 +104,31 @@
             }
         }
 
+        @media screen and (max-width: 950px) { 
+            padding-bottom: 50%;
+        }
+
         .icons {
             position: relative;
             display: flex;
-            width: 80vw;
+            width: 100%;
             margin: auto;
             align-items: center;
             justify-content: center;
             flex-wrap: wrap;
 
+            > div {
+                padding-top: 1.5rem;
+            }
+
             .icon {
-                padding: 0 45px;
+                padding: 10px 45px;
             }
 
             
-            @media screen and (max-width: 650px) {
+            @media screen and (max-width: 950px) {
+                transform: translateY(120%);
+                position: absolute;
                 width: 90vw;
                 > div {
                     display: flex;
@@ -130,6 +141,10 @@
                 .icon {
                     padding: 5px;
                 }
+            }
+
+            @media screen and (max-width: 650px) {
+                transform: translateY(0);
             }
         }
     }
