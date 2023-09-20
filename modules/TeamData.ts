@@ -321,7 +321,7 @@ export const data = [
                 name: "Connie Lu",
                 position: "",
                 funFact:
-                    "I love sushi!...except with a mandatory side of allergy pills :D",
+                    "I love sushi! ... except with a mandatory side of allergy pills :D",
                 photo: "/team/ConnieLu.jpg",
                 emoji: "🐼"
             },
