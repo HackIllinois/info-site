@@ -62,7 +62,7 @@ export const data = [
                 name: "Timothy Gonzalez",
                 position: "API",
                 funFact: "I enjoy tacos",
-                photo: "/team/TimothyGonzalez.png",
+                photo: "/team/TimothyGonzalez.jpg",
                 emoji: "🙂"
             },
             {
@@ -204,8 +204,8 @@ export const data = [
                 name: "Daniel Chen",
                 position: "",
                 funFact: "I can do a cartwheel!",
-                photo: "/team/DanielChen.jpg",
-                emoji: "☹️"
+                photo: "/team/DanielChen.jpeg",
+                emoji: "🙁"
             },
             {
                 name: "Diya Yunus",
@@ -239,7 +239,7 @@ export const data = [
                 name: "Sada Challa",
                 position: "",
                 funFact: "I lost my first kiss to a stingray.",
-                photo: "/team/SadaChalla.jpg",
+                photo: "/team/SadaChalla.jpeg",
                 emoji: "😟"
             },
             {
@@ -314,7 +314,7 @@ export const data = [
                 position: "",
                 funFact:
                     "i love bacon!",
-                photo: "/team/AmyBisalputra.jpg",
+                photo: "/team/AmyBisalputra.jpeg",
                 emoji: "🏄🏻‍♀️"
             },
             {
