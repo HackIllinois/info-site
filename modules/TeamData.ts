@@ -13,9 +13,9 @@ export const data = [
                 name: "Pinakin Kanade",
                 position: "",
                 funFact:
-                    "I used to play the bassoon competitively for 6 years!",
-                photo: "/team/PinakinKanade.jpg",
-                emoji: "😂"
+                    "im a roblox jailbreak admin",
+                photo: "/team/Pinakin2.jpg",
+                emoji: "🕺"
             }
         ]
     },
@@ -26,8 +26,8 @@ export const data = [
                 name: "Lasya Neti",
                 position: "Systems Lead",
                 funFact: "I met Jake from State Farm!",
-                photo: "/team/LasyaNeti.jpg",
-                emoji: "😭"
+                photo: "/team/LasyaNeti2.jpg",
+                emoji: "🔥"
             },
             {
                 name: "Aydan Pirani",
