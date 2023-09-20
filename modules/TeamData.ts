@@ -173,7 +173,7 @@ export const data = [
                 name: "Amanda Wang",
                 position: "",
                 funFact:
-                    "A dilophosaurus once spat on me at Jurassic Park ☹️",
+                    "A dilophosaurus once spat on me at Jurassic Park :(",
                 photo: "/team/AmandaWang.jpg",
                 emoji: "🤪"
             },
