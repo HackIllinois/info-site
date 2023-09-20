@@ -8,10 +8,10 @@
     },
     "dependencies": {
         "clsx": "^1.2.1",
-        "next": "^13.4.12",
+        "i": "^0.3.7",
+        "next": "^13.5.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "sass": "^1.64.2",
         "validator": "^13.11.0"
     },
     "devDependencies": {
