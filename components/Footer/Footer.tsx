@@ -19,7 +19,9 @@ const Footer = () => {
                                 className={styles.icon}
                             />
                         </a>
-                        contact@hackillinois.org
+                        <a className={styles.linkText} href="mailto:contact@hackillinois.org">
+                            contact@hackillinois.org
+                        </a>
                     </div>
                 </div>
                 <div>
@@ -61,7 +63,7 @@ const Footer = () => {
             </div>
             <div>
                 <span>Copyright@2023</span>
-                <Link href="/privacy-policy">
+                <Link href="/privacy-policy" target="_blank" rel="noopener noreferrer" >
                     <span>Privacy Policy</span>
                 </Link>
             </div>

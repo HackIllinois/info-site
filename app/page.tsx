@@ -5,11 +5,11 @@ import Image from "next/image";
 import styles from "./page.module.scss";
 import Button from "@/components/Button/Button";
 import Container from "@/components/Container/Container";
-import { Metadata } from 'next'
- 
+import { Metadata } from "next";
+
 export const metadata: Metadata = {
-  title: 'HackIllinois | About',
-}
+    title: "HackIllinois | About"
+};
 
 type listOfTeams = {
     name: string;
@@ -21,12 +21,7 @@ const Page = () => {
         <div className="page">
             <div className="logo-div">
                 <img src="main-background.svg" className="main-logo" />
-                
-                {/* <div className="dots-div">
-                    <img src="main-dots.svg" className="main-logo dots" />
-                    <img src="main-dots.svg" className="main-logo dotsTwo" />
-                    <img src="main-dots.svg" className="main-logo dotsThree" />
-                </div> */}
+
                 <div className="icon-div">
                     <img src="hackillinois-main.svg" className="iconPosition" />
                 </div>
@@ -43,9 +38,9 @@ const Page = () => {
                     <div className="textbox">
                         <br></br>
                         <p className="p-text">
-                            HackIllinois is the premier student-run hackathon
-                            at the University of Illinois at Urbana-Champaign.
-                            Each spring, HackIllinois hosts nearly a thousand
+                            HackIllinois is the premier student-run hackathon at
+                            the University of Illinois at Urbana-Champaign. Each
+                            spring, HackIllinois hosts nearly a thousand
                             students who work together for a weekend to learn
                             new skills and technologies to create innovative
                             hacks such as websites, mobile apps, and many more!
@@ -58,10 +53,12 @@ const Page = () => {
                     <div className="textbox">
                         <br></br>
                         <p className="p-text">
-                            We aim to promote growth and collaboration among both new and 
-                            experienced programmers. The HackIllinois team organizes annual events for 
-                            students to connect and create projects with their peers. We strive to celebrate 
-                            the innovative and creative spirits of students nationwide! 
+                            We aim to promote growth and collaboration among
+                            both new and experienced programmers. The
+                            HackIllinois team organizes annual events for
+                            students to connect and create projects with their
+                            peers. We strive to celebrate the innovative and
+                            creative spirits of students nationwide!
                         </p>
                         <img src="our-mission.svg" className="our-mission" />
                     </div>
@@ -115,81 +112,85 @@ const Page = () => {
                         <div className={styles.contactBody}>
                             <div>
                                 <p>
-                                Want to stay up-to-date with HackIllinois events or exciting news? 
-                                Keep in touch with us through our social medias! Be sure to check out our FAQ for common inquiries.
-                                Still have a question? Reach out to us at {" "}
-                            <a href="mailto:contact@hackillinois.org">contact@hackillinois.org</a>.
+                                    Want to stay up-to-date with HackIllinois
+                                    events or exciting news? Keep in touch with
+                                    us through our social medias! Be sure to
+                                    check out our FAQ for common inquiries.
+                                    Still have a question? Reach out to us at{" "}
+                                    <a href="mailto:contact@hackillinois.org">
+                                        contact@hackillinois.org
+                                    </a>
+                                    .
                                 </p>
+                                <div className={styles.icons}>
+                                    <div>
+                                        <a
+                                            href="https://www.facebook.com/hackillinois/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <img
+                                                className={styles.icon}
+                                                src="/icons/facebook.svg"
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://instagram.com/HackIllinois"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <img
+                                                className={styles.icon}
+                                                src="/icons/instagram.svg"
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://twitter.com/HackIllinois"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <img
+                                                className={styles.icon}
+                                                src="/icons/twitter.svg"
+                                            />
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a
+                                            href="https://www.linkedin.com/company/hackillinois/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <img
+                                                className={styles.icon}
+                                                src="/icons/linkedin.svg"
+                                            />
+                                        </a>
+                                        <a
+                                            href="https://github.com/HackIllinois"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <img
+                                                className={styles.icon}
+                                                src="/icons/github.svg"
+                                            />
+                                        </a>
+                                        <a
+                                            href="mailto:contact@hackillinois.org"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <img
+                                                className={styles.icon}
+                                                src="/icons/email.svg"
+                                            />
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                             <img src="/about/connect-vector.svg" alt="vector" />
                         </div>
-
-                        <div className={styles.icons}>
-                                    <div>
-                                    <a
-                                        href="https://www.facebook.com/hackillinois/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        <img
-                                            className={styles.icon}
-                                            src="/icons/facebook.svg"
-                                        />
-                                    </a>
-                                    <a
-                                        href="https://instagram.com/HackIllinois"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        <img
-                                            className={styles.icon}
-                                            src="/icons/instagram.svg"
-                                        />
-                                    </a>
-                                    <a
-                                        href="https://twitter.com/HackIllinois"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        <img
-                                            className={styles.icon}
-                                            src="/icons/twitter.svg"
-                                        /> 
-                                    </a>
-                                    </div>
-                                    <div>
-                                    <a
-                                        href="https://www.linkedin.com/company/hackillinois/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        <img
-                                            className={styles.icon}
-                                            src="/icons/linkedin.svg"
-                                        />
-                                    </a>
-                                    <a
-                                        href="https://github.com/HackIllinois"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        <img
-                                            className={styles.icon}
-                                            src="/icons/github.svg"
-                                        />
-                                    </a>
-                                    <a
-                                        href="mailto:contact@hackillinois.org"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        <img
-                                            className={styles.icon}
-                                            src="/icons/email.svg"
-                                        />
-                                    </a>
-                                    </div>
-                            </div>
                     </div>
                 </div>
             </Container>

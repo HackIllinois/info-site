@@ -1,6 +1,6 @@
 import Container from "@/components/Container/Container";
 import styles from "./page.module.scss";
-import Button from "@/components/Button/Button";
+// import Button from "@/components/Button/Button";
 import { Metadata } from "next";
 import Subscribe from "@/components/Subscribe/Subscribe";
 
@@ -9,7 +9,6 @@ export const metadata: Metadata = {
 };
 
 const JoinUs = () => {
-    
     return (
         <div>
             <div className={styles.topSection}>
@@ -22,17 +21,17 @@ const JoinUs = () => {
                 <div className={styles.joinOurTeamContainer}>
                     <span>Join Our Team</span>
                     <p>
-                        Interested in shaping the future of HackIllinois? Our
-                        applications are currently open until{" "}
-                        <b>September 6, 2023</b>!
+                        Unfortunately, our applications are currently closed! <b>We
+                        open them during the summer and the fall.</b> If you want to
+                        stay notified, subscribe to our mailing list down below!
                     </p>
-                    <Button
+                    {/* <Button
                         compact
                         text={"Apply Here"}
                         navigateTo="https://forms.gle/3Nsth89B9i9KHosm9"
                         backgroundColor={"#313332"}
                         textColor={"#fff"}
-                    />
+                    /> */}
                 </div>
                 <div className={styles.backgroundRight}>
                     <img
@@ -78,7 +77,7 @@ const JoinUs = () => {
                                 .
                             </p>
                         </div>
-                       <Subscribe />
+                        <Subscribe />
                     </div>
                 </div>
             </Container>
