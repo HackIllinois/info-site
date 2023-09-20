@@ -1,5 +1,5 @@
 node_modules/
 .next/
 .vscode/
-
+yarn.lock
 **/.DS_Store
