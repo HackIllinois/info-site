@@ -372,7 +372,7 @@ export const data = [
                 emoji: "🗿"
             },
             {
-                name: "Bhavya Chauhan",
+                name: "Bhavyaa Chauhan",
                 position: "",
                 funFact: "\"Barbie\" actually used to be my fake Starbucks name",
                 photo: "/team/BhavyaaChauhan.jpg",
