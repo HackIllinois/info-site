@@ -26,7 +26,7 @@ export const data = [
                 name: "Lasya Neti",
                 position: "Systems Lead",
                 funFact: "I met Jake from State Farm!",
-                photo: "/team/LasyaNeti2.jpg",
+                photo: "/team/LasyaNeti2.jpeg",
                 emoji: "🔥"
             },
             {
@@ -55,7 +55,7 @@ export const data = [
                 name: "Nikhita Punati",
                 position: "API",
                 funFact: "I like pickles and peanut butter, especially together!",
-                photo: "/team/NikhitaPunati.png",
+                photo: "/team/NikhitaPunati.jpg",
                 emoji: "🤺"
             },
             {
@@ -375,7 +375,7 @@ export const data = [
                 name: "Bhavyaa Chauhan",
                 position: "",
                 funFact: "\"Barbie\" actually used to be my fake Starbucks name",
-                photo: "/team/BhavyaaChauhan.jpg",
+                photo: "/team/BhavyaaChauhan.jpeg",
                 emoji: "💯"
             },
             {
