@@ -26,7 +26,7 @@ export const data = [
                 name: "Lasya Neti",
                 position: "Systems Lead",
                 funFact: "I met Jake from State Farm!",
-                photo: "/team/LasyaNeti2.jpg",
+                photo: "/team/LasyaNeti2.jpeg",
                 emoji: "🔥"
             },
             {
@@ -41,7 +41,7 @@ export const data = [
                 name: "Akul Sharma",
                 position: "API",
                 funFact: "I have a black Labrador mix named Oreo",
-                photo: "/team/AkulSharma.jpg",
+                photo: "/team/AkulSharma.jpeg",
                 emoji: "🤠"
             },
             {
@@ -55,7 +55,7 @@ export const data = [
                 name: "Nikhita Punati",
                 position: "API",
                 funFact: "I like pickles and peanut butter, especially together!",
-                photo: "/team/NikhitaPunati.png",
+                photo: "/team/NikhitaPunati.jpg",
                 emoji: "🤺"
             },
             {
@@ -132,7 +132,7 @@ export const data = [
                 name: "Joshua Goon",
                 position: "Web",
                 funFact: "top 1% lizzo listener",
-                photo: "/team/JoshuaGoon.png",
+                photo: "/team/JoshuaGoon.jpg",
                 emoji: "🫣"
             },
             {
@@ -174,7 +174,7 @@ export const data = [
                 position: "",
                 funFact:
                     "A dilophosaurus once spat on me at Jurassic Park :(",
-                photo: "/team/AmandaWang.jpg",
+                photo: "/team/AmandaWang.jpeg",
                 emoji: "🤪"
             },
             {
@@ -211,14 +211,14 @@ export const data = [
                 name: "Diya Yunus",
                 position: "",
                 funFact: "I like to play badminton",
-                photo: "/team/DiyaYunus.jpg",
+                photo: "/team/DiyaYunus.jpeg",
                 emoji: "☕️"
             },
             {
                 name: "Hetvi Patel",
                 position: "",
                 funFact: "I love playing badminton and have played it for the past 7 years.",
-                photo: "/team/HetviPatel.jpg",
+                photo: "/team/HetviPatel.jpeg",
                 emoji: "🙃"
             },
             {
@@ -246,7 +246,7 @@ export const data = [
                 name: "Walter Tang",
                 position: "",
                 funFact: "i really like bomb pops",
-                photo: "/team/WalterTang.JPG",
+                photo: "/team/WalterTang.jpeg",
                 emoji: "🥺"
             }
         ]
@@ -322,7 +322,7 @@ export const data = [
                 position: "",
                 funFact:
                     "I love sushi! ... except with a mandatory side of allergy pills :D",
-                photo: "/team/ConnieLu.jpg",
+                photo: "/team/ConnieLu.jpeg",
                 emoji: "🐼"
             },
             {
@@ -372,10 +372,10 @@ export const data = [
                 emoji: "🗿"
             },
             {
-                name: "Bhavya Chauhan",
+                name: "Bhavyaa Chauhan",
                 position: "",
                 funFact: "\"Barbie\" actually used to be my fake Starbucks name",
-                photo: "/team/BhavyaaChauhan.jpg",
+                photo: "/team/BhavyaaChauhan.jpeg",
                 emoji: "💯"
             },
             {
@@ -418,7 +418,7 @@ export const data = [
                 name: "Vani Ramesh",
                 position: "",
                 funFact: "I bingewatched 9 seasons of Suits in less than a month 😭",
-                photo: "/team/VaniRamesh.png",
+                photo: "/team/VaniRamesh.jpg",
                 emoji: "🌷"
             },
         ]
