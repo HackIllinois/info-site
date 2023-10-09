@@ -1,0 +1,47 @@
+.storyGrid {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.image {
+    width: 40rem;
+    height: auto;
+    max-width: 90%;
+    max-height: 24rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.story {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+
+    .avatar {
+        width: 7rem;
+        height: 7rem;
+
+        &::before {
+           padding-bottom: 100%;
+        }
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.75rem;
+
+        .quote {
+            font-size: 1.25rem;
+            font-weight: 400;
+            line-height: 1.5rem;
+        }
+
+        .name {
+            font-size: 1rem;
+            font-weight: 300;
+            line-height: 1rem;
+        }
+    }
+}
