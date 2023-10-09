@@ -4,27 +4,79 @@
         margin-bottom: 3rem;
     }
 
-    padding: 0 5%;
-
-    > button {
-        margin: auto;
-        display: block;
-    }
-
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 
-.grid {
+.topSection {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10rem;
+
+    .backgroundTopLeft {
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5rem;
+
+        > img {
+            max-width: 100%;
+        }
+    }
+
+    .banner {
+        margin: 0 auto;
+    }
+
+    .backgroundTopRight {
+        margin-left: auto;
+        max-width: 25rem;
+        display: flex;
+        align-items: flex-end;
+
+        > img {
+            max-width: 100%;
+            transform: rotate(-22.5deg);
+        }
+    }
+}
+
+.grid > *:not(.backgroundMiddle) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 7.5rem;
     row-gap: 5rem;
     overflow-y: hidden;
-    margin-bottom: 10rem;
+    margin-bottom: 7.5rem;
 
-    > div:first-child {
-        grid-column: 1/3;
-        width: 60%;
-        justify-self: center;
+    // > div:first-child {
+    //     grid-column: 1/3;
+    //     width: 60%;
+    //     justify-self: center;
+    // }
+}
+
+.bottomSection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    .backgroundBottomLeft {
+        margin-right: auto;
+    }
+
+    .joinUs {
+        margin: 5% auto 0;
+        > h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        > button {
+            margin: auto;
+            display: block;
+        }
+    }
+
+    .backgroundBottomRight {
+        margin-left: auto;
     }
 }
