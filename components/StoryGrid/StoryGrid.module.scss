@@ -2,46 +2,201 @@
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
+
+    .image {
+        width: 40rem;
+        height: auto;
+        max-width: 90%;
+        max-height: 24rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .story {
+        display: flex;
+        flex-direction: row;
+        column-gap: 1.5rem;
+    
+        .avatar {
+            width: 7rem;
+            height: 7rem;
+    
+            &::before {
+                padding-bottom: 100%;
+            }
+        }
+    
+        .text {
+            display: flex;
+            flex-direction: column;
+            row-gap: 0.75rem;
+    
+            .quote {
+                font-size: 1.25rem;
+                font-weight: 400;
+                line-height: 1.5rem;
+            }
+    
+            .name {
+                font-size: 1rem;
+                font-weight: 300;
+                line-height: 1rem;
+            }
+        }
+    }
 }
 
-.image {
-    width: 40rem;
-    height: auto;
-    max-width: 90%;
-    max-height: 24rem;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.story {
+
+.compactStoryGrid {
     display: flex;
-    flex-direction: row;
-    column-gap: 1.5rem;
+    flex-direction: column;
+    row-gap: 1rem;
 
-    .avatar {
-        width: 7rem;
-        height: 7rem;
+    .image {
+        width: 44rem;
+        height: auto;
+        max-width: 100%;
+        max-height: 24rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-        &::before {
-           padding-bottom: 100%;
+    .story {
+        display: flex;
+        flex-direction: row;
+        column-gap: 1.5rem;
+        width: 42rem;
+
+        .avatar {
+            width: 7rem;
+            height: 7rem;
+            max-width: 100%;
+
+            &::before {
+                padding-bottom: 100%;
+            }
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            row-gap: 0.75rem;
+
+            .quote {
+                font-size: 1.25rem;
+                font-weight: 400;
+                line-height: 1.5rem;
+            }
+
+            .name {
+                font-size: 1rem;
+                font-weight: 300;
+                line-height: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .storyGrid {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    
+        .image {
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            max-height: 24rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .story {
+            display: flex;
+            flex-direction: row;
+            column-gap: 0.675rem;
+            width: 100%;
+    
+            .avatar {
+                width: 3.5rem;
+                height: 3.5rem;
+                max-width: 100%;
+    
+                &::before {
+                    padding-bottom: 100%;
+                }
+            }
+    
+            .text {
+                display: flex;
+                flex-direction: column;
+                row-gap: 0.325rem;
+    
+                .quote {
+                    font-size: 0.875rem;
+                    font-weight: 400;
+                    line-height: 1rem;
+                }
+    
+                .name {
+                    font-size: 0.675rem;
+                    font-weight: 300;
+                    line-height: 0.75rem;
+                }
+            }
         }
     }
 
-    .text {
+    .compactStoryGrid {
         display: flex;
         flex-direction: column;
-        row-gap: 0.75rem;
+        row-gap: 1rem;
 
-        .quote {
-            font-size: 1.25rem;
-            font-weight: 400;
-            line-height: 1.5rem;
+        .image {
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            max-height: 24rem;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        .name {
-            font-size: 1rem;
-            font-weight: 300;
-            line-height: 1rem;
+        .story {
+            display: flex;
+            flex-direction: row;
+            column-gap: 0.675rem;
+            width: 100%;
+    
+            .avatar {
+                width: 3.5rem;
+                height: 3.5rem;
+                max-width: 100%;
+    
+                &::before {
+                    padding-bottom: 100%;
+                }
+            }
+    
+            .text {
+                display: flex;
+                flex-direction: column;
+                row-gap: 0.325rem;
+    
+                .quote {
+                    font-size: 0.875rem;
+                    font-weight: 400;
+                    line-height: 1rem;
+                }
+    
+                .name {
+                    font-size: 0.675rem;
+                    font-weight: 300;
+                    line-height: 0.75rem;
+                }
+            }
         }
     }
 }

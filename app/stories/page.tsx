@@ -35,6 +35,7 @@ const Stories = () => {
                                 image={storyData.image}
                                 avatar={storyData.avatar}
                                 quote={storyData.quote}
+                                compact
                             />
                         ))}
                 </div>
@@ -42,13 +43,13 @@ const Stories = () => {
                     <img src="/stories/background-top-right.svg" />
                 </div>
             </div>
-            <div className={styles.grid}>
+            <div className={styles.middleSection}>
                 {data
                     .filter((el: story) => el.id !== "banner")
                     .map((story: story, index: React.Key) =>
                         story.data.map((storyData: storyData) => {
                             return (
-                                <div className={styles.grid}>
+                                <>
                                     {index === 2 && (
                                         <div
                                             className={styles.backgroundMiddle}
@@ -62,7 +63,7 @@ const Stories = () => {
                                         avatar={storyData.avatar}
                                         quote={storyData.quote}
                                     />
-                                </div>
+                                </>
                             );
                         })
                     )}

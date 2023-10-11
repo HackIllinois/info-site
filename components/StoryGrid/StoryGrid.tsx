@@ -6,16 +6,18 @@ interface StoryGridProps {
     image: string;
     avatar: string;
     quote: string;
+    compact?: boolean;
 }
 
 const StoryGrid: React.FC<StoryGridProps> = ({
     name,
     image,
     avatar,
-    quote
+    quote,
+    compact = false
 }) => {
     return (
-        <div className={styles.storyGrid}>
+        <div className={compact ? styles.compactStoryGrid : styles.storyGrid}>
             <img src={image} alt={name} className={styles.image} />
             <div className={styles.story}>
                 <img src={avatar} alt={name} className={styles.avatar} />
