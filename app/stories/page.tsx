@@ -1,20 +1,21 @@
+import React from "react";
 import StoryGrid from "@/components/StoryGrid/StoryGrid";
 import styles from "./page.module.scss";
 import { data } from "@/modules/StoriesData";
 import Container from "@/components/Container/Container";
 import Button from "@/components/Button/Button";
-import React from "react";
 
 type story = {
     id: string;
-    data: storyData[];
-};
-
-type storyData = {
     name: string;
     image: string;
     avatar: string;
     quote: string;
+    carousel: storyCarousel[];
+};
+
+type storyCarousel = {
+    image: string;
 };
 
 const Stories = () => {
@@ -28,13 +29,13 @@ const Stories = () => {
                 </div>
                 <div className={styles.banner}>
                     {data
-                        .filter((el: story) => el.id === "banner")[0]
-                        .data.map((storyData: storyData) => (
+                        .filter((el: story) => el.id === "banner")
+                        .map((story: story) => (
                             <StoryGrid
-                                name={storyData.name}
-                                image={storyData.image}
-                                avatar={storyData.avatar}
-                                quote={storyData.quote}
+                                name={story.name}
+                                avatar={story.avatar}
+                                quote={story.quote}
+                                carousel={story.carousel}
                                 compact
                             />
                         ))}
@@ -46,27 +47,23 @@ const Stories = () => {
             <div className={styles.middleSection}>
                 {data
                     .filter((el: story) => el.id !== "banner")
-                    .map((story: story, index: React.Key) =>
-                        story.data.map((storyData: storyData) => {
-                            return (
-                                <>
-                                    {index === 2 && (
-                                        <div
-                                            className={styles.backgroundMiddle}
-                                        >
-                                            <img src="/stories/background-middle.svg" />
-                                        </div>
-                                    )}
-                                    <StoryGrid
-                                        name={storyData.name}
-                                        image={storyData.image}
-                                        avatar={storyData.avatar}
-                                        quote={storyData.quote}
-                                    />
-                                </>
-                            );
-                        })
-                    )}
+                    .map((story: story, index: React.Key) => {
+                        return (
+                            <>
+                                {index === 2 && (
+                                    <div className={styles.backgroundMiddle}>
+                                        <img src="/stories/background-middle.svg" />
+                                    </div>
+                                )}
+                                <StoryGrid
+                                    name={story.name}
+                                    avatar={story.avatar}
+                                    quote={story.quote}
+                                    carousel={story.carousel}
+                                />
+                            </>
+                        );
+                    })}
             </div>
             <div className={styles.bottomSection}>
                 <img

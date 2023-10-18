@@ -3,42 +3,53 @@
     flex-direction: column;
     row-gap: 1rem;
 
-    .image {
-        width: 40rem;
-        aspect-ratio: 1/1;
-        border-radius: 1.25rem;
-        object-fit: cover;
-        max-width: 90%;
+    .carousel {
+        width: 100%;
+        max-width: 40rem;
+        height: 100%;
         max-height: 24rem;
+        overflow-y: hidden;
         margin-left: auto;
         margin-right: auto;
+        border-radius: 1.25rem;
+
+        .slide {
+            width: 100%;
+            height: inherit;
+
+            img {
+                width: 100%;
+                height: inherit;
+                max-width: 100%;
+            }
+        }
     }
-    
+
     .story {
         display: flex;
         flex-direction: row;
         column-gap: 1.5rem;
-    
+
         .avatar {
             width: 7rem;
             height: 7rem;
-    
+
             &::before {
                 padding-bottom: 100%;
             }
         }
-    
+
         .text {
             display: flex;
             flex-direction: column;
             row-gap: 0.75rem;
-    
+
             .quote {
                 font-size: 1.25rem;
                 font-weight: 400;
                 line-height: 1.5rem;
             }
-    
+
             .name {
                 font-size: 1rem;
                 font-weight: 300;
@@ -48,22 +59,31 @@
     }
 }
 
-
-
 .compactStoryGrid {
     display: flex;
     flex-direction: column;
     row-gap: 1rem;
 
-    .image {
-        width: 44rem;
-        min-height: 30rem;
-        aspect-ratio: 1/1;
-        border-radius: 1.25rem;
+    .carousel {
+        width: 50rem;
         max-width: 100%;
-        max-height: 24rem;
+        height: 100%;
+        max-height: 34rem;
+        overflow-y: hidden;
         margin-left: auto;
         margin-right: auto;
+        border-radius: 1.25rem;
+
+        .slide {
+            width: 100%;
+            height: inherit;
+
+            img {
+                width: 100%;
+                height: inherit;
+                max-width: 100%;
+            }
+        }
     }
 
     .story {
@@ -103,50 +123,60 @@
 }
 
 @media screen and (max-width: 640px) {
-
     .storyGrid {
         display: flex;
         flex-direction: column;
         row-gap: 1rem;
-    
-        .image {
+
+        .carousel {
             width: 100%;
             min-height: 16rem;
             height: auto;
-            aspect-ratio: initial;
             max-width: 100%;
-            max-height: 24rem;
+            max-height: 20rem;
             margin-left: auto;
             margin-right: auto;
+            border-radius: 1.25rem;
+
+            .slide {
+                width: 100%;
+                height: inherit;
+
+                img {
+                    width: 100%;
+                    height: inherit;
+                    max-width: 100%;
+                }
+            }
         }
-        
+
         .story {
             display: flex;
             flex-direction: row;
             column-gap: 0.675rem;
             width: 100%;
-    
+
             .avatar {
                 width: 3.5rem;
                 height: 3.5rem;
                 max-width: 100%;
-    
+
                 &::before {
                     padding-bottom: 100%;
                 }
             }
-    
+
             .text {
                 display: flex;
                 flex-direction: column;
                 row-gap: 0.325rem;
-    
+
                 .quote {
                     font-size: 0.875rem;
                     font-weight: 400;
                     line-height: 1rem;
                 }
-    
+
                 .name {
                     font-size: 0.675rem;
                     font-weight: 300;
@@ -161,15 +191,26 @@
         flex-direction: column;
         row-gap: 1rem;
 
-        .image {
+        .carousel {
             width: 100%;
             min-height: 16rem;
             height: auto;
-            aspect-ratio: initial;
             max-width: 100%;
             max-height: 24rem;
             margin-left: auto;
             margin-right: auto;
+            border-radius: 1.25rem;
+
+            .slide {
+                width: 100%;
+                height: inherit;
+
+                img {
+                    width: 100%;
+                    height: inherit;
+                    max-width: 100%;
+                }
+            }
         }
 
         .story {
@@ -177,28 +218,28 @@
             flex-direction: row;
             column-gap: 0.675rem;
             width: 100%;
-    
+
             .avatar {
                 width: 3.5rem;
                 height: 3.5rem;
                 max-width: 100%;
-    
+
                 &::before {
                     padding-bottom: 100%;
                 }
             }
-    
+
             .text {
                 display: flex;
                 flex-direction: column;
                 row-gap: 0.325rem;
-    
+
                 .quote {
                     font-size: 0.875rem;
                     font-weight: 400;
                     line-height: 1rem;
                 }
-    
+
                 .name {
                     font-size: 0.675rem;
                     font-weight: 300;
