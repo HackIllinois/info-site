@@ -30,13 +30,14 @@ const Stories = () => {
                 <div className={styles.banner}>
                     {data
                         .filter((el: story) => el.id === "banner")
-                        .map((story: story) => (
+                        .map((story: story, index: React.Key) => (
                             <StoryGrid
                                 name={story.name}
                                 avatar={story.avatar}
                                 quote={story.quote}
                                 carousel={story.carousel}
                                 compact
+                                key={index}
                             />
                         ))}
                 </div>
@@ -49,7 +50,7 @@ const Stories = () => {
                     .filter((el: story) => el.id !== "banner")
                     .map((story: story, index: React.Key) => {
                         return (
-                            <>
+                            <React.Fragment key={`${story.name}${index}`}>
                                 {index === 2 && (
                                     <div className={styles.backgroundMiddle}>
                                         <img src="/stories/background-middle.svg" />
@@ -61,7 +62,7 @@ const Stories = () => {
                                     quote={story.quote}
                                     carousel={story.carousel}
                                 />
-                            </>
+                            </React.Fragment>
                         );
                     })}
             </div>
