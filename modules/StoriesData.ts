@@ -1,58 +1,71 @@
 export const data = [
     {
         id: "banner",
-        data: [
+        name: "Deeya Bodas, Co-Director 2022-23",
+        avatar: "/stories/banner-avatar1.png",
+        quote: "“The best way to describe the welcoming and tight-knit staff culture is nothing short of family.”",
+        carousel: [
             {
-                name: "Deeya Bodas, Co-Director 2022-23",
-                image: "/stories/banner-image1.png",
-                avatar: "/stories/banner-avatar1.png",
-                quote:
-                    "“The best way to describe the welcoming and tight-knit staff culture is nothing short of family.”"
+                image: "/stories/banner-image1.png"
+            },
+            {
+                image: "/stories/banner-image2.png"
             }
         ]
     },
     {
         id: "top-left",
-        data: [
+        name: "Saloni Vaishnav, Experience 2022-23",
+        avatar: "/stories/top-left-avatar1.png",
+        quote: "“...the best memory I have ... is working on, and seeing other teams work on so many different parts of the event and then seeing it all come together in the end.”",
+        carousel: [
             {
-                name: "Saloni Vaishnav, Experience 2022-23",
-                image: "/stories/top-left-image1.png",
-                avatar: "/stories/top-left-avatar1.png",
-                quote:
-                    "“...the best memory I have ... is working on, and seeing other teams work on so many different parts of the event and then seeing it all come together in the end.”"
+                image: "/stories/top-left-image1.png"
+            },
+            {
+                image: "/stories/top-left-image2.png"
             }
         ]
     },
     {
         id: "top-right",
-        data: [
+        name: "Helen Tran, Marketing 2022-23",
+        avatar: "/stories/top-right-avatar1.png",
+        quote: "“I was grateful to see each unique team work together for 9 months and being able to see the final product made me so happy.”",
+        carousel: [
             {
-                name: "Helen Tran, Marketing 2022-23",
-                image: "/stories/top-right-image1.png",
-                avatar: "/stories/top-right-avatar1.png",
-                quote: "“I was grateful to see each unique team work together for 9 months and being able to see the final product made me so happy.”"
+                image: "/stories/top-right-image1.png"
+            },
+            {
+                image: "/stories/top-right-image2.png"
             }
         ]
     },
     {
         id: "bottom-left",
-        data: [
+        name: "Ashay Parikh, Systems 2022-23",
+        avatar: "/stories/bottom-left-avatar1.png",
+        quote: "“Getting to work with motivated, talented members, improving event infrastructure, and organizing fun, team-bonding events helped me grow my technical and leadership skills...”",
+        carousel: [
             {
-                name: "Ashay Parikh, Systems 2022-23",
-                image: "/stories/bottom-left-image1.png",
-                avatar: "/stories/bottom-left-avatar1.png",
-                quote: "“Getting to work with motivated, talented members, improving event infrastructure, and organizing fun, team-bonding events helped me grow my technical and leadership skills...”"
+                image: "/stories/bottom-left-image1.png"
+            },
+            {
+                image: "/stories/bottom-left-image2.png"
             }
         ]
     },
     {
         id: "bottom-right",
-        data: [
+        name: "Miranda Ma, Design 2022-23",
+        avatar: "/stories/bottom-right-avatar1.png",
+        quote: "“I loved being a part of an amazing design team and working with other creative individuals. Being able to see your work on a large scale event was something incredible to experience.”",
+        carousel: [
             {
-                name: "Miranda Ma, Design 2022-23",
-                image: "/stories/bottom-right-image1.png",
-                avatar: "/stories/bottom-right-avatar1.png",
-                quote: "“I loved being a part of an amazing design team and working with other creative individuals. Being able to see your work on a large scale event was something incredible to experience.”"
+                image: "/stories/bottom-right-image1.png"
+            },
+            {
+                image: "/stories/bottom-right-image2.png"
             }
         ]
     }
