@@ -25,11 +25,21 @@ const Page = () => {
                 <div className="icon-div">
                     <img src="hackillinois-main.svg" className="iconPosition" />
                 </div>
-                <h2 className="text-div">
+                {/* <h2 className="text-div">
                     The University of Illinois at Urbana Champaign’s premier,
                     student-run hackathon!
-                </h2>
+                </h2> */}
+                <a href="https://hackillinois.org" target="_blank" rel="noopener noreferrer" className="text-div">
+                    <Button
+                        text={"Check out HackIllinois 2024"}
+                        navigateTo=""
+                        backgroundColor={"#68C8BF"}
+                        textColor={"#FCE891"}
+                    />
+                </a>
+                
             </div>
+            
 
             {/* Main Body of the page */}
             <Container style={{ rowGap: "5rem" }}>

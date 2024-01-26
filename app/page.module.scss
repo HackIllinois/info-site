@@ -169,6 +169,16 @@
     }
 }
 
+.webButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    // transform: translateY(-80%);
+    z-index: 1;
+}
+
+
 // Mobile phone responsiveness
 @media screen and (max-width: 640px) {
     .bottomSection {
