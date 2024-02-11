@@ -379,13 +379,6 @@ export const data = [
                 emoji: "💯"
             },
             {
-                name: "Damini Rana",
-                position: "",
-                funFact: "my fun fact is that i despise fun facts",
-                photo: "/team/DaminiRana.jpeg",
-                emoji: "🦆"
-            },
-            {
                 name: "Howard Ding",
                 position: "",
                 funFact: "I'm learning to fly a plane",
