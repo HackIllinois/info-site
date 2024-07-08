@@ -33,7 +33,8 @@ const Navbar = () => {
     const router = useRouter();
 
     const handleOnClickJoinUs = () => {
-        router.push("/join-us");
+        // router.push("/join-us");
+        window.location.href = "https://go.hackillinois.org/summer24";
     };
 
     return (
@@ -89,7 +90,7 @@ const Navbar = () => {
                         </a>
                     ))}
                     <a
-                            href="/join-us"
+                            href="https://go.hackillinois.org/summer24"
                             className={path === "/join-us" ? "link active" : "link"}
                         >
                             Join Us
