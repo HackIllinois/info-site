@@ -1,3 +1,29 @@
+.mainTitle {
+    text-align: center;
+    color: #68c8bf;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.yearDropdown {
+    text-align: center;
+    color: #68c8bf;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    background-color: transparent;
+    border: none;
+}
+
+.yearDropdown option {
+    font-size: 1.5rem;
+}
+
+.yearDropdown option:checked {
+    color: #fba036;
+}
+
 .teamLayout:not(:first-child) {
     margin-top: 6rem;
 }
