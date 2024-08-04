@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { data } from "@/modules/TeamData";
 import styles from "./Team.module.scss";
 import Container from "@/components/Container/Container";
+import Select from "../Select/Select";
 
 type team = {
     teamName: string;
@@ -25,7 +26,7 @@ const Team = () => {
     return (
         <>
             <Container>
-                <h1 className={styles.mainTitle}>Meet our <select
+                {/* <h1 className={styles.mainTitle}>Meet our <select
                     value={year}
                     onChange={(e) => setYear(e.target.value as year)}
                     className={styles.yearDropdown}
@@ -35,7 +36,12 @@ const Team = () => {
                             {key}
                         </option>
                     ))}
-                </select> Team</h1>
+                </select> Team</h1> */}
+                <div className={styles.mainTitle}>
+                    <h1>Meet our</h1>
+                    <Select options={Object.keys(data)} />
+                    <h1>Team</h1>
+                </div>
                 {data[year].map((team: team, index: React.Key) => (
                     <div className={styles.teamLayout} key={index}>
                         <h1>{team.teamName}</h1>

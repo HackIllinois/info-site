@@ -1,9 +1,16 @@
 .mainTitle {
-    text-align: center;
-    color: #68c8bf;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    h1 {
+        text-align: center;
+        color: #68c8bf;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3rem;
+    }
 }
 
 .yearDropdown {
@@ -29,7 +36,7 @@
 }
 
 .teamLayout {
-    > h1 {
+    >h1 {
         text-align: center;
     }
 }
@@ -64,6 +71,7 @@
             font-weight: 500;
             line-height: 2.5rem;
         }
+
         .position {
             font-size: 1.25rem;
             font-weight: 400;
@@ -152,7 +160,7 @@
     }
 
     .teamLayout {
-        > h1 {
+        >h1 {
             font-size: 1.875rem;
             line-height: 1.25rem;
         }
@@ -181,6 +189,7 @@
                 font-weight: 500;
                 line-height: 1.125rem;
             }
+
             .position {
                 font-size: 0.875rem;
                 font-weight: 400;
