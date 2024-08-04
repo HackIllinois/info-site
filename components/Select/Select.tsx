@@ -4,31 +4,35 @@ import styles from "./Select.module.scss";
 
 type SelectProps = {
     options: string[];
+    titleStyle: string;
+    optionStyle: string;
+    selectedStyle: string;
 }
 
-const Select: React.FC<SelectProps> = ({ options }) => {
+const Select: React.FC<SelectProps> = ({ options, titleStyle, optionStyle, selectedStyle }) => {
     const [selected, setSelected] = useState(options.at(0));
     const [open, setOpen] = useState(false);
 
     return (
-            <div className={`${styles.select} ${open ? styles.openSelect: ''}`}>
+            <div className={styles.select}>
                 <button
                     onClick={() => setOpen(previous => !previous)}
-                    className={styles.dropdownBtn}
+                    className={`${styles.dropdownBtn} ${open ? styles.openSelect: ''}`}
                 >
-                    <h1>{selected}</h1>
+                    <div className={titleStyle}>{selected}</div>
                 </button>
-                <div className={styles.dropdown}>
+                <div className={styles.dropdown} style={{opacity: open ? 1 : 0, transform: "translateY(100%)"}}>
                     {options.map(option => (
-                        <div
+                        <button
                             key={option}
                             onClick={() => {
                                 setSelected(option);
                                 setOpen(false);
                             }}
+                            className={option === selected ? selectedStyle : optionStyle}
                         >
-                            <p>{option}</p>
-                        </div>
+                            {option}
+                        </button>
                     ))}
                 </div>
             </div>

@@ -39,7 +39,12 @@ const Team = () => {
                 </select> Team</h1> */}
                 <div className={styles.mainTitle}>
                     <h1>Meet our</h1>
-                    <Select options={Object.keys(data)} />
+                    <Select 
+                        options={Object.keys(data)}
+                        titleStyle={styles.selectTitleStyle}
+                        optionStyle={styles.optionStyle}
+                        selectedStyle={styles.selectedStyle}
+                    />
                     <h1>Team</h1>
                 </div>
                 {data[year].map((team: team, index: React.Key) => (
