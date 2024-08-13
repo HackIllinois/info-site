@@ -30,17 +30,6 @@ const Team = () => {
     return (
         <>
             <Container>
-                {/* <h1 className={styles.mainTitle}>Meet our <select
-                    value={year}
-                    onChange={(e) => setYear(e.target.value as year)}
-                    className={styles.yearDropdown}
-                >
-                    {Object.keys(data).map((key) => (
-                        <option key={key} value={key}>
-                            {key}
-                        </option>
-                    ))}
-                </select> Team</h1> */}
                 <div className={styles.mainTitle}>
                     <h1>Meet our</h1>
                     <Select 
