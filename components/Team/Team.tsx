@@ -21,11 +21,8 @@ type teamMember = {
 type year = keyof typeof data;
 
 const Team = () => {
-    const [year, setYear] = useState<year>("2024");
-
-    const options = Object.keys(data).reverse();
-    const currOption = options[0];
-    const prevOptions = options.slice(1);
+    const options = Object.keys(data).reverse() as year[];
+    const [year, setYear] = useState<year>(options[0]);
 
     return (
         <>
@@ -33,8 +30,7 @@ const Team = () => {
                 <div className={styles.mainTitle}>
                     <h1>Meet our</h1>
                     <Select 
-                        currOption={currOption}
-                        prevOptions={prevOptions}
+                        options={options}
                         titleStyle={styles.selectTitleStyle}
                         optionStyle={styles.optionStyle}
                         selectedStyle={styles.selectedStyle}

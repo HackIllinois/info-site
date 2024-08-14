@@ -3,16 +3,15 @@ import React, { useState } from "react";
 import styles from "./Select.module.scss";
 
 type SelectProps = {
-    currOption: string;
-    prevOptions: string[];
+    options: string[];
     titleStyle: string;
     optionStyle: string;
     selectedStyle: string;
     setSelected: React.Dispatch<React.SetStateAction<string>>
 }
 
-const Select: React.FC<SelectProps> = ({ currOption, prevOptions, titleStyle, optionStyle, selectedStyle, setSelected }) => {
-    const [selected, setInnerSelected] = useState(currOption);
+const Select: React.FC<SelectProps> = ({ options, titleStyle, optionStyle, selectedStyle, setSelected }) => {
+    const [selected, setInnerSelected] = useState(options[0]);
     const [open, setOpen] = useState(false);
 
     return (
@@ -24,20 +23,7 @@ const Select: React.FC<SelectProps> = ({ currOption, prevOptions, titleStyle, op
                 <h1 className={titleStyle}>{selected}</h1>
             </button>
             <div className={styles.dropdown} style={{ opacity: open ? 1 : 0 }}>
-                <div className={styles.divider}>Current</div>
-                <button
-                    key={currOption}
-                    onClick={() => {
-                        setInnerSelected(currOption);
-                        setSelected(currOption);
-                        setOpen(false);
-                    }}
-                    className={currOption === selected ? selectedStyle : optionStyle}
-                >
-                    <p>{currOption}</p>
-                </button>
-                <div className={`${styles.divider} ${styles.midDivider}`}>Previous</div>
-                {prevOptions.map((option) => (
+                {options.map((option) => (
                     <button
                         key={option}
                         onClick={() => {
