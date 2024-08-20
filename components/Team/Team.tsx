@@ -1,6 +1,5 @@
 "use client";
-import React, { useState } from "react";
-import { data } from "@/modules/TeamData";
+import React, { useEffect, useState } from "react";
 import styles from "./Team.module.scss";
 import Container from "@/components/Container/Container";
 import Select from "../Select/Select";
@@ -18,19 +17,29 @@ type teamMember = {
     emoji: string;
 };
 
-type year = keyof typeof data;
+const years = ["2024"] as const; // Array of years with team data in reverse chronological order
 
 const Team = () => {
-    const options = Object.keys(data).reverse() as year[];
-    const [year, setYear] = useState<year>(options[0]);
+    const [year, setYear] = useState<(typeof years)[number]>("2024"); // Most recent year
+    const [team, setTeam] = useState<team[]>([]);
+
+    useEffect(() => {
+        const fetchTeamData = async () => {
+            const response = await fetch(`/team/data/${year}.json`);
+            const data = await response.json();
+            setTeam(data);
+        };
+
+        fetchTeamData();
+    }, [year]);
 
     return (
         <>
             <Container>
                 <div className={styles.mainTitle}>
                     <h1>Meet our</h1>
-                    <Select 
-                        options={options}
+                    <Select
+                        options={years}
                         titleStyle={styles.selectTitleStyle}
                         optionStyle={styles.optionStyle}
                         selectedStyle={styles.selectedStyle}
@@ -38,7 +47,7 @@ const Team = () => {
                     />
                     <h1>Team</h1>
                 </div>
-                {data[year].map((team: team, index: React.Key) => (
+                {team.map((team: team, index: React.Key) => (
                     <div className={styles.teamLayout} key={index}>
                         <h1>{team.teamName}</h1>
                         <div className={styles.membersLayout}>
@@ -69,7 +78,7 @@ const Team = () => {
                                             <img
                                                 src={
                                                     member.photo
-                                                        ? member.photo
+                                                        ? `/team/photos/${year}/${member.photo}`
                                                         : "team/default.svg"
                                                 }
                                                 alt={member.name}
