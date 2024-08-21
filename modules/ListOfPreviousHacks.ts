@@ -37,6 +37,6 @@ export const listOfPreviousHacks = [
     {
         name: "2024",
         image: "/history/previousHacks/2024.svg",
-        link: "https://hackillinois.org"
+        link: "https://2024.hackillinois.org"
     }
 ];
