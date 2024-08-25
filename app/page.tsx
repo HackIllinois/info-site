@@ -31,7 +31,7 @@ const Page = () => {
                 </h2> */}
                 <a href="https://hackillinois.org" target="_blank" rel="noopener noreferrer" className="text-div">
                     <Button
-                        text={"Check out HackIllinois 2024"}
+                        text={"Check out HackIllinois 2025"}
                         navigateTo="https://hackillinois.org"
                         backgroundColor={"#68C8BF"}
                         textColor={"#FCE891"}
