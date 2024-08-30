@@ -32,9 +32,9 @@ const Navbar = () => {
     const path = usePathname();
     const router = useRouter();
 
-    const handleOnClickJoinUs = () => {
-        // router.push("/join-us");
-        window.location.href = "https://go.hackillinois.org/summer24";
+    const handleOnClickJoinUs = (e: React.MouseEvent<HTMLButtonElement>) => {
+        e.preventDefault();
+        router.push("/join-us");
     };
 
     return (
