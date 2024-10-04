@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./Team.module.scss";
 import Container from "@/components/Container/Container";
 import Select from "../Select/Select";
+import { data } from "@/modules/TeamData";
 
 type team = {
     teamName: string;
@@ -17,21 +18,9 @@ type teamMember = {
     emoji: string;
 };
 
-const years = ["2024"] as const; // Array of years with team data in reverse chronological order
-
 const Team = () => {
-    const [year, setYear] = useState<(typeof years)[number]>("2024"); // Most recent year
-    const [team, setTeam] = useState<team[]>([]);
-
-    useEffect(() => {
-        const fetchTeamData = async () => {
-            const response = await fetch(`/team/data/${year}.json`);
-            const data = await response.json();
-            setTeam(data);
-        };
-
-        fetchTeamData();
-    }, [year]);
+    const years = Object.keys(data) as Array<keyof typeof data>;
+    const [year, setYear] = useState<keyof typeof data>(years[0]); // Most recent year
 
     return (
         <>
@@ -47,7 +36,7 @@ const Team = () => {
                     />
                     <h1>Team</h1>
                 </div>
-                {team.map((team: team, index: React.Key) => (
+                {data[year].map((team: team, index: React.Key) => (
                     <div className={styles.teamLayout} key={index}>
                         <h1>{team.teamName}</h1>
                         <div className={styles.membersLayout}>
@@ -78,7 +67,7 @@ const Team = () => {
                                             <img
                                                 src={
                                                     member.photo
-                                                        ? `/team/photos/${year}/${member.photo}`
+                                                        ? member.photo
                                                         : "team/default.svg"
                                                 }
                                                 alt={member.name}
