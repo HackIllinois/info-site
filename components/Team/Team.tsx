@@ -5,21 +5,10 @@ import Container from "@/components/Container/Container";
 import Select from "../Select/Select";
 import { data } from "@/modules/TeamData";
 
-type team = {
-    teamName: string;
-    teamMembers: teamMember[];
-};
-
-type teamMember = {
-    name: string;
-    position: string;
-    funFact: string;
-    photo: string;
-    emoji: string;
-};
-
 const Team = () => {
     const years = Object.keys(data) as Array<keyof typeof data>;
+    years.sort((a, b) => Number.parseInt(b) - Number.parseInt(a)); // Sort years in reverse chronological order
+
     const [year, setYear] = useState<keyof typeof data>(years[0]); // Most recent year
 
     return (
@@ -36,12 +25,12 @@ const Team = () => {
                     />
                     <h1>Team</h1>
                 </div>
-                {data[year].map((team: team, index: React.Key) => (
+                {data[year].map((team, index: React.Key) => (
                     <div className={styles.teamLayout} key={index}>
                         <h1>{team.teamName}</h1>
                         <div className={styles.membersLayout}>
                             {team.teamMembers.map(
-                                (member: teamMember, key: React.Key) => (
+                                (member, key: React.Key) => (
                                     <div
                                         className={styles.memberCard}
                                         key={key}
