@@ -1,7 +1,23 @@
 export const data = [
     {
         teamName: "Co-Directors",
-        teamMembers: []
+        teamMembers: [
+            {
+                name: "Nancy Zhang",
+                position: "Co-Director",
+                funFact: "I raise chickens!",
+                photo: "/team/2025/NancyZhang.jpg",
+                emoji: "🦭"
+            },
+            {
+                name: "Aydan Pirani",
+                position: "Co-Director",
+                funFact:
+                    "I once fell out of a boat while whitewater rafting and had to be rescued by my friend!",
+                photo: "/team/2024/AydanPirani.jpg",
+                emoji: "👨‍💻"
+            }
+        ]
     },
     {
         teamName: "Systems",
@@ -157,7 +173,7 @@ export const data = [
                 emoji: "🥹"
             },
             {
-                name: "Pritika Aggarwal ",
+                name: "Pritika Aggarwal",
                 position: "Experience",
                 funFact: "I taught my cat to play fetch and hide-and-seek!",
                 photo: "/team/2025/PritikaAggarwal.jpg",
@@ -286,6 +302,20 @@ export const data = [
         teamName: "Marketing",
         teamMembers: [
             {
+                name: "Hela Kasibhotla",
+                position: "Marketing Lead",
+                funFact: "I went to high school next to the most allegator infested lake in the country",
+                photo: "/team/2025/HelaKasibhotla.jpg",
+                emoji: "😭"
+            },
+            {
+                name: "Connie Lu",
+                position: "Marketing Lead",
+                funFact: "My PR for sleeping is 16 hours",
+                photo: "/team/2025/ConnieLu.jpg",
+                emoji: "🐼"
+            },
+            {
                 name: "Lily Windmiller",
                 position: "Marketing",
                 funFact: "I can make balloon animals!",
@@ -332,6 +362,13 @@ export const data = [
     {
         teamName: "Outreach",
         teamMembers: [
+            {
+                name: "Divya Koya",
+                position: "Outreach Lead",
+                funFact: "I can't sleep unless my shirt is tucked into my pants",
+                photo: "/team/2025/DivyaKoya.jpg",
+                emoji: "😉"
+            },
             {
                 name: "Naomi Lin",
                 position: "Outreach",
