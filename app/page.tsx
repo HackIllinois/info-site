@@ -187,13 +187,13 @@ const Page = () => {
                                             />
                                         </a>
                                         <a
-                                            href="https://www.tiktok.com/@hackillinoisuiuc"
+                                            href="mailto:contact@hackillinois.org"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
                                             <img
                                                 className={styles.icon}
-                                                src="/icons/tiktok.svg"
+                                                src="/icons/email.svg"
                                             />
                                         </a>
                                     </div>
