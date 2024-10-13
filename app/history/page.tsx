@@ -1,8 +1,8 @@
 import Container from "@/components/Container/Container";
 import styles from "./page.module.scss";
 import { listOfSponsors } from "@/modules/ListOfSponsors";
-import { listOfPreviousHacks } from "@/modules/ListOfPreviousHacks";
 import { Metadata } from "next";
+import PreviousYears from "@/components/PreviousYears/PreviousYears";
 
 export const metadata: Metadata = {
     title: "HackIllinois | History"
@@ -12,12 +12,6 @@ type sponsor = {
     name: string;
     website: string;
     logo: string;
-};
-
-type previousHack = {
-    name: string;
-    image: string;
-    link: string;
 };
 
 const History = () => {
@@ -100,28 +94,7 @@ const History = () => {
             <div className={styles.bottomSection}>
                 <Container>
                     <h1>Previous Years</h1>
-                    <div className={styles.previousHacksList}>
-                        {listOfPreviousHacks.map(
-                            (previousHack: previousHack) => (
-                                <div className={styles.previousHack}>
-                                    <div className={styles.image}>
-                                        <a href={previousHack.link}>
-                                            <img src={previousHack.image} />
-                                        </a>
-                                    </div>
-                                    <div className={styles.separator}>
-                                        <div className={styles.line} />
-                                        <div className={styles.arrow} />
-                                    </div>
-                                    <span>
-                                        <a href={previousHack.link}>
-                                            {previousHack.name}
-                                        </a>
-                                    </span>
-                                </div>
-                            )
-                        )}
-                    </div>
+                    <PreviousYears />
                 </Container>
                 {/* <div>
                     <img

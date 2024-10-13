@@ -1,0 +1,154 @@
+
+.previousHacksListDesktop {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    margin-top: 2rem;
+    scroll-behavior: smooth;
+
+    .previousHack {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .image {
+            padding: 0 2.25rem;
+
+            > a > img {
+                width: 9rem;
+                height: 9rem;
+            }
+        }
+
+        .separator {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            margin: 2.25rem 0;
+            height: 0.1875rem;
+            .line {
+                height: 100%;
+                width: 100%;
+                background: #68c8bf;
+            }
+        }
+
+        > span {
+            width: fit-content;
+            font-size: 1.25rem;
+            font-weight: 500;
+            letter-spacing: 0.0125rem;
+            text-align: center;
+            line-height: 2rem;
+
+            > a {
+                text-decoration: none;
+                color: #000;
+            }
+        }
+    }
+    > div:last-child {
+        .separator {
+            width: 150%;
+            .arrow {
+                border: solid #68c8bf;
+                border-width: 0 0.1875rem 0.1875rem 0;
+                display: inline-block;
+                padding: 0.375rem;
+                transform: translateX(-0.9rem) translateY(-0.35rem)
+                    rotate(-45deg);
+            }
+        }
+    }
+}
+
+.previousHacksListMobile {
+    display: none
+}
+
+@media screen and (max-width: 640px) {
+    .previousHacksListDesktop {
+        display: none
+    }
+    .previousHacksListMobile {
+        margin-top: 2rem;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        .row {
+            width: 100%;
+            display: flex;
+
+            .spacer {
+                flex: 1;
+            }
+
+            .separator {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+
+                .line {
+                    width: 0.1875rem;
+                    height: 150px;
+                    background-color: #68c8bf;
+                }
+            }
+            > .previousHack {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .image {
+                    padding: 0.75rem 0 0.75rem;
+                    text-align: center;
+    
+                    > a > img {
+                        width: 6rem;
+                        height: 6rem;
+                    }
+                }
+    
+                > span {
+                    width: fit-content;
+                    font-size: 1.25rem;
+                    font-weight: 500;
+                    letter-spacing: 0.0125rem;
+                    text-align: center;
+                    line-height: 2rem;
+    
+                    > a {
+                        text-decoration: none;
+                        color: #000;
+                    }
+                }
+            }
+        }
+        > .row:last-child {
+            .separator {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .arrow {
+                    height: 1.5rem;
+                    width: 1.5rem;
+                    border: solid #68c8bf;
+                    border-width: 0 0.1875rem 0.1875rem 0;
+                    // display: inline-block;
+                    transform: translateY(-110%)
+                        rotate(45deg);
+
+                }
+            }
+        }
+    }
+}
+
+
