@@ -101,26 +101,49 @@ const History = () => {
                 <Container>
                     <h1>Previous Years</h1>
                     <div className={styles.previousHacksList}>
-                        {listOfPreviousHacks.map(
-                            (previousHack: previousHack) => (
-                                <div className={styles.previousHack}>
-                                    <div className={styles.image}>
-                                        <a href={previousHack.link}>
-                                            <img src={previousHack.image} />
-                                        </a>
+                        <div className={styles.previousHackContainer}>
+                            {listOfPreviousHacks.map(
+                                (previousHack: previousHack) => (
+                                    <div className={styles.previousHack}>
+                                        <div className={styles.image}>
+                                            <a href={previousHack.link}>
+                                                <img src={previousHack.image} />
+                                            </a>
+                                        </div>
+                                        <div className={styles.separator}>
+                                            <div className={styles.line} />
+                                            {/* <div className={styles.arrow} /> */}
+                                        </div>
+                                        <span>
+                                            <a href={previousHack.link}>
+                                                {previousHack.name}
+                                            </a>
+                                        </span>
                                     </div>
-                                    <div className={styles.separator}>
-                                        <div className={styles.line} />
-                                        <div className={styles.arrow} />
+                                )
+                            )}
+                            <div className={styles.arrow} />
+                            {listOfPreviousHacks.map(
+                                (previousHack: previousHack) => (
+                                    <div className={styles.previousHack}>
+                                        <div className={styles.image}>
+                                            <a href={previousHack.link}>
+                                                <img src={previousHack.image} />
+                                            </a>
+                                        </div>
+                                        <div className={styles.separator}>
+                                            <div className={styles.line} />
+                                            {/* <div className={styles.arrow} /> */}
+                                        </div>
+                                        <span>
+                                            <a href={previousHack.link}>
+                                                {previousHack.name}
+                                            </a>
+                                        </span>
                                     </div>
-                                    <span>
-                                        <a href={previousHack.link}>
-                                            {previousHack.name}
-                                        </a>
-                                    </span>
-                                </div>
-                            )
-                        )}
+                                )
+                            )}
+                        </div>
                     </div>
                 </Container>
                 {/* <div>

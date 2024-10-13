@@ -37,9 +37,9 @@ const Page = () => {
                         textColor={"#FCE891"}
                     />
                 </a>
-                
+
             </div>
-            
+
 
             {/* Main Body of the page */}
             <Container style={{ rowGap: "5rem" }}>
@@ -187,13 +187,13 @@ const Page = () => {
                                             />
                                         </a>
                                         <a
-                                            href="mailto:contact@hackillinois.org"
+                                            href="https://www.tiktok.com/@hackillinoisuiuc"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
                                             <img
                                                 className={styles.icon}
-                                                src="/icons/email.svg"
+                                                src="/icons/tiktok.svg"
                                             />
                                         </a>
                                     </div>
