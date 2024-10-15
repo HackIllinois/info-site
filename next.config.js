@@ -15,7 +15,7 @@ const nextConfig = {
         return [
             {
                 source: '/join-us',
-                destination: 'https://docs.google.com/forms/d/e/1FAIpQLSfM68GVBXd16Z385XmuoXypEsbf-uWJTIkiYmO2TdGhLjOimQ/viewform',
+                destination: 'https://docs.google.com/forms/d/e/1FAIpQLSfn255j3kYEvukU-86WBVPbVGQliNruVzNZE1-x2tLzOythyw/viewform',
                 permanent: false,
             },
         ];
