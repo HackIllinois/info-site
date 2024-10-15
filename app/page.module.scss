@@ -11,7 +11,7 @@
         background-repeat: no-repeat;
         padding: 3.75% 0;
 
-        > h1 {
+        >h1 {
             white-space: nowrap;
         }
 
@@ -26,6 +26,7 @@
                 display: inline-flex;
                 flex-direction: column;
                 row-gap: 2.25rem;
+
                 // margin-left: 2.5%; // adds margin left from line of heading
                 .listItem {
                     display: flex;
@@ -46,14 +47,15 @@
                 display: grid;
                 grid-row-start: auto;
                 padding-bottom: 9rem;
-                > img:first-child {
+
+                >img:first-child {
                     max-width: 100%;
                     border-radius: 2.5rem;
                     max-height: 38rem;
                     grid-area: 1/1;
                 }
 
-                > img:nth-child(2) {
+                >img:nth-child(2) {
                     width: 17.5rem;
                     height: 17.5rem;
                     grid-area: 1/1;
@@ -66,7 +68,7 @@
             }
         }
 
-        > img {
+        >img {
             height: 1rem;
             width: 8.5rem;
             display: block;
@@ -81,15 +83,17 @@
             // margin-top: 2rem;
             display: inline-flex;
             flex-direction: row;
-            > div {
+
+            >div {
                 max-width: 50rem;
                 margin-top: 2rem;
 
-                > p {
+                >p {
                     font-size: 1.25rem;
                     // // font-weight: 500;
                     line-height: 2.25rem;
-                    > a {
+
+                    >a {
                         font-size: 1.25rem;
                         font-weight: 700;
                         line-height: 2.25rem;
@@ -98,13 +102,13 @@
                 }
             }
 
-            > img {
+            >img {
                 width: 25rem;
                 height: 32rem;
             }
         }
 
-        @media screen and (max-width: 950px) { 
+        @media screen and (max-width: 950px) {
             padding-bottom: 50%;
         }
 
@@ -117,29 +121,41 @@
             justify-content: center;
             flex-wrap: wrap;
 
-            > div {
+
+            >div {
                 padding-top: 1.5rem;
             }
 
             .icon {
                 padding: 10px 45px;
+                // display: inline-flex;
+                // justify-content: center;
+                // align-items: center;
+                // background-color: #fba036;
+                // border-radius: 9999px;
+                // width: 4rem;
+                // height: 4rem;
+
             }
 
-            
+
+
             @media screen and (max-width: 950px) {
                 transform: translateY(120%);
                 position: absolute;
                 width: 90vw;
-                > div {
+
+                >div {
                     display: flex;
                     width: 100%;
                     justify-content: space-evenly;
                 }
 
-                
+
 
                 .icon {
                     padding: 5px;
+
                 }
             }
 
@@ -158,12 +174,12 @@
     margin-bottom: 6rem;
     margin-left: 5%; //This has to match Container's left padding
 
-    > img:nth-child(1) {
+    >img:nth-child(1) {
         width: 7rem;
         height: 1rem;
     }
 
-    > img:nth-child(2) {
+    >img:nth-child(2) {
         width: 11.25rem;
         height: 11.25rem;
     }
@@ -186,15 +202,16 @@
             background-image: url("/about/teams-triangle.svg");
             background-size: contain;
             background-repeat: no-repeat;
+
             .body {
                 display: inline-flex;
                 flex-direction: column;
                 row-gap: 5rem;
-                .pictures {
-                    > img:first-child {
-                    }
 
-                    > img:nth-child(2) {
+                .pictures {
+                    >img:first-child {}
+
+                    >img:nth-child(2) {
                         width: 8.75rem;
                         height: 8.75rem;
                         margin-bottom: -3rem;
@@ -206,7 +223,7 @@
 
         .contactSection {
             .contactBody {
-                > img {
+                >img {
                     width: 12rem;
                     height: 18rem;
                 }
@@ -219,12 +236,12 @@
     }
 
     .bottomVectors {
-        > img:nth-child(1) {
+        >img:nth-child(1) {
             width: 5rem;
             height: 1rem;
         }
 
-        > img:nth-child(2) {
+        >img:nth-child(2) {
             width: 7rem;
             height: 7rem;
         }
@@ -238,12 +255,14 @@
             background-image: url("/about/teams-triangle.svg");
             background-size: contain;
             background-repeat: no-repeat;
+
             .body {
                 display: inline-flex;
                 flex-direction: row;
                 row-gap: 5rem;
+
                 .pictures {
-                    > img:nth-child(2) {
+                    >img:nth-child(2) {
                         width: 8.75rem;
                         height: 8.75rem;
                         margin-bottom: -3rem;

@@ -1,80 +1,93 @@
-
 .previousHacksListDesktop {
     display: flex;
     flex-direction: row;
-    overflow-x: scroll;
+    // overflow-x: scroll;
     margin-top: 2rem;
-    scroll-behavior: smooth;
+    // scroll-behavior: smooth;
+    overflow: hidden;
 
-    .previousHack {
+    position: relative;
+    width: 100%;
+
+    .previousHackContainer {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        animation: previoushackmove 15s linear infinite;
 
-        .box {
+        .previousHack {
             display: flex;
             flex-direction: column;
             align-items: center;
-        }
 
-        .image {
-            padding: 0 2.25rem;
+            .image {
+                padding: 0 2.25rem;
 
-            > a > img {
-                width: 9rem;
-                height: 9rem;
+                > a > img {
+                    width: 9rem;
+                    height: 9rem;
+                }
             }
-        }
 
-        .separator {
-            display: flex;
-            width: 100%;
-            flex-direction: row;
-            margin: 2.25rem 0;
-            height: 0.1875rem;
-            .line {
-                height: 100%;
+            .separator {
+                display: flex;
                 width: 100%;
-                background: #68c8bf;
+                flex-direction: row;
+                margin: 2.25rem 0;
+                height: 0.1875rem;
+
+                .line {
+                    height: 100%;
+                    width: 100%;
+                    background: #68c8bf;
+                }
+            }
+
+            > span {
+                width: fit-content;
+                font-size: 1.25rem;
+                font-weight: 500;
+                letter-spacing: 0.0125rem;
+                text-align: center;
+                line-height: 2rem;
+
+                > a {
+                    text-decoration: none;
+                    color: #000;
+                }
             }
         }
 
-        > span {
-            width: fit-content;
-            font-size: 1.25rem;
-            font-weight: 500;
-            letter-spacing: 0.0125rem;
-            text-align: center;
-            line-height: 2rem;
-
-            > a {
-                text-decoration: none;
-                color: #000;
-            }
+        .arrow {
+            border: solid #68c8bf;
+            border-width: 0 0.1875rem 0.1875rem 0;
+            width: 15px;
+            height: 15px;
+            display: inline-block;
+            transform: translateX(-1em) translateY(11.3rem) rotate(-45deg);
         }
     }
-    > div:last-child {
-        .separator {
-            width: 150%;
-            .arrow {
-                border: solid #68c8bf;
-                border-width: 0 0.1875rem 0.1875rem 0;
-                display: inline-block;
-                padding: 0.375rem;
-                transform: translateX(-0.9rem) translateY(-0.35rem)
-                    rotate(-45deg);
-            }
+
+    @keyframes previoushackmove {
+        0% {
+            transform: translate(0, 0);
         }
+
+        100% {
+            transform: translate(-50%, 0);
+        }
+    }
+
+    .previousHackContainer:hover {
+        animation-play-state: paused;
     }
 }
 
 .previousHacksListMobile {
-    display: none
+    display: none;
 }
 
 @media screen and (max-width: 640px) {
     .previousHacksListDesktop {
-        display: none
+        display: none;
     }
     .previousHacksListMobile {
         margin-top: 2rem;
@@ -104,13 +117,13 @@
                 .image {
                     padding: 0.75rem 0 0.75rem;
                     text-align: center;
-    
+
                     > a > img {
                         width: 6rem;
                         height: 6rem;
                     }
                 }
-    
+
                 > span {
                     width: fit-content;
                     font-size: 1.25rem;
@@ -118,7 +131,7 @@
                     letter-spacing: 0.0125rem;
                     text-align: center;
                     line-height: 2rem;
-    
+
                     > a {
                         text-decoration: none;
                         color: #000;
@@ -137,13 +150,9 @@
                     border: solid #68c8bf;
                     border-width: 0 0.1875rem 0.1875rem 0;
                     // display: inline-block;
-                    transform: translateY(-110%)
-                        rotate(45deg);
-
+                    transform: translateY(-110%) rotate(45deg);
                 }
             }
         }
     }
 }
-
-

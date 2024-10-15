@@ -37,9 +37,9 @@ const Page = () => {
                         textColor={"#FCE891"}
                     />
                 </a>
-                
+
             </div>
-            
+
 
             {/* Main Body of the page */}
             <Container style={{ rowGap: "5rem" }}>
