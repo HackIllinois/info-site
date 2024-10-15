@@ -76,7 +76,7 @@ const Stories = () => {
                     <Button
                         text={"Apply Now!"}
                         navigateTo="/join-us"
-                        backgroundColor={"#FBC587"}
+                        backgroundColor={"#FBA036"}
                         textColor={"#FFFFFF"}
                         compact
                     />
