@@ -48,7 +48,7 @@ const Footer = () => {
                                 className={styles.icon}
                             />
                         </a>
-                        {/* <a
+                        <a
                             href="https://www.facebook.com/hackillinois/"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -57,7 +57,18 @@ const Footer = () => {
                                 src="/icons/facebook-border.svg"
                                 className={styles.icon}
                             />
-                        </a> */}
+                        </a>
+
+                        <a
+                            href="https://www.tiktok.com/@hackillinoisuiuc"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="/icons/tiktok.svg"
+                                className={styles.icon}
+                            />
+                        </a>
                     </div>
                 </div>
             </div>
