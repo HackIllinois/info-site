@@ -1,5 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 import styles from "./Team.module.scss";
 import Container from "@/components/Container/Container";
 import Select from "../Select/Select";
@@ -53,15 +54,17 @@ const Team = () => {
                                                     {member.emoji}
                                                 </span>
                                             </div>
-                                            <img
+                                            <Image
                                                 src={
                                                     member.photo
                                                         ? member.photo
-                                                        : "team/default.svg"
+                                                        : "/team/default.svg"
                                                 }
                                                 alt={member.name}
                                                 className={styles.photo}
                                                 loading="lazy"
+                                                width={256}
+                                                height={256}
                                             />
                                         </div>
                                         <div className={styles.funFact}>
