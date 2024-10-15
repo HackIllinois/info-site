@@ -36,7 +36,6 @@ const PreviousYears = () => {
                 {listOfPreviousHacksPaired.map(
                     (previousHackPair: previousHack[]) => (
                         <div className={styles.row}>
-                            <div className={styles.spacer} />
                             <div className={styles.previousHack}>
                                 {previousHackPair.length > 0 && (
                                     <>
@@ -53,12 +52,10 @@ const PreviousYears = () => {
                                     </>
                                 )}
                             </div>
-                            <div className={styles.spacer} />
                             <div className={styles.separator}>
                                 <div className={styles.line} />
-                                <div className={styles.arrow} />
+                                <div className={styles.arrow}  />
                             </div>
-                            <div className={styles.spacer} />
                             <div className={styles.previousHack}>
                                 {previousHackPair.length > 1 && (
                                     <>
