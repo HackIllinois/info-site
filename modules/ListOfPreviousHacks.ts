@@ -45,3 +45,15 @@ export const listOfPreviousHacks = [
         link: "https://hackillinois.org"
     }
 ];
+
+export const listOfPreviousHacksPaired = listOfPreviousHacks.reduce(
+    (acc, hack, index) => {
+        if (index % 2 === 0) {
+            acc.push([hack]);
+        } else {
+            acc[acc.length - 1].push(hack);
+        }
+        return acc;
+    },
+    [] as { name: string; image: string; link: string }[][]
+);
