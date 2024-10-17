@@ -415,13 +415,6 @@ export const data = [
                 emoji: "😝"
             },
             {
-                name: "Donovan Hopkins",
-                position: "Outreach",
-                funFact: "I have a parakeet named Melo",
-                photo: "/team/2025/DonovanHopkins.png",
-                emoji: "😊"
-            },
-            {
                 name: "Cynthia Choi",
                 position: "Outreach",
                 funFact: "I just built my own (custom) keyboard!",
