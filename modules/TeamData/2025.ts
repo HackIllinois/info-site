@@ -159,10 +159,17 @@ export const data = [
         teamMembers: [
             {
                 name: "Angelina Deol",
-                position: "Experience",
+                position: "Experience Lead",
                 funFact: "I still play Papa's Taco Mia when I'm bored",
                 photo: "/team/2025/AngelinaDeol.jpg",
                 emoji: "💃"
+            },
+            {
+                name: "Sada Challa",
+                position: "Experience Lead",
+                funFact: "I lost my first kiss to a stingray.",
+                photo: "/team/2024/SadaChalla.jpeg",
+                emoji: "😟"
             },
             {
                 name: "Zoeya Khan",
