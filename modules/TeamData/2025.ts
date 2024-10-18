@@ -424,7 +424,7 @@ export const data = [
             {
                 name: "Sailaja Nallacheruvu",
                 position: "Outreach",
-                funFact: "I'm currently growing",
+                funFact: "I'm currently growing beans in my apartment!",
                 photo: "/team/2025/SailajaNallacheruvu.jpg",
                 emoji: "🫡"
             },
