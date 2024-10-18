@@ -1,36 +1,24 @@
 "use client";
-import React, { useState } from "react";
-import { data } from "@/modules/TeamData";
+import React, { useEffect, useState } from "react";
+import Image from "next/image";
 import styles from "./Team.module.scss";
 import Container from "@/components/Container/Container";
 import Select from "../Select/Select";
-
-type team = {
-    teamName: string;
-    teamMembers: teamMember[];
-};
-
-type teamMember = {
-    name: string;
-    position: string;
-    funFact: string;
-    photo: string;
-    emoji: string;
-};
-
-type year = keyof typeof data;
+import { data } from "@/modules/TeamData";
 
 const Team = () => {
-    const options = Object.keys(data).reverse() as year[];
-    const [year, setYear] = useState<year>(options[0]);
+    const years = Object.keys(data) as Array<keyof typeof data>;
+    years.sort((a, b) => Number.parseInt(b) - Number.parseInt(a)); // Sort years in reverse chronological order
+
+    const [year, setYear] = useState<keyof typeof data>(years[0]); // Most recent year
 
     return (
         <>
             <Container>
                 <div className={styles.mainTitle}>
                     <h1>Meet our</h1>
-                    <Select 
-                        options={options}
+                    <Select
+                        options={years}
                         titleStyle={styles.selectTitleStyle}
                         optionStyle={styles.optionStyle}
                         selectedStyle={styles.selectedStyle}
@@ -38,12 +26,12 @@ const Team = () => {
                     />
                     <h1>Team</h1>
                 </div>
-                {data[year].map((team: team, index: React.Key) => (
+                {data[year].map((team, index: React.Key) => (
                     <div className={styles.teamLayout} key={index}>
                         <h1>{team.teamName}</h1>
                         <div className={styles.membersLayout}>
                             {team.teamMembers.map(
-                                (member: teamMember, key: React.Key) => (
+                                (member, key: React.Key) => (
                                     <div
                                         className={styles.memberCard}
                                         key={key}
@@ -66,15 +54,17 @@ const Team = () => {
                                                     {member.emoji}
                                                 </span>
                                             </div>
-                                            <img
+                                            <Image
                                                 src={
                                                     member.photo
                                                         ? member.photo
-                                                        : "team/default.svg"
+                                                        : "/team/default.svg"
                                                 }
                                                 alt={member.name}
                                                 className={styles.photo}
                                                 loading="lazy"
+                                                width={256}
+                                                height={256}
                                             />
                                         </div>
                                         <div className={styles.funFact}>
