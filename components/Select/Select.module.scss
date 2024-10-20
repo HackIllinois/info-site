@@ -7,7 +7,7 @@
         appearance: none;
         border: none;
         background: none;
-        padding: 0.25rem 2.25rem 0.25rem 0.5rem;
+        padding: 0.25rem 2.75rem 0.25rem 1rem;
         cursor: pointer;
     }
 }
@@ -57,7 +57,7 @@
     padding: 0.5rem 0;
     text-align: center;
     border-radius: 10px;
-    border: solid 1px #000000;
+    border: solid 1px #b1b1b1;
 
     button {
         padding: 0.75rem;
@@ -66,5 +66,21 @@
 
     button:hover {
         color: #fba036;
+    }
+
+
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+
+    &.show {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+
+    &.hide {
+        opacity: 0;
+        transform: scaleY(0);
     }
 }
