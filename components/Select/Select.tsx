@@ -23,15 +23,16 @@ const Select: React.FC<SelectProps> = ({
     return (
         <div className={styles.select}>
             <button
-                onClick={() => setOpen(previous => !previous)}
+                onClick={() => setOpen((previous) => !previous)}
                 className={`${styles.dropdownBtn} ${
                     open ? styles.openSelect : ""
                 }`}
             >
                 <h1 className={titleStyle}>{selected}</h1>
+                <div className={styles.underline}></div>
             </button>
             <div className={styles.dropdown} style={{ opacity: open ? 1 : 0 }}>
-                {options.map(option => (
+                {options.map((option) => (
                     <button
                         key={option}
                         onClick={() => {
