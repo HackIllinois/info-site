@@ -30,7 +30,7 @@ const Select: React.FC<SelectProps> = ({
             >
                 <h1 className={titleStyle}>{selected}</h1>
             </button>
-            <div className={styles.dropdown} style={{ opacity: open ? 1 : 0 }}>
+            <div className={`${styles.dropdown} ${open ? styles.show : styles.hide}`}>
                 {options.map(option => (
                     <button
                         key={option}
