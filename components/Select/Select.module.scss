@@ -2,7 +2,7 @@
     width: fit-content;
     position: relative;
     z-index: 2;
-    
+
     button {
         appearance: none;
         border: none;
@@ -50,14 +50,14 @@
 
 .dropdown {
     position: absolute;
-    background-color: #f7f7f7;
+    background-color: white;
     right: 0;
     width: 100%;
     height: fit-content;
     padding: 0.5rem 0;
     text-align: center;
     border-radius: 10px;
-    border: solid 1px #000000;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
     button {
         padding: 0.75rem;
