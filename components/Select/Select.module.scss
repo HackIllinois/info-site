@@ -28,7 +28,7 @@
 
 .underline {
     position: absolute;
-    bottom: 0;
+    bottom: 2px;
     left: 0;
     width: 75%; 
     height: 2.5px; 
@@ -36,6 +36,12 @@
     animation: bounce-animation 4s ease-in-out infinite; 
 }
 
+@media (max-width: 768px) {
+    .underline {
+        bottom: 4px; 
+        height: 2.5px; 
+    }
+}
 .dropdownBtn::before {
     content: "";
     position: absolute;
