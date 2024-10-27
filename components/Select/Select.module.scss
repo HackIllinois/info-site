@@ -2,7 +2,7 @@
     width: fit-content;
     position: relative;
     z-index: 2;
-    
+
     button {
         appearance: none;
         border: none;
@@ -61,7 +61,7 @@
     padding: 0.5rem 0;
     text-align: center;
     border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px -2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px -2px 8px 0px;main
 
     button {
         padding: 0.75rem;
@@ -71,7 +71,6 @@
     button:hover {
         color: #fba036;
     }
-
     opacity: 0;
     transform: scaleY(0);
     transform-origin: top;
