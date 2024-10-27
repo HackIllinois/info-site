@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import styles from "./Select.module.scss";
+import clsx from "clsx";
 
 type SelectProps = {
     options: readonly string[];
@@ -45,7 +46,20 @@ const Select: React.FC<SelectProps> = ({
             >
                 <h1 className={titleStyle}>{selected}</h1>
             </button>
-            <div ref={dropdownRef} className={`${styles.dropdown} ${open ? styles.show : styles.hide}`}>
+            <div ref={dropdownRef} className={
+                clsx(
+                    styles.dropdown,
+                    open ? styles.show : styles.hide
+                )
+            }>
+                    <div className={styles.row}>
+                    <div className={styles.closeBtn} onClick={() => {
+                        setOpen(false);
+                    }}>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
                 {options.map((option, index) => (
                     <>
                         <button
