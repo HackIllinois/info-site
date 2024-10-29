@@ -22,9 +22,10 @@ const Select: React.FC<SelectProps> = ({
     const [open, setOpen] = useState(false);
 
     const dropdownRef = useRef<HTMLDivElement | null>(null);
+    const buttonRef =  useRef<HTMLButtonElement | null>(null);
 
     const closeMenu = (event: MouseEvent) => {
-        if (dropdownRef.current && open && !dropdownRef.current.contains(event.target as Node)) {
+        if (dropdownRef.current && open && !dropdownRef.current.contains(event.target as Node) && !buttonRef.current?.contains(event.target as Node)) {
             setOpen(false);
         }
     }
@@ -39,6 +40,7 @@ const Select: React.FC<SelectProps> = ({
     return (
         <div className={styles.select}>
             <button
+                ref={buttonRef}
                 onClick={() => setOpen(previous => !previous)}
                 className={`${styles.dropdownBtn} ${
                     open ? styles.openSelect : ""
