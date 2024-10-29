@@ -19,20 +19,34 @@
 
 .selectTitleStyle {
     color: #68c8bf;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 600;
 }
 
 .optionStyle {
     color: #68c8bf;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 600;
+    @media screen and (max-width: 640px) {
+        p {
+            font-size: 3rem;
+        }
+    }
 }
 
 .selectedStyle {
     color: #fba036;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 600;
+
+    @media screen and (max-width: 640px) {
+        p {
+            font-size: 3rem;
+        }
+    }
 }
 
 .yearDropdown {
@@ -181,7 +195,7 @@
 @media screen and (max-width: 640px) {
     .mainTitle {
         font-size: 1rem;
-        gap: 0.25rem;
+        gap: 0.7rem;
 
         h1 {
             font-size: 2.25rem;
