@@ -9,6 +9,8 @@
         background: none;
         padding: 0.25rem 2.75rem;
         cursor: pointer;
+        position: relative; 
+        overflow: hidden; 
     }
 
     .dropdownBtn {
@@ -16,15 +18,40 @@
     }
 }
 
+@keyframes bounce-animation {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(25%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.underline {
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 75%; 
+    height: 2.5px; 
+    background-color: #68c8bf; 
+    animation: bounce-animation 4s ease-in-out infinite; 
+}
+
+@media (max-width: 768px) {
+    .underline {
+        bottom: 4px; 
+        height: 2.5px; 
+    }
+}
 .dropdownBtn::before {
     content: "";
     position: absolute;
     inset: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba($color: #000000, $alpha: 0.2);
-    transition: opacity .3s;
-    opacity: 0.5;
     z-index: 2;
     border-radius: 10px;
     pointer-events: none;
@@ -41,10 +68,11 @@
     height: 0.75rem;
     top: calc(50% - 0.5rem);
     right: 0.75rem;
+    
     border: solid #68c8bf;
     border-width: 0 3px 3px 0;
     transform: rotate(45deg);
-    transition: transform .3s;
+    transition: transform 0.3s; 
     pointer-events: none;
 }
 

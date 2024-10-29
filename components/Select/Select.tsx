@@ -47,6 +47,7 @@ const Select: React.FC<SelectProps> = ({
                 }`}
             >
                 <h1 className={titleStyle}>{selected}</h1>
+                <div className={styles.underline}></div>
             </button>
             <div ref={dropdownRef} className={
                 clsx(
