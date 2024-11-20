@@ -103,7 +103,7 @@ const Page = () => {
                             </div>
                             <div className={styles.pictures}>
                                 <img
-                                    src="/about/teams-pic1.png"
+                                    src="/about/teams-pic1.jpg"
                                     alt="teams-pic1"
                                 />
                                 <img
