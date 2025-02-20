@@ -172,6 +172,13 @@ export const data = [
                 emoji: "😟"
             },
             {
+                name: "Lucy Wu",
+                position: "Experience",
+                funFact: "I went into white house before!",
+                photo: "/team/2025/LucyWu.jpg",
+                emoji: "🥹"
+            },
+            {
                 name: "Zoeya Khan",
                 position: "Experience",
                 funFact:
