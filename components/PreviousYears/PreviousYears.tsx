@@ -18,7 +18,7 @@ const PreviousYears = () => {
                     {listOfPreviousHacks.map((previousHack: previousHack) => (
                         <div className={styles.previousHack}>
                             <div className={styles.image}>
-                                <a href={previousHack.link}>
+                                <a href={previousHack.link} target="_blank">
                                     <img src={previousHack.image} />
                                 </a>
                             </div>
@@ -26,7 +26,7 @@ const PreviousYears = () => {
                                 <div className={styles.line} />
                             </div>
                             <span>
-                                <a href={previousHack.link}>
+                                <a href={previousHack.link} target="_blank">
                                     {previousHack.name}
                                 </a>
                             </span>
@@ -36,7 +36,7 @@ const PreviousYears = () => {
                     {listOfPreviousHacks.map((previousHack: previousHack) => (
                         <div className={styles.previousHack}>
                             <div className={styles.image}>
-                                <a href={previousHack.link}>
+                                <a href={previousHack.link} target="_blank">
                                     <img src={previousHack.image} />
                                 </a>
                             </div>
@@ -44,7 +44,7 @@ const PreviousYears = () => {
                                 <div className={styles.line} />
                             </div>
                             <span>
-                                <a href={previousHack.link}>
+                                <a href={previousHack.link} target="_blank">
                                     {previousHack.name}
                                 </a>
                             </span>
@@ -60,7 +60,7 @@ const PreviousYears = () => {
                                 {previousHackPair.length > 0 && (
                                     <>
                                         <div className={styles.image}>
-                                            <a href={previousHackPair[0].link}>
+                                            <a href={previousHackPair[0].link} target="_blank">
                                                 <img
                                                     src={
                                                         previousHackPair[0]
@@ -70,7 +70,7 @@ const PreviousYears = () => {
                                             </a>
                                         </div>
                                         <span>
-                                            <a href={previousHackPair[0].link}>
+                                            <a href={previousHackPair[0].link} target="_blank">
                                                 {previousHackPair[0].name}
                                             </a>
                                         </span>
@@ -85,7 +85,7 @@ const PreviousYears = () => {
                                 {previousHackPair.length > 1 && (
                                     <>
                                         <div className={styles.image}>
-                                            <a href={previousHackPair[1].link}>
+                                            <a href={previousHackPair[1].link} target="_blank">
                                                 <img
                                                     src={
                                                         previousHackPair[1]
@@ -95,7 +95,7 @@ const PreviousYears = () => {
                                             </a>
                                         </div>
                                         <span>
-                                            <a href={previousHackPair[1].link}>
+                                            <a href={previousHackPair[1].link} target="_blank">
                                                 {previousHackPair[1].name}
                                             </a>
                                         </span>
