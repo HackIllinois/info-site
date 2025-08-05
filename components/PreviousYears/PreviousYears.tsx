@@ -24,7 +24,6 @@ const PreviousYears = () => {
                             </div>
                             <div className={styles.separator}>
                                 <div className={styles.line} />
-                                {/* <div className={styles.arrow} /> */}
                             </div>
                             <span>
                                 <a href={previousHack.link}>
@@ -43,7 +42,6 @@ const PreviousYears = () => {
                             </div>
                             <div className={styles.separator}>
                                 <div className={styles.line} />
-                                {/* <div className={styles.arrow} /> */}
                             </div>
                             <span>
                                 <a href={previousHack.link}>
