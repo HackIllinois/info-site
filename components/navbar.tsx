@@ -27,7 +27,13 @@ const links = [
     }
 ];
 
-const Navbar = () => {
+type NavbarProps = {
+    showJoinUsButton?: boolean;
+}
+
+const Navbar: React.FC<NavbarProps> = ({
+    showJoinUsButton = true
+}) => {
     const [isOpen, setOpen] = useState(false);
     const path = usePathname();
     const router = useRouter();
@@ -57,9 +63,11 @@ const Navbar = () => {
                         </Link>
                     ))}
                 </div>
-                <button onClick={handleOnClickJoinUs} className="joinButton">
-                    Join Us
-                </button>
+                {showJoinUsButton ? 
+                    <button onClick={handleOnClickJoinUs} className="joinButton">
+                        Join Us
+                    </button>
+                : <div></div>}
             </nav>
 
             <nav className="mobile">
@@ -89,12 +97,14 @@ const Navbar = () => {
                             {text}
                         </a>
                     ))}
-                    <a
+                    {showJoinUsButton ? 
+                        <a
                             href="https://go.hackillinois.org/summer24"
                             className={path === "/join-us" ? "link active" : "link"}
                         >
                             Join Us
-                        </a>
+                        </a> : <></>
+                    }
                 </div>
             </nav>
         </>
