@@ -43,6 +43,10 @@ export const listOfPreviousHacks = [
         name: "2025",
         image: "/history/previousHacks/2025.svg",
         link: "https://2025.hackillinois.org"
+    },
+    {
+        name: "2026",
+        image: "/history/previousHacks/2026.svg",
     }
 ];
 
@@ -55,5 +59,5 @@ export const listOfPreviousHacksPaired = listOfPreviousHacks.reduce(
         }
         return acc;
     },
-    [] as { name: string; image: string; link: string }[][]
+    [] as { name: string; image: string; link?: string }[][]
 );
