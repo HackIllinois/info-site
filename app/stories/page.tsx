@@ -1,9 +1,8 @@
-import React from "react";
-import StoryGrid from "@/components/StoryGrid/StoryGrid";
-import styles from "./page.module.scss";
-import { data } from "@/modules/StoriesData";
-import Container from "@/components/Container/Container";
 import Button from "@/components/Button/Button";
+import StoryGrid from "@/components/StoryGrid/StoryGrid";
+import { data } from "@/modules/StoriesData";
+import React from "react";
+import styles from "./page.module.scss";
 
 type story = {
     id: string;
@@ -17,6 +16,8 @@ type story = {
 type storyCarousel = {
     image: string;
 };
+
+const SHOW_JOIN_US_BUTTON = false;
 
 const Stories = () => {
     return (
@@ -66,26 +67,30 @@ const Stories = () => {
                         );
                     })}
             </div>
-            <div className={styles.bottomSection}>
-                <img
-                    src="/stories/background-bottom-left.svg"
-                    className={styles.backgroundBottomLeft}
-                />
-                <div className={styles.joinUs}>
-                    <h1>Join the team, we’d love to have you!</h1>
-                    <Button
-                        text={"Apply Now!"}
-                        navigateTo="/join-us"
-                        backgroundColor={"#FBA036"}
-                        textColor={"#FFFFFF"}
-                        compact
+            {SHOW_JOIN_US_BUTTON ? (
+                <div className={styles.bottomSection}>
+                    <img
+                        src="/stories/background-bottom-left.svg"
+                        className={styles.backgroundBottomLeft}
+                    />
+                    <div className={styles.joinUs}>
+                        <h1>Join the team, we’d love to have you!</h1>
+                        <Button
+                            text={"Apply Now!"}
+                            navigateTo="/join-us"
+                            backgroundColor={"#FBA036"}
+                            textColor={"#FFFFFF"}
+                            compact
+                        />
+                    </div>
+                    <img
+                        src="/stories/background-bottom-right.svg"
+                        className={styles.backgroundBottomRight}
                     />
                 </div>
-                <img
-                    src="/stories/background-bottom-right.svg"
-                    className={styles.backgroundBottomRight}
-                />
-            </div>
+            ) : (
+                <></>
+            )}
         </div>
     );
 };
