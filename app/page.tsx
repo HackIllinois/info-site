@@ -21,14 +21,9 @@ const Page = () => {
         <div className="page">
             <div className="logo-div">
                 <img src="main-background.svg" className="main-logo" />
-
                 <div className="icon-div">
                     <img src="hackillinois-main.svg" className="iconPosition" />
                 </div>
-                {/* <h2 className="text-div">
-                    The University of Illinois at Urbana Champaign’s premier,
-                    student-run hackathon!
-                </h2> */}
                 <a href="https://hackillinois.org" target="_blank" rel="noopener noreferrer" className="text-div">
                     <Button
                         text={"Check out HackIllinois 2025"}
@@ -211,8 +206,6 @@ const Page = () => {
                 />
                 <img src="/about/shapes/green-circles-group.svg" alt="vector" />
             </div>
-
-            {/* <h1>Info Hack!</h1> */}
         </div>
     );
 };
