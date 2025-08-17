@@ -130,16 +130,6 @@ const Page = () => {
                                 <div className={styles.icons}>
                                     <div>
                                         <a
-                                            href="https://www.facebook.com/hackillinois/"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            <img
-                                                className={styles.icon}
-                                                src="/icons/facebook.svg"
-                                            />
-                                        </a>
-                                        <a
                                             href="https://instagram.com/HackIllinois"
                                             target="_blank"
                                             rel="noopener noreferrer"
@@ -149,18 +139,6 @@ const Page = () => {
                                                 src="/icons/instagram.svg"
                                             />
                                         </a>
-                                        <a
-                                            href="https://twitter.com/HackIllinois"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            <img
-                                                className={styles.icon}
-                                                src="/icons/twitter.svg"
-                                            />
-                                        </a>
-                                    </div>
-                                    <div>
                                         <a
                                             href="https://www.linkedin.com/company/hackillinois/"
                                             target="_blank"
@@ -172,6 +150,18 @@ const Page = () => {
                                             />
                                         </a>
                                         <a
+                                            href="https://www.facebook.com/hackillinois/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <img
+                                                className={styles.icon}
+                                                src="/icons/facebook.svg"
+                                            />
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a
                                             href="https://github.com/HackIllinois"
                                             target="_blank"
                                             rel="noopener noreferrer"
@@ -179,6 +169,17 @@ const Page = () => {
                                             <img
                                                 className={styles.icon}
                                                 src="/icons/github.svg"
+                                            />
+                                        </a>
+
+                                        <a
+                                            href="https://twitter.com/HackIllinois"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <img
+                                                className={styles.icon}
+                                                src="/icons/twitter.svg"
                                             />
                                         </a>
                                         <a
