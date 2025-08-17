@@ -13,7 +13,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
                 />
             </head>
             <body>
-                <Navbar showJoinUsButton={false} />
+                <Navbar applicationsOpen={false} />
                 {children}
                 <Footer />
             </body>

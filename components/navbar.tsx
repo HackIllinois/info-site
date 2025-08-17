@@ -28,19 +28,23 @@ const links = [
 ];
 
 type NavbarProps = {
-    showJoinUsButton?: boolean;
-}
+    /**
+     * Controls where the Join Us button redirects to - either the application form or the application info page.
+     */
+    applicationsOpen?: boolean;
+};
 
 const Navbar: React.FC<NavbarProps> = ({
-    showJoinUsButton = true
+    applicationsOpen = true
 }) => {
     const [isOpen, setOpen] = useState(false);
     const path = usePathname();
     const router = useRouter();
+    const applicationLink = applicationsOpen ? "https://go.hackillinois.org/summer24" : "/application-info";
 
     const handleOnClickJoinUs = (e: React.MouseEvent<HTMLButtonElement>) => {
         e.preventDefault();
-        router.push("/join-us");
+        router.push(applicationLink);
     };
 
     return (
@@ -63,11 +67,9 @@ const Navbar: React.FC<NavbarProps> = ({
                         </Link>
                     ))}
                 </div>
-                {showJoinUsButton ? 
-                    <button onClick={handleOnClickJoinUs} className="joinButton">
-                        Join Us
-                    </button>
-                : <div></div>}
+                <button onClick={handleOnClickJoinUs} className="joinButton">
+                    Join Us
+                </button>
             </nav>
 
             <nav className="mobile">
@@ -97,14 +99,12 @@ const Navbar: React.FC<NavbarProps> = ({
                             {text}
                         </a>
                     ))}
-                    {showJoinUsButton ? 
-                        <a
-                            href="https://go.hackillinois.org/summer24"
-                            className={path === "/join-us" ? "link active" : "link"}
-                        >
-                            Join Us
-                        </a> : <></>
-                    }
+                    <a
+                        href={applicationLink}
+                        className={path === "/join-us" ? "link active" : "link"}
+                    >
+                        Join Us
+                    </a>
                 </div>
             </nav>
         </>
