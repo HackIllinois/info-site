@@ -6,6 +6,7 @@ import styles from "./page.module.scss";
 import Button from "@/components/Button/Button";
 import Container from "@/components/Container/Container";
 import { Metadata } from "next";
+import LazyVideo from "@/components/LazyVideo/LazyVideo";
 
 export const metadata: Metadata = {
     title: "HackIllinois | About"
@@ -52,6 +53,16 @@ const Page = () => {
                         </p>
                         <img src="what-is-hack.svg" className="tilted-hack" />
                     </div>
+                </div>
+
+                <div className="section-div centered no-top-margin">
+                    <h1 className={styles.recapTitle}>HackIllinois 2025 Recap</h1>
+                    <LazyVideo
+                        src="about/hack2025.mp4"
+                        controls
+                        width="100%"
+                        height="auto"
+                    />
                 </div>
                 <div className="our-mission-div">
                     <h1>Our Mission</h1>
