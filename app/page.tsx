@@ -6,6 +6,7 @@ import styles from "./page.module.scss";
 import Button from "@/components/Button/Button";
 import Container from "@/components/Container/Container";
 import { Metadata } from "next";
+import LazyVideo from "@/components/LazyVideo/LazyVideo";
 
 export const metadata: Metadata = {
     title: "HackIllinois | About"
@@ -52,6 +53,16 @@ const Page = () => {
                         </p>
                         <img src="what-is-hack.svg" className="tilted-hack" />
                     </div>
+                </div>
+
+                <div className="section-div centered no-top-margin">
+                    <h1 className={styles.recapTitle}>HackIllinois 2025 Recap</h1>
+                    <LazyVideo
+                        src="about/hack2025.mp4"
+                        controls
+                        width="100%"
+                        height="auto"
+                    />
                 </div>
                 <div className="our-mission-div">
                     <h1>Our Mission</h1>
@@ -130,16 +141,6 @@ const Page = () => {
                                 <div className={styles.icons}>
                                     <div>
                                         <a
-                                            href="https://www.facebook.com/hackillinois/"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            <img
-                                                className={styles.icon}
-                                                src="/icons/facebook.svg"
-                                            />
-                                        </a>
-                                        <a
                                             href="https://instagram.com/HackIllinois"
                                             target="_blank"
                                             rel="noopener noreferrer"
@@ -149,18 +150,6 @@ const Page = () => {
                                                 src="/icons/instagram.svg"
                                             />
                                         </a>
-                                        <a
-                                            href="https://twitter.com/HackIllinois"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            <img
-                                                className={styles.icon}
-                                                src="/icons/twitter.svg"
-                                            />
-                                        </a>
-                                    </div>
-                                    <div>
                                         <a
                                             href="https://www.linkedin.com/company/hackillinois/"
                                             target="_blank"
@@ -172,6 +161,18 @@ const Page = () => {
                                             />
                                         </a>
                                         <a
+                                            href="https://www.facebook.com/hackillinois/"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <img
+                                                className={styles.icon}
+                                                src="/icons/facebook.svg"
+                                            />
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a
                                             href="https://github.com/HackIllinois"
                                             target="_blank"
                                             rel="noopener noreferrer"
@@ -179,6 +180,17 @@ const Page = () => {
                                             <img
                                                 className={styles.icon}
                                                 src="/icons/github.svg"
+                                            />
+                                        </a>
+
+                                        <a
+                                            href="https://twitter.com/HackIllinois"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <img
+                                                className={styles.icon}
+                                                src="/icons/twitter.svg"
                                             />
                                         </a>
                                         <a
