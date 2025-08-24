@@ -29,7 +29,11 @@ const StoryGrid: React.FC<StoryGridProps> = ({
     return (
         <div className={compact ? styles.compactStoryGrid : styles.storyGrid}>
             <Splide
-                options={{rewind: true}}
+                options={{
+                    rewind: true,
+                    focus: 'center', 
+                    perPage: 1,  
+                }}
                 aria-label="image-carousel"
                 aria-labelledby="image-carousel"
                 className={styles.carousel}
