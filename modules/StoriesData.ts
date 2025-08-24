@@ -1,71 +1,100 @@
 export const data = [
     {
         id: "banner",
-        name: "Deeya Bodas, Co-Director 2022-23",
-        avatar: "/stories/banner-avatar1.png",
-        quote: "“The best way to describe the welcoming and tight-knit staff culture is nothing short of family.”",
+        name: "Nancy Zhang, Co-Director 2024-25",
+        avatar: "/team/2025/NancyZhang.jpeg",
+        quote: "“HackIllinois gave me the opportunity to meet the best people at UIUC and to feel truly welcomed on campus. The most beautiful part is seeing what can be accomplished when the team is full of people that are driven by passion and a desire to help others :)”",
         carousel: [
             {
-                image: "/stories/carousel/banner-image1.png"
+                image: "/stories/carousel/1.jpg"
             },
             {
-                image: "/stories/carousel/banner-image2.png"
+                image: "/stories/carousel/15.jpg"
             }
         ]
     },
     {
         id: "top-left",
-        name: "Saloni Vaishnav, Experience 2022-23",
-        avatar: "/stories/top-left-avatar1.png",
-        quote: "“...the best memory I have ... is working on, and seeing other teams work on so many different parts of the event and then seeing it all come together in the end.”",
+        name: "Aydan Pirani, Co-Director 2024-25",
+        avatar: "/team/2024/AydanPirani.jpg",
+        quote: "“HackIllinois has been nothing short of a dream come true - I've found lifelong friends, created memories I'll never forget, and lost more sleep than I can ever catch up on! Jokes aside, the organization has given me so much in terms of my college experience, and I'll forever be grateful for the opportunity to be a part of it :)”",
         carousel: [
+
             {
-                image: "/stories/carousel/top-left-image1.png"
+                image: "/stories/carousel/10.jpg"
             },
             {
-                image: "/stories/carousel/top-left-image2.png"
+                image: "/stories/carousel/4.jpg"
             }
         ]
     },
     {
         id: "top-right",
-        name: "Helen Tran, Marketing 2022-23",
-        avatar: "/stories/top-right-avatar1.png",
-        quote: "“I was grateful to see each unique team work together for 9 months and being able to see the final product made me so happy.”",
+        name: "Hela Kasibhotla, Marketing 2024-25",
+        avatar: "/team/2025/HelaKasibhotla.jpg",
+        quote: "“My experience at HackIllinois was incredible; whether it was just as a team member or co-lead, I was always surrounded by passionate people who wanted to make something memorable. Every step of the way was an adventure, and seeing it all come together and how much fun people have is such a rewarding feeling!”",
         carousel: [
             {
-                image: "/stories/carousel/top-right-image1.png"
+                image: "/stories/carousel/5.jpg"
             },
             {
-                image: "/stories/carousel/top-right-image2.png"
+                image: "/stories/carousel/6.jpg"
             }
         ]
     },
     {
         id: "bottom-left",
-        name: "Ashay Parikh, Systems 2022-23",
-        avatar: "/stories/bottom-left-avatar1.png",
-        quote: "“Getting to work with motivated, talented members, improving event infrastructure, and organizing fun, team-bonding events helped me grow my technical and leadership skills...”",
+        name: "Emily Chen, Design 2024-25",
+        avatar: "/team/2025/EmilyChen.jpeg",
+        quote: "“Being part of the HackIllinois design team was such a rewarding experience. It was incredible to see how our design team work helped bring the event to life! What made it even more special was seeing all the other teams’ innovative ideas come together. Every single staff member put in so much effort, and watching it all unfold during the event reminded me how powerful collaboration and creativity can be!”",
         carousel: [
             {
-                image: "/stories/carousel/bottom-left-image1.png"
+                image: "/stories/carousel/7.jpg"
             },
             {
-                image: "/stories/carousel/bottom-left-image2.png"
+                image: "/stories/carousel/18.jpg"
             }
         ]
     },
     {
         id: "bottom-right",
-        name: "Miranda Ma, Design 2022-23",
-        avatar: "/stories/bottom-right-avatar1.png",
-        quote: "“I loved being a part of an amazing design team and working with other creative individuals. Being able to see your work on a large scale event was something incredible to experience.”",
+        name: "Alex Yang, Systems 2024-25",
+        avatar: "/team/2025/AlexYang.jpeg",
+        quote: "“The people at hack are all amazing, and I'm incredibly grateful that I got to be part of the team for two years. Working on the systems team developing APIs taught me so much technically, and I received great mentorship during my time there. Beyond the technical skills, I grew socially—I'll never forget the Wednesday hack meetings, which always began with a fun social activity before diving into work. It was amazing to see everyone's hard work culminate in creating a memorable hackathon experience for hundreds of attendees.”",
         carousel: [
             {
-                image: "/stories/carousel/bottom-right-image1.png"
+                image: "/stories/carousel/9.jpg"
             },
             {
-                image: "/stories/carousel/bottom-right-image2.png"
+                image: "/stories/carousel/8.jpg"
+            },
+        ]
+    },
+    {
+        id: "bottom-left",
+        name: "Divya Koya, Outreach 2024-25",
+        avatar: "/team/2025/DivyaKoya.jpg",
+        quote: "“I’m so grateful to have met so many kind and passionate people on the HackIllinois team! It’s always incredible to see how hard we all work to make this happen, and to see the countless hours of dedication pay off to make an event that we’re all proud of.”",
+        carousel: [
+            {
+                image: "/stories/carousel/11.jpg"
+            },
+            {
+                image: "/stories/carousel/12.jpg"
+            }
+        ]
+    },
+    {
+        id: "bottom-right",
+        name: "Angelina Deol, Experience 2024-25",
+        avatar: "/team/2025/AngelinaDeol.jpg",
+        quote: "“One of the most memorable parts was collaborating with so many dedicated people to bring our ideas to life. It was amazing to see all the small pieces we worked on come together to create such a fun and welcoming event for everyone.”",
+        carousel: [
+            {
+                image: "/stories/carousel/13.jpg"
+            },
+            {
+                image: "/stories/carousel/14.jpg"
             }
         ]
     }
