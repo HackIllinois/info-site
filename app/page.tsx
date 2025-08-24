@@ -30,7 +30,7 @@ const Page = () => {
                         text={"Check out HackIllinois 2025"}
                         navigateTo="https://2025.hackillinois.org"
                         backgroundColor={"#68C8BF"}
-                        textColor={"#FCE891"}
+                        textColor={"#FCE891"}    
                     />
                 </a>
 
@@ -109,7 +109,7 @@ const Page = () => {
                             </div>
                             <div className={styles.pictures}>
                                 <img
-                                    src="/about/teams-pic1.png"
+                                    src="/about/teams-pic1.jpg"
                                     alt="teams-pic1"
                                 />
                                 <img
