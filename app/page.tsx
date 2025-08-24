@@ -22,18 +22,19 @@ const Page = () => {
         <div className="page">
             <div className="logo-div">
                 <img src="main-background.svg" className="main-logo" />
-                <div className="icon-div">
-                    <img src="hackillinois-main.svg" className="iconPosition" />
+                <div className="content">
+                    <div className="icon-div">
+                        <img src="hackillinois-main.svg" className="iconPosition" />
+                    </div>
+                    <a href="https://hackillinois.org" target="_blank" rel="noopener noreferrer" className="text-div">
+                        <Button
+                            text={"Check out HackIllinois 2025"}
+                            navigateTo="https://2025.hackillinois.org"
+                            backgroundColor={"#68C8BF"}
+                            textColor={"#FCE891"}    
+                        />
+                    </a>
                 </div>
-                <a href="https://hackillinois.org" target="_blank" rel="noopener noreferrer" className="text-div">
-                    <Button
-                        text={"Check out HackIllinois 2025"}
-                        navigateTo="https://2025.hackillinois.org"
-                        backgroundColor={"#68C8BF"}
-                        textColor={"#FCE891"}
-                    />
-                </a>
-
             </div>
 
 
@@ -109,7 +110,7 @@ const Page = () => {
                             </div>
                             <div className={styles.pictures}>
                                 <img
-                                    src="/about/teams-pic1.png"
+                                    src="/about/teams-pic1.jpg"
                                     alt="teams-pic1"
                                 />
                                 <img

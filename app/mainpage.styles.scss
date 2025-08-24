@@ -5,14 +5,17 @@
 .logo-div {
     // position: relative;
     width: 100%;
-    min-height: 53vw;
     display: flex;
+    position: relative;
     justify-content: center;
-    overflow-y: auto;
-    height: fit-content;
+    overflow-y: hidden;
 
-    @media screen and (max-width: 650px) {
-        min-height: 75vw;
+    .content {
+        z-index: 5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 15vh;
     }
 }
 
@@ -103,25 +106,19 @@
 }
 
 .icon-div {
-    width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
-    position: absolute;
+    position: relative;
 }
 
 .text-div {
     z-index: 3;
-    margin-top: 32%;
-    position: absolute;
+    margin-top: 50px;
+    position: relative;
     width: 60%;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 28.76px;
-
-    @media screen and (max-width: 650px) {
-        margin-top: 55%;
-    }
 
     @media screen and (max-width: 400px) {
         font-size: 1rem;
@@ -156,5 +153,5 @@
 .iconPosition {
     z-index: 2;
     margin-top: 10%;
-    width: 55%;
+    width: 70%;
 }
