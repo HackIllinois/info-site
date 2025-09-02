@@ -109,6 +109,7 @@
     display: flex;
     justify-content: center;
     position: relative;
+    margin-bottom: 100px;
 }
 
 .text-div {
@@ -153,5 +154,8 @@
 .iconPosition {
     z-index: 2;
     margin-top: 10%;
-    width: 70%;
+    width: 90%;
+    @media screen and (max-width: 800px) {
+        width: 80%;
+    }
 }
