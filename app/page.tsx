@@ -7,6 +7,7 @@ import Button from "@/components/Button/Button";
 import Container from "@/components/Container/Container";
 import { Metadata } from "next";
 import LazyVideo from "@/components/LazyVideo/LazyVideo";
+import { EmailSubscribeInput } from "@/components/EmailSubscribeInput/EmailSubscribeInput";
 
 export const metadata: Metadata = {
     title: "HackIllinois | About"
@@ -26,7 +27,7 @@ const Page = () => {
                     <div className="icon-div">
                         <img src="hackillinois-main.svg" className="iconPosition" />
                     </div>
-                    <a href="https://hackillinois.org" target="_blank" rel="noopener noreferrer" className="text-div">
+                    <a href="https://hackillinois.org" target="_blank" rel="noopener noreferrer">
                         <Button
                             text={"Check out HackIllinois 2025"}
                             navigateTo="https://2025.hackillinois.org"
@@ -34,6 +35,13 @@ const Page = () => {
                             textColor={"#FCE891"}    
                         />
                     </a>
+                    <br/>
+                    <Button
+                        text={"Get updates on HackIllinois"}
+                        navigateTo="#connect-with-us"
+                        backgroundColor={"#FBA036"}
+                        textColor={"#FCE891"}    
+                    />
                 </div>
             </div>
 
@@ -124,22 +132,27 @@ const Page = () => {
                             alt="vector"
                         />
                     </div>
-                    <div className={styles.contactSection}>
+                    <div className={styles.contactSection} id="connect-with-us">
                         <h1>Connect With Us</h1>
                         <div className={styles.contactBody}>
                             <div>
                                 <p>
                                     Want to stay up-to-date with HackIllinois
                                     events or exciting news? Keep in touch with
-                                    us through our social medias! Be sure to
-                                    check out our FAQ for common inquiries.
+                                    us through <b>subscribing to our newsletter</b> or <b>following our social medias!</b> Be sure to check out our FAQ for common inquiries.
                                     Still have a question? Reach out to us at{" "}
                                     <a href="mailto:contact@hackillinois.org">
                                         contact@hackillinois.org
                                     </a>
                                     .
                                 </p>
+                                    
+                                
+                                
                                 <div className={styles.icons}>
+                                    <div>
+                                        <EmailSubscribeInput />
+                                    </div>
                                     <div>
                                         <a
                                             href="https://instagram.com/HackIllinois"
