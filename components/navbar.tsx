@@ -99,7 +99,7 @@ const Navbar: React.FC<NavbarProps> = ({
                     ))}
                     {showJoinUsButton ? 
                         <a
-                            href="https://go.hackillinois.org/summer24"
+                            href="/join-us"
                             className={path === "/join-us" ? "link active" : "link"}
                         >
                             Join Us
