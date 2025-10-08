@@ -206,7 +206,7 @@ export const data =  [
         "name": "Benjamin Cerda-Menchaca",
         "position": "Experience",
         "funFact": "I ate wires when I was little.",
-        "photo": "",
+        "photo": "/team/2026/BenjaminCerdaMenchaca.jpg",
         "emoji": "🗿"
       },
       {
