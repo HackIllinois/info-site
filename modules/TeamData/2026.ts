@@ -305,7 +305,7 @@ export const data =  [
       },
       {
         "name": "Sarah Xu",
-        "position": "Leadership",
+        "position": "Marketing Lead",
         "funFact": "I used to figure skate for 6 years!",
         "photo": "/team/2025/SarahXu.png",
         "emoji": "🦦"
