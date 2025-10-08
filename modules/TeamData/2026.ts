@@ -148,7 +148,7 @@ export const data =  [
     "teamMembers": [
       {
         "name": "Zoeya Khan",
-        "position": "Leadership",
+        "position": "Experience Lead",
         "funFact": "A fun fact about me is that I have hiked on a volcano",
         "photo": "/team/2025/ZoeyaKhan.jpeg",
         "emoji": "🤠"
