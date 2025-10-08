@@ -366,7 +366,7 @@ export const data =  [
       },
       {
         "name": "Aryan Bahl",
-        "position": "Leadership",
+        "position": "Outreach Lead",
         "funFact": "I ran a half marathon",
         "photo": "/team/2025/AryanBahl.jpeg",
         "emoji": "👺"
