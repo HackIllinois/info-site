@@ -15,7 +15,7 @@
 // },
 export const data =  [
   {
-    "teamName": "Co-director",
+    "teamName": "Co-Directors",
     "teamMembers": [
       {
         "name": "Lucy Wu",
