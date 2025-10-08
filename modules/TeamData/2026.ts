@@ -155,7 +155,7 @@ export const data =  [
       },
       {
         "name": "Shreenija Daggavolu",
-        "position": "Leadership",
+        "position": "Experience Lead",
         "funFact": "I’m from a city called Normal",
         "photo": "",
         "emoji": "📸"
