@@ -1,18 +1,3 @@
-// {
-//     name: "Nancy Zhang",
-//     position: "Co-Director",
-//     funFact: "I raise chickens!",
-//     photo: "/team/2025/NancyZhang.jpeg",
-//     emoji: "🦭"
-// },
-// {
-//     name: "Aydan Pirani",
-//     position: "Co-Director",
-//     funFact:
-//         "I once fell out of a boat while whitewater rafting and had to be rescued by my friend!",
-//     photo: "/team/2024/AydanPirani.jpg",
-//     emoji: "👨‍💻"
-// },
 export const data =  [
   {
     "teamName": "Co-Directors",
