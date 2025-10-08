@@ -26,7 +26,7 @@ export const data =  [
       },
       {
         "name": "Sada Challa",
-        "position": "Co-director",
+        "position": "Co-Director",
         "funFact": "I lost my first kiss to a stingray.",
         "photo": "/team/2024/SadaChalla.jpeg",
         "emoji": "😟"
