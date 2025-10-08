@@ -19,7 +19,7 @@ export const data =  [
     "teamMembers": [
       {
         "name": "Lucy Wu",
-        "position": "Co-director",
+        "position": "Co-Director",
         "funFact": "I went into the White House before!",
         "photo": "/team/2025/LucyWu.jpg",
         "emoji": "🥹"
