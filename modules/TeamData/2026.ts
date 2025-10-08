@@ -298,7 +298,7 @@ export const data =  [
     "teamMembers": [
       {
         "name": "Lily Windmiller",
-        "position": "Leadership",
+        "position": "Marketing Lead",
         "funFact": "I can make balloon animals!",
         "photo": "/team/2025/LilyWindmiller.jpg",
         "emoji": "🌟"
