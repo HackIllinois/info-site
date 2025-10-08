@@ -359,7 +359,7 @@ export const data =  [
     "teamMembers": [
       {
         "name": "Akul Sharma",
-        "position": "Leadership",
+        "position": "Outreach Lead",
         "funFact": "I have 150k spotify listening minutes per year",
         "photo": "/team/2025/AkulSharma.jpg",
         "emoji": "🤯"
