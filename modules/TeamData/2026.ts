@@ -207,6 +207,13 @@ export const data =  [
     "teamName": "Design",
     "teamMembers": [
       {
+        "name": "Kyle Park",
+        "position": "Design Lead",
+        "funFact": "My backpack got run over by a JSM employee.",
+        "photo": "/team/2026/KylePark.jpg",
+        "emoji": "😛"
+      },
+      {
         "name": "Rachel Madamba",
         "position": "Design Lead",
         "funFact": "I crochet a lot and like making my own clothes and plushies :D",
@@ -226,13 +233,6 @@ export const data =  [
         "funFact": "I never had a nosebleed before.",
         "photo": "/team/2026/KatrinaLin.jpg",
         "emoji": "😂"
-      },
-      {
-        "name": "Kyle Park",
-        "position": "Design",
-        "funFact": "My backpack got run over by a JSM employee.",
-        "photo": "/team/2026/KylePark.jpg",
-        "emoji": "😛"
       },
       {
         "name": "Leqi Huang",
