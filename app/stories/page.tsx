@@ -17,7 +17,7 @@ type storyCarousel = {
     image: string;
 };
 
-const SHOW_JOIN_US_BUTTON = true;
+const SHOW_JOIN_US_BUTTON = false;
 
 const Stories = () => {
     return (
