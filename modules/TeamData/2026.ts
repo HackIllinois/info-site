@@ -32,112 +32,112 @@ export const data =  [
         "name": "Sherry Long",
         "position": "API Lead",
         "funFact": "I was a top 1% diner in Chicago on Beli for 4 months",
-        "photo": "",
+        "photo": "/team/2026/SherryLong.jpg",
         "emoji": "😋"
       },
       {
         "name": "Yash Jagtap",
         "position": "Mobile Lead",
         "funFact": "I can make perfectly cooked shin ramen",
-        "photo": "",
+        "photo": "/team/2026/YashJagtap.jpg",
         "emoji": "🥀"
       },
       {
         "name": "Miguel Aenlle",
         "position": "Web Lead",
         "funFact": "I set 7 alarms -- 7:30, 7:31, ..., 7:37 -- to wake up in the morning!",
-        "photo": "",
+        "photo": "/team/2026/MiguelAenlle.jpg",
         "emoji": "🤔"
       },
       {
-            "name": "Ananya Anand",
-            "position": "API",
-            "funFact": "I LOVE love island, i've watched every season of love island us, uk and australia.",
-            "photo": "/team/2026/AnanyaAnand.jpg",
-            "emoji": "🥳"
-        },
-        {
-            "name": "Jasmine Liu",
-            "position": "API",
-            "funFact": "I kept buying Smiskis so many times that the store owner started recognizing me",
-            "photo": "/team/2026/JasmineLiu.jpg",
-            "emoji": "😛"
-        },
-        {
-            "name": "Richard Xu",
-            "position": "API",
-            "funFact": "I can sleep through an alarm clock.",
-            "photo": "/team/2026/RichardXu.jpg",
-            "emoji": "⚡"
-        },
-        {
-            "name": "Aditya Kshirsagar",
-            "position": "Mobile",
-            "funFact": "I am a terrible swimmer!",
-            "photo": "/team/2025/AdityaKshirsagar.jpeg",
-            "emoji": "🤐"
-        },
-        {
-            "name": "Advita Gelli",
-            "position": "Mobile",
-            "funFact": "Show me an image from RotS and I can probably guess the dialogue",
-            "photo": "/team/2026/AdvitaGelli.jpg",
-            "emoji": "💅🏽"
-        },
-        {
-            "name": "Megh Patel",
-            "position": "Mobile",
-            "funFact": "I enjoy hiking!",
-            "photo": "/team/2026/MeghPatel.jpg",
-            "emoji": "🫡"
-        },
-        {
-            "name": "Yaseen Halabi",
-            "position": "Mobile",
-            "funFact": "I'm highly ranked in online VR ping pong",
-            "photo": "/team/2026/YaseenHalabi.jpg",
-            "emoji": "🤑"
-        },
-        {
-            "name": "Grace Zeng",
-            "position": "Web",
-            "funFact": "I have played violin for 14 years and am concertmaster of Philharmonia Orchestra!",
-            "photo": "/team/2026/GraceZeng.jpg",
-            "emoji": "🍄"
-        },
-        {
-            "name": "Prachod Kakatur",
-            "position": "Web",
-            "funFact": "I'm a big fan of the NFL as I am a huge Seattle Seahawks fan!",
-            "photo": "/team/2026/PrachodKakatur.jpg",
-            "emoji": "🤗"
-        },
-        {
-            "name": "Quinten Schafer",
-            "position": "Web",
-            "funFact": "I love to hike and spend time outdoors :D",
-            "photo": "/team/2026/QuintenSchafer.jpg",
-            "emoji": "🌳"
-        },
-        {
-            "name": "Shreepaad Earanti",
-            "position": "Web",
-            "funFact": "I'm Town Hall 14 on Clash of Clans!",
-            "photo": "/team/2026/ShreepaadEaranti.jpg",
-            "emoji": "🫡"
-        }
+        "name": "Ananya Anand",
+        "position": "API",
+        "funFact": "I LOVE love island, i've watched every season of love island us, uk and australia.",
+        "photo": "/team/2026/AnanyaAnand.jpg",
+        "emoji": "🥳"
+      },
+      {
+        "name": "Jasmine Liu",
+        "position": "API",
+        "funFact": "I kept buying Smiskis so many times that the store owner started recognizing me",
+        "photo": "/team/2026/JasmineLiu.jpg",
+        "emoji": "😛"
+      },
+      {
+        "name": "Richard Xu",
+        "position": "API",
+        "funFact": "I can sleep through an alarm clock.",
+        "photo": "/team/2026/RichardXu.jpg",
+        "emoji": "⚡"
+      },
+      {
+        "name": "Aditya Kshirsagar",
+        "position": "Mobile",
+        "funFact": "I am a terrible swimmer!",
+        "photo": "/team/2025/AdityaKshirsagar.jpeg",
+        "emoji": "🤐"
+      },
+      {
+        "name": "Advita Gelli",
+        "position": "Mobile",
+        "funFact": "Show me an image from RotS and I can probably guess the dialogue",
+        "photo": "/team/2026/AdvitaGelli.jpg",
+        "emoji": "💅🏽"
+      },
+      {
+        "name": "Megh Patel",
+        "position": "Mobile",
+        "funFact": "I enjoy hiking!",
+        "photo": "/team/2026/MeghPatel.jpg",
+        "emoji": "🫡"
+      },
+      {
+        "name": "Yaseen Halabi",
+        "position": "Mobile",
+        "funFact": "I'm highly ranked in online VR ping pong",
+        "photo": "/team/2026/YaseenHalabi.jpg",
+        "emoji": "🤑"
+      },
+      {
+        "name": "Grace Zeng",
+        "position": "Web",
+        "funFact": "I have played violin for 14 years and am concertmaster of Philharmonia Orchestra!",
+        "photo": "/team/2026/GraceZeng.jpg",
+        "emoji": "🍄"
+      },
+      {
+        "name": "Prachod Kakatur",
+        "position": "Web",
+        "funFact": "I'm a big fan of the NFL as I am a huge Seattle Seahawks fan!",
+        "photo": "/team/2026/PrachodKakatur.jpg",
+        "emoji": "🤗"
+      },
+      {
+        "name": "Quinten Schafer",
+        "position": "Web",
+        "funFact": "I love to hike and spend time outdoors :D",
+        "photo": "/team/2026/QuintenSchafer.jpg",
+        "emoji": "🌳"
+      },
+      {
+        "name": "Shreepaad Earanti",
+        "position": "Web",
+        "funFact": "I'm Town Hall 14 on Clash of Clans!",
+        "photo": "/team/2026/ShreepaadEaranti.jpg",
+        "emoji": "🫡"
+      }
     ]
   },
   {
     "teamName": "Experience",
     "teamMembers": [
-        {
-            "name": "Shreenija Daggavolu",
-            "position": "Experience Lead",
-            "funFact": "I’m from a city called Normal",
-            "photo": "",
-            "emoji": "📸"
-        },
+      {
+        "name": "Shreenija Daggavolu",
+        "position": "Experience Lead",
+        "funFact": "I’m from a city called Normal",
+        "photo": "/team/2026/ShreenijaDaggavolu.jpg",
+        "emoji": "📸"
+      },
       {
         "name": "Zoeya Khan",
         "position": "Experience Lead",
@@ -146,61 +146,61 @@ export const data =  [
         "emoji": "🤠"
       },
       {
-            "name": "Anushree Atmakuri",
-            "position": "Experience",
-            "funFact": "I've raised pet chickens!!",
-            "photo": "/team/2026/AnushreeAtmakuri.jpg",
-            "emoji": "🤩"
-        },
-        {
-            "name": "Benjamin Cerda-Menchaca",
-            "position": "Experience",
-            "funFact": "I ate wires when I was little.",
-            "photo": "/team/2026/BenjaminCerdaMenchaca.jpg",
-            "emoji": "🗿"
-        },
-        {
-            "name": "Eric Zhang",
-            "position": "Experience",
-            "funFact": "I have 4 drawers filled with my old clay sculptures",
-            "photo": "",
-            "emoji": "🦖"
-        },
-        {
-            "name": "Ethan Yao",
-            "position": "Experience",
-            "funFact": "I collect souvenirs of pigs from everywhere I go!",
-            "photo": "",
-            "emoji": "🐽"
-        },
-        {
-            "name": "Lisa Spencer",
-            "position": "Experience",
-            "funFact": "I’m always the shoe in Monopoly!",
-            "photo": "",
-            "emoji": "🐥"
-        },
-        {
-            "name": "Michelle Huang",
-            "position": "Experience",
-            "funFact": "I've watched all of Suits more than 7 times",
-            "photo": "",
-            "emoji": "😴"
-        },
-        {
-            "name": "Mini Liang",
-            "position": "Experience",
-            "funFact": "I love deep diving!",
-            "photo": "",
-            "emoji": "🦦"
-        },
-        {
-            "name": "Rohan Nunugonda",
-            "position": "Experience",
-            "funFact": "Took me 20 yrs but I finally learned how to use chopsticks",
-            "photo": "/team/2026/RohanNunugonda.jpg",
-            "emoji": "🎇"
-        }
+        "name": "Anushree Atmakuri",
+        "position": "Experience",
+        "funFact": "I've raised pet chickens!!",
+        "photo": "/team/2026/AnushreeAtmakuri.jpg",
+        "emoji": "🤩"
+      },
+      {
+        "name": "Benjamin Cerda-Menchaca",
+        "position": "Experience",
+        "funFact": "I ate wires when I was little.",
+        "photo": "/team/2026/BenjaminCerdaMenchaca.jpg",
+        "emoji": "🗿"
+      },
+      {
+        "name": "Eric Zhang",
+        "position": "Experience",
+        "funFact": "I have 4 drawers filled with my old clay sculptures",
+        "photo": "/team/2026/EricZhang.jpg",
+        "emoji": "🦖"
+      },
+      {
+        "name": "Ethan Yao",
+        "position": "Experience",
+        "funFact": "I collect souvenirs of pigs from everywhere I go!",
+        "photo": "/team/2026/EthanYao.jpg",
+        "emoji": "🐽"
+      },
+      {
+        "name": "Lisa Spencer",
+        "position": "Experience",
+        "funFact": "I’m always the shoe in Monopoly!",
+        "photo": "/team/2026/LisaSpencer.jpg",
+        "emoji": "🐥"
+      },
+      {
+        "name": "Michelle Huang",
+        "position": "Experience",
+        "funFact": "I've watched all of Suits more than 7 times",
+        "photo": "/team/2026/MichelleHuang.jpg",
+        "emoji": "😴"
+      },
+      {
+        "name": "Mini Liang",
+        "position": "Experience",
+        "funFact": "I love deep diving!",
+        "photo": "/team/2026/Miniliang.jpg",
+        "emoji": "🦦"
+      },
+      {
+        "name": "Rohan Nunugonda",
+        "position": "Experience",
+        "funFact": "Took me 20 yrs but I finally learned how to use chopsticks",
+        "photo": "/team/2026/RohanNunugonda.jpg",
+        "emoji": "🎇"
+      }
     ]
   },
   {
@@ -210,72 +210,72 @@ export const data =  [
         "name": "Rachel Madamba",
         "position": "Design Lead",
         "funFact": "I crochet a lot and like making my own clothes and plushies :D",
-        "photo": "",
+        "photo": "/team/2025/RachelMadamba.jpeg",
         "emoji": "🦈"
       },
-        {
-            "name": "Erin Yu",
-            "position": "Design",
-            "funFact": "I can swim but barely",
-            "photo": "/team/2026/ErinYu.jpg",
-            "emoji": "🥸"
-        },
-        {
-            "name": "Katrina Lin",
-            "position": "Design",
-            "funFact": "I never had a nosebleed before.",
-            "photo": "",
-            "emoji": "😂"
-        },
-        {
-            "name": "Kyle Park",
-            "position": "Design",
-            "funFact": "My backpack got run over by a JSM employee.",
-            "photo": "/team/2026/KylePark.jpg",
-            "emoji": "😛"
-        },
-        {
-            "name": "Leqi Huang",
-            "position": "Design",
-            "funFact": "I have a twin sister!",
-            "photo": "",
-            "emoji": "🐹"
-        },
-        {
-            "name": "Michelle Kuo",
-            "position": "Design",
-            "funFact": "I like folding paper cranes. ",
-            "photo": "",
-            "emoji": "🤨"
-        },
-        {
-            "name": "Milana Dam",
-            "position": "Design",
-            "funFact": "I love going to music concerts!",
-            "photo": "",
-            "emoji": "💆‍♀️"
-        },
-        {
-            "name": "Murray Ahmed",
-            "position": "Design",
-            "funFact": "I like to watch videos where they cut the soap and foam blocks and it makes cool noises",
-            "photo": "",
-            "emoji": "💸"
-        },
-        {
-            "name": "Pranav Konjeti",
-            "position": "Design",
-            "funFact": "I can't eat a dessert unless it has chocolate in it",
-            "photo": "",
-            "emoji": "🫠"
-        },
-        {
-            "name": "Ritsika Medury",
-            "position": "Design",
-            "funFact": "I know horse-back riding",
-            "photo": "/team/2026/RitsikaMedury.jpg",
-            "emoji": "🥹"
-        }
+      {
+        "name": "Erin Yu",
+        "position": "Design",
+        "funFact": "I can swim but barely",
+        "photo": "/team/2026/ErinYu.jpg",
+        "emoji": "🥸"
+      },
+      {
+        "name": "Katrina Lin",
+        "position": "Design",
+        "funFact": "I never had a nosebleed before.",
+        "photo": "/team/2026/KatrinaLin.jpg",
+        "emoji": "😂"
+      },
+      {
+        "name": "Kyle Park",
+        "position": "Design",
+        "funFact": "My backpack got run over by a JSM employee.",
+        "photo": "/team/2026/KylePark.jpg",
+        "emoji": "😛"
+      },
+      {
+        "name": "Leqi Huang",
+        "position": "Design",
+        "funFact": "I have a twin sister!",
+        "photo": "/team/2026/LeqiHuang.jpg",
+        "emoji": "🐹"
+      },
+      {
+        "name": "Michelle Kuo",
+        "position": "Design",
+        "funFact": "I like folding paper cranes. ",
+        "photo": "/team/2026/MichelleKuo.jpg",
+        "emoji": "🤨"
+      },
+      {
+        "name": "Milana Dam",
+        "position": "Design",
+        "funFact": "I love going to music concerts!",
+        "photo": "/team/2026/MilanaDam.jpg",
+        "emoji": "💆‍♀️"
+      },
+      {
+        "name": "Murray Ahmed",
+        "position": "Design",
+        "funFact": "I like to watch videos where they cut the soap and foam blocks and it makes cool noises",
+        "photo": "/team/2026/MurrayAhmed.jpg",
+        "emoji": "💸"
+      },
+      {
+        "name": "Pranav Konjeti",
+        "position": "Design",
+        "funFact": "I can't eat a dessert unless it has chocolate in it",
+        "photo": "/team/2026/PranavKonjeti.jpg",
+        "emoji": "🫠"
+      },
+      {
+        "name": "Ritsika Medury",
+        "position": "Design",
+        "funFact": "I know horse-back riding",
+        "photo": "/team/2026/RitsikaMedury.jpg",
+        "emoji": "🥹"
+      }
     ]
   },
   {
@@ -288,55 +288,55 @@ export const data =  [
         "photo": "/team/2025/LilyWindmiller.jpg",
         "emoji": "🌟"
       },
-        {
-            "name": "Anhiti Mandal",
-            "position": "Marketing",
-            "funFact": "I can take a nap anywhere.",
-            "photo": "/team/2026/AnhitiMandal.jpg",
-            "emoji": "🧸"
-        },
-        {
-            "name": "Ari Coulekar",
-            "position": "Marketing",
-            "funFact": "I was born on April Fool’s Day! (The best prank I will ever play because I wasn’t supposed to be)",
-            "photo": "/team/2026/AriCoulekar.jpg",
-            "emoji": "😽"
-        },
-        {
-            "name": "Arwa Hameed",
-            "position": "Marketing",
-            "funFact": "I got chased by an alpaca when I visited Machu Picchu :)",
-            "photo": "",
-            "emoji": "🙌"
-        },
-        {
-            "name": "Cindy Zou",
-            "position": "Marketing",
-            "funFact": "I eat kiwis with the skin on!",
-            "photo": "/team/2026/CindyZou.jpg",
-            "emoji": "🐟"
-        },
-        {
-            "name": "Jenica Jeevan",
-            "position": "Marketing",
-            "funFact": "I’m addicted to Coca Cola",
-            "photo": "",
-            "emoji": "🤨"
-        },
-        {
-            "name": "Mia Huang",
-            "position": "Marketing",
-            "funFact": "I’ve lived in four countries so far!",
-            "photo": "",
-            "emoji": "🐇"
-        },
-        {
-            "name": "Sarah Xu",
-            "position": "Marketing Lead",
-            "funFact": "I used to figure skate for 6 years!",
-            "photo": "/team/2025/SarahXu.png",
-            "emoji": "🦦"
-        }
+      {
+        "name": "Anhiti Mandal",
+        "position": "Marketing",
+        "funFact": "I can take a nap anywhere.",
+        "photo": "/team/2026/AnhitiMandal.jpg",
+        "emoji": "🧸"
+      },
+      {
+        "name": "Ari Coulekar",
+        "position": "Marketing",
+        "funFact": "I was born on April Fool’s Day! (The best prank I will ever play because I wasn’t supposed to be)",
+        "photo": "/team/2026/AriCoulekar.jpg",
+        "emoji": "😽"
+      },
+      {
+        "name": "Arwa Hameed",
+        "position": "Marketing",
+        "funFact": "I got chased by an alpaca when I visited Machu Picchu :)",
+        "photo": "/team/2026/ArwaHameed.jpg",
+        "emoji": "🙌"
+      },
+      {
+        "name": "Cindy Zou",
+        "position": "Marketing",
+        "funFact": "I eat kiwis with the skin on!",
+        "photo": "/team/2026/CindyZou.jpg",
+        "emoji": "🐟"
+      },
+      {
+        "name": "Jenica Jeevan",
+        "position": "Marketing",
+        "funFact": "I’m addicted to Coca Cola",
+        "photo": "/team/2026/JenicaJeevan.jpg",
+        "emoji": "🤨"
+      },
+      {
+        "name": "Mia Huang",
+        "position": "Marketing",
+        "funFact": "I’ve lived in four countries so far!",
+        "photo": "/team/2026/MiaHuang.jpg",
+        "emoji": "🐇"
+      },
+      {
+        "name": "Sarah Xu",
+        "position": "Marketing Lead",
+        "funFact": "I used to figure skate for 6 years!",
+        "photo": "/team/2025/SarahXu.png",
+        "emoji": "🦦"
+      }
     ]
   },
   {
@@ -356,49 +356,48 @@ export const data =  [
         "photo": "/team/2025/AryanBahl.jpeg",
         "emoji": "👺"
       },
-        {
-            "name": "Arvand Marandi",
-            "position": "Outreach",
-            "funFact": "I won my first grade spelling bee",
-            "photo": "",
-            "emoji": "😄"
-        },
-        {
-            "name": "Bill Zhang",
-            "position": "Outreach",
-            "funFact": "I've flown from the champaign airport at least 4 times.",
-            "photo": "/team/2026/BillZhang.jpg",
-            "emoji": "🀄"
-        },
-        {
-            "name": "Megan Tran",
-            "position": "Outreach",
-            "funFact": "I make handmade bouquets for fun",
-            "photo": "/team/2026/MeganTran.jpg",
-            "emoji": "🫩"
-        },
-        {
-            "name": "Naomi Lin",
-            "position": "Outreach",
-            "funFact": "i've saved my sister's life 3 times!",
-            "photo": "/team/2026/NaomiLin.jpg",
-            "emoji": "🌸"
-        },
-        {
-            "name": "Nathan Wang",
-            "position": "Outreach",
-            "funFact": "I can make very accurate monkey, goose, dog, and chicken noises on command",
-            "photo": "",
-            "emoji": "😹"
-        },
-        {
-            "name": "Nikhil Richard",
-            "position": "Outreach",
-            "funFact": "I play bass guitar",
-            "photo": "",
-            "emoji": "🕵️"
-        }
-      
+      {
+        "name": "Arvand Marandi",
+        "position": "Outreach",
+        "funFact": "I won my first grade spelling bee",
+        "photo": "/team/2026/ArvandMarandi.jpg",
+        "emoji": "😄"
+      },
+      {
+        "name": "Bill Zhang",
+        "position": "Outreach",
+        "funFact": "I've flown from the champaign airport at least 4 times.",
+        "photo": "/team/2026/BillZhang.jpg",
+        "emoji": "🀄"
+      },
+      {
+        "name": "Megan Tran",
+        "position": "Outreach",
+        "funFact": "I make handmade bouquets for fun",
+        "photo": "/team/2026/MeganTran.jpg",
+        "emoji": "🫩"
+      },
+      {
+        "name": "Naomi Lin",
+        "position": "Outreach",
+        "funFact": "i've saved my sister's life 3 times!",
+        "photo": "/team/2026/NaomiLin.jpg",
+        "emoji": "🌸"
+      },
+      {
+        "name": "Nathan Wang",
+        "position": "Outreach",
+        "funFact": "I can make very accurate monkey, goose, dog, and chicken noises on command",
+        "photo": "/team/2026/NathanWang.jpg",
+        "emoji": "😹"
+      },
+      {
+        "name": "Nikhil Richard",
+        "position": "Outreach",
+        "funFact": "I play bass guitar",
+        "photo": "/team/2026/NikhilRichard.jpg",
+        "emoji": "🕵️"
+      }
     ]
   }
 ]
