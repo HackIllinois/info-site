@@ -289,6 +289,13 @@ export const data =  [
         "emoji": "🌟"
       },
       {
+        "name": "Sarah Xu",
+        "position": "Marketing Lead",
+        "funFact": "I used to figure skate for 6 years!",
+        "photo": "/team/2025/SarahXu.png",
+        "emoji": "🦦"
+      },
+      {
         "name": "Anhiti Mandal",
         "position": "Marketing",
         "funFact": "I can take a nap anywhere.",
@@ -329,13 +336,6 @@ export const data =  [
         "funFact": "I’ve lived in four countries so far!",
         "photo": "/team/2026/MiaHuang.jpg",
         "emoji": "🐇"
-      },
-      {
-        "name": "Sarah Xu",
-        "position": "Marketing Lead",
-        "funFact": "I used to figure skate for 6 years!",
-        "photo": "/team/2025/SarahXu.png",
-        "emoji": "🦦"
       }
     ]
   },
