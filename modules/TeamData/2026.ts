@@ -3,19 +3,19 @@ export const data =  [
     "teamName": "Co-Directors",
     "teamMembers": [
       {
-        "name": "Lucy Wu",
-        "position": "Co-Director",
-        "funFact": "I went into the White House before!",
-        "photo": "/team/2025/LucyWu.jpg",
-        "emoji": "🥹"
-      },
-      {
         "name": "Sada Challa",
         "position": "Co-Director",
         "funFact": "I lost my first kiss to a stingray.",
-        "photo": "/team/2024/SadaChalla.jpeg",
+        "photo": "/team/2026/SadaChalla.jpg",
         "emoji": "😟"
-      }
+      },
+      {
+        "name": "Lucy Wu",
+        "position": "Co-Director",
+        "funFact": "I went into the White House before!",
+        "photo": "/team/2026/LucyWu.jpg",
+        "emoji": "🫃"
+      },
     ]
   },
   {
