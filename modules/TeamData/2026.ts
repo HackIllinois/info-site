@@ -292,7 +292,7 @@ export const data =  [
         "name": "Sarah Xu",
         "position": "Marketing Lead",
         "funFact": "I used to figure skate for 6 years!",
-        "photo": "/team/2025/SarahXu.png",
+        "photo": "/team/2026/SarahXu.jpg",
         "emoji": "🦦"
       },
       {
