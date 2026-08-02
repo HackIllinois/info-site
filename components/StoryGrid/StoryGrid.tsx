@@ -5,7 +5,7 @@ import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 // splide core styling
 import "@splidejs/react-splide/css/core";
 // Default theme
-import '@splidejs/react-splide/css';
+import "@splidejs/react-splide/css";
 
 interface StoryGridProps {
     name: string;
@@ -31,8 +31,8 @@ const StoryGrid: React.FC<StoryGridProps> = ({
             <Splide
                 options={{
                     rewind: true,
-                    focus: 'center', 
-                    perPage: 1,  
+                    focus: "center",
+                    perPage: 1
                 }}
                 aria-label="image-carousel"
                 aria-labelledby="image-carousel"
@@ -40,15 +40,12 @@ const StoryGrid: React.FC<StoryGridProps> = ({
             >
                 {carousel.map((carousel: storyGridCarousel) => (
                     <SplideSlide key={carousel.image} className={styles.slide}>
-                        <img
-                            src={carousel.image}
-                            alt={name}
-                        />
+                        <img src={carousel.image} alt={name} />
                     </SplideSlide>
                 ))}
             </Splide>
             <div className={styles.story}>
-                <img src={avatar} alt={name} className={styles.avatar} />
+                {/* <img src={avatar} alt={name} className={styles.avatar} /> */}
                 <div className={styles.text}>
                     <span className={styles.quote}>{quote}</span>
                     <span className={styles.name}>- {name}</span>

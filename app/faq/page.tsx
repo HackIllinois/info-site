@@ -1,11 +1,11 @@
 import Container from "@/components/Container/Container";
 import styles from "./page.module.scss";
 import Box from "@/components/FaqBox/Box";
-import { Metadata } from 'next'
- 
+import { Metadata } from "next";
+
 export const metadata: Metadata = {
-  title: 'HackIllinois | FAQ',
-}
+    title: "HackIllinois | FAQ"
+};
 
 const Page = () => {
     return (
@@ -41,7 +41,7 @@ const Page = () => {
                         />
                         <Box
                             title="What is being on staff like? What’s the time commitment? Are meetings in-person or virtual?"
-                            description="1. We would describe HackIllinois staff as a family of collaborators, working together to spread our passions to others. This may includes everything from discussing progress each weekly meeting to random late-night boba runs. See our <a href='/#'>About</a> section for more staff testimonials! <br/><br/> 2. Staff members are expected to attend one-hour weekly meetings and contribute to assigned tasks for around an additional two-three hours each week. However, time commitment ebbs and flows with timeline—for instance, commitment for most teams grows as HackIllinois nears—so exact time commitment changes. <br/><br/> 3. Meetings are virtual during the summer and in-person during the school year."
+                            description="1. We would describe HackIllinois staff as a family of collaborators, working together to spread our passions to others. This may includes everything from discussing progress each weekly meeting to random late-night boba runs. See our <a href='/stories'>Stories</a> section for more staff testimonials! <br/><br/> 2. Staff members are expected to attend one-hour weekly meetings and contribute to assigned tasks for around an additional two-three hours each week. However, time commitment ebbs and flows with timeline—for instance, commitment for most teams grows as HackIllinois nears—so exact time commitment changes. <br/><br/> 3. Meetings are virtual during the summer and in-person during the school year."
                         />
                     </Container>
                 </div>

@@ -1,6 +1,6 @@
 import Button from "@/components/Button/Button";
 import StoryGrid from "@/components/StoryGrid/StoryGrid";
-import { data } from "@/modules/StoriesData";
+import { attendeeStoriesData } from "@/modules/AttendeeStoriesData";
 import React from "react";
 import styles from "./page.module.scss";
 
@@ -22,14 +22,14 @@ const SHOW_JOIN_US_BUTTON = false;
 const Stories = () => {
     return (
         <div className={styles.stories}>
-            <h1>What’s it like being a part of the HackIllinois team?</h1>
+            <h1>What’s it like being at HackIllinois?</h1>
             <div className={styles.topSection}>
                 <div className={styles.backgroundTopLeft}>
                     <img src="/stories/background-top-left-up.svg" />
                     <img src="/stories/background-top-left-down.svg" />
                 </div>
                 <div className={styles.banner}>
-                    {data
+                    {attendeeStoriesData
                         .filter((el: story) => el.id === "banner")
                         .map((story: story, index: React.Key) => (
                             <StoryGrid
@@ -47,7 +47,7 @@ const Stories = () => {
                 </div>
             </div>
             <div className={styles.middleSection}>
-                {data
+                {attendeeStoriesData
                     .filter((el: story) => el.id !== "banner")
                     .map((story: story, index: React.Key) => {
                         return (

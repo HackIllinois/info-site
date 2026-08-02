@@ -25,26 +25,32 @@ const Page = () => {
                 <img src="main-background.svg" className="main-logo" />
                 <div className="content">
                     <div className="icon-div">
-                        <img src="hackillinois-main.svg" className="iconPosition" />
+                        <img
+                            src="hackillinois-main.svg"
+                            className="iconPosition"
+                        />
                     </div>
-                    <a href="https://hackillinois.org" target="_blank" rel="noopener noreferrer">
+                    <a
+                        href="https://hackillinois.org"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <Button
-                            text={"Check out HackIllinois 2025"}
-                            navigateTo="https://2025.hackillinois.org"
+                            text={"Check out HackIllinois 2026"}
+                            navigateTo="https://2026.hackillinois.org"
                             backgroundColor={"#68C8BF"}
-                            textColor={"#FCE891"}    
+                            textColor={"#FCE891"}
                         />
                     </a>
-                    <br/>
+                    <br />
                     <Button
                         text={"Get updates on HackIllinois"}
                         navigateTo="#connect-with-us"
                         backgroundColor={"#FBA036"}
-                        textColor={"#FCE891"}    
+                        textColor={"#FCE891"}
                     />
                 </div>
             </div>
-
 
             {/* Main Body of the page */}
             <Container style={{ rowGap: "5rem" }}>
@@ -65,12 +71,15 @@ const Page = () => {
                 </div>
 
                 <div className="section-div centered no-top-margin">
-                    <h1 className={styles.recapTitle}>HackIllinois 2025 Recap</h1>
+                    <h1 className={styles.recapTitle}>
+                        HackIllinois 2026 Recap
+                    </h1>
                     <LazyVideo
-                        src="about/hack2025.mp4"
+                        src="about/hack-recap-2026.mp4"
                         controls
                         width="100%"
                         height="auto"
+                        aria-label="Video showing scenes from HackIllinois 2026"
                     />
                 </div>
                 <div className="our-mission-div">
@@ -118,8 +127,8 @@ const Page = () => {
                             </div>
                             <div className={styles.pictures}>
                                 <img
-                                    src="/about/teams-pic1.jpg"
-                                    alt="teams-pic1"
+                                    src="/about/2026-full-team.jpg"
+                                    alt="2026 full team"
                                 />
                                 <img
                                     src="/about/teams-earth-vector.svg"
@@ -139,16 +148,17 @@ const Page = () => {
                                 <p>
                                     Want to stay up-to-date with HackIllinois
                                     events or exciting news? Keep in touch with
-                                    us through <b>subscribing to our newsletter</b> or <b>following our social medias!</b> Be sure to check out our FAQ for common inquiries.
+                                    us through{" "}
+                                    <b>subscribing to our newsletter</b> or{" "}
+                                    <b>following our social medias!</b> Be sure
+                                    to check out our FAQ for common inquiries.
                                     Still have a question? Reach out to us at{" "}
                                     <a href="mailto:contact@hackillinois.org">
                                         contact@hackillinois.org
                                     </a>
                                     .
                                 </p>
-                                    
-                                
-                                
+
                                 <div className={styles.icons}>
                                     <div>
                                         <EmailSubscribeInput />
