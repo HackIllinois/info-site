@@ -24,10 +24,6 @@ const links = [
     {
         href: "/stories",
         text: "Stories"
-    },
-    {
-        href: "/job-opportunities",
-        text: "Job Opportunities"
     }
 ];
 
