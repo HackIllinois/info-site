@@ -29,11 +29,9 @@ const links = [
 
 type NavbarProps = {
     showJoinUsButton?: boolean;
-}
+};
 
-const Navbar: React.FC<NavbarProps> = ({
-    showJoinUsButton = true
-}) => {
+const Navbar: React.FC<NavbarProps> = ({ showJoinUsButton = true }) => {
     const [isOpen, setOpen] = useState(false);
     const path = usePathname();
     const router = useRouter();
@@ -63,11 +61,16 @@ const Navbar: React.FC<NavbarProps> = ({
                         </Link>
                     ))}
                 </div>
-                {showJoinUsButton ? 
-                    <button onClick={handleOnClickJoinUs} className="joinButton">
+                {showJoinUsButton ? (
+                    <button
+                        onClick={handleOnClickJoinUs}
+                        className="joinButton"
+                    >
                         Join Us
                     </button>
-                : <div></div>}
+                ) : (
+                    <div></div>
+                )}
             </nav>
 
             <nav className="mobile">
@@ -97,14 +100,18 @@ const Navbar: React.FC<NavbarProps> = ({
                             {text}
                         </a>
                     ))}
-                    {showJoinUsButton ? 
+                    {showJoinUsButton ? (
                         <a
                             href="/join-us"
-                            className={path === "/join-us" ? "link active" : "link"}
+                            className={
+                                path === "/join-us" ? "link active" : "link"
+                            }
                         >
                             Join Us
-                        </a> : <></>
-                    }
+                        </a>
+                    ) : (
+                        <></>
+                    )}
                 </div>
             </nav>
         </>
