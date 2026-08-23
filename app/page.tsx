@@ -70,7 +70,7 @@ const Page = () => {
                     </div>
                 </div>
 
-                <div className="section-div centered no-top-margin">
+                {/* <div className="section-div centered no-top-margin">
                     <h1 className={styles.recapTitle}>
                         HackIllinois 2026 Recap
                     </h1>
@@ -81,7 +81,7 @@ const Page = () => {
                         height="auto"
                         aria-label="Video showing scenes from HackIllinois 2026"
                     />
-                </div>
+                </div> */}
                 <div className="our-mission-div">
                     <h1>Our Mission</h1>
                     <div className="textbox">

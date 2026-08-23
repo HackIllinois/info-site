@@ -45,7 +45,7 @@ const StoryGrid: React.FC<StoryGridProps> = ({
                 ))}
             </Splide>
             <div className={styles.story}>
-                {/* <img src={avatar} alt={name} className={styles.avatar} /> */}
+                <img src={avatar} alt={name} className={styles.avatar} />
                 <div className={styles.text}>
                     <span className={styles.quote}>{quote}</span>
                     <span className={styles.name}>- {name}</span>

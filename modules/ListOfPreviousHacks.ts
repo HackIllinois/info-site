@@ -46,7 +46,12 @@ export const listOfPreviousHacks = [
     },
     {
         name: "2026",
-        image: "/history/previousHacks/2026.svg",
+        image: "/history/previousHacks/2018.svg",
+        link: "https://2026.hackillinois.org"
+    },
+    {
+        name: "2027",
+        image: "/history/previousHacks/2027.svg"
     }
 ];
 

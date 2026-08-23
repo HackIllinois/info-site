@@ -6,7 +6,7 @@ export const metadata: Metadata = {
 };
 
 const JoinUs = () => {
-    redirect("https://forms.gle/hkc5qRqC1yXv1jgR9");
+    redirect("https://forms.gle/Z6b8qENzvcCyXxTt8");
 };
 
 export default JoinUs;
