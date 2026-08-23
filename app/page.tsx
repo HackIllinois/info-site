@@ -30,25 +30,29 @@ const Page = () => {
                             className="iconPosition"
                         />
                     </div>
+                    <div className={styles.singleButtonHeader}>
+                        Be a part of making HackIllinois happen:
+                    </div>
+                    <br />
                     <a
                         href="https://hackillinois.org"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <Button
-                            text={"Check out HackIllinois 2026"}
-                            navigateTo="https://2026.hackillinois.org"
-                            backgroundColor={"#68C8BF"}
-                            textColor={"#FCE891"}
+                            text={"Join the Team!"}
+                            navigateTo="/join-us"
+                            backgroundColor={"#FBA036"}
+                            textColor={"#FFFFFF"}
                         />
                     </a>
-                    <br />
+                    {/* <br />
                     <Button
                         text={"Get updates on HackIllinois"}
                         navigateTo="#connect-with-us"
-                        backgroundColor={"#FBA036"}
+                        backgroundColor={"#68C8BF"}
                         textColor={"#FCE891"}
-                    />
+                    /> */}
                 </div>
             </div>
 
@@ -57,7 +61,7 @@ const Page = () => {
                 <div className="section-div">
                     <h1>What is HackIllinois?</h1>
                     <div className="textbox">
-                        <br></br>
+                        <br />
                         <p className="p-text">
                             HackIllinois is the premier student-run hackathon at
                             the University of Illinois at Urbana-Champaign. Each
