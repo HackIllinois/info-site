@@ -224,7 +224,7 @@
 
 .mobileMenu {
     // display: none;
-    margin-top: -150%;
+    margin-top: -120dvh;
     position: fixed;
     background-color: #95d8d2;
     display: flex;
@@ -235,7 +235,7 @@
     margin-bottom: 20px;
     width: 100%;
     padding-top: 60px;
-    height: 100vh;
+    height: 100dvh;
     z-index: 105;
     transition: margin-top 0.7s ease;
 
@@ -248,5 +248,6 @@
 
     &.menuOpen {
         margin-top: 0;
+        overflow: hidden;
     }
 }

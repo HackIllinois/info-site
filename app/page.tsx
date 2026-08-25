@@ -30,9 +30,6 @@ const Page = () => {
                             className="iconPosition"
                         />
                     </div>
-                    <div className={styles.singleButtonHeader}>
-                        Be a part of making HackIllinois happen:
-                    </div>
                     <br />
                     <a
                         href="https://hackillinois.org"
