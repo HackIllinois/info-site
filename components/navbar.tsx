@@ -74,7 +74,7 @@ const Navbar: React.FC<NavbarProps> = ({ showJoinUsButton = true }) => {
             </nav>
 
             <nav className="mobile">
-                <div className="mobileTop">
+                <div className={isOpen ? "mobileTop menuOpen" : "mobileTop"}>
                     <a href="/#">
                         <img
                             src="hackillinois-logo.svg"
@@ -83,13 +83,17 @@ const Navbar: React.FC<NavbarProps> = ({ showJoinUsButton = true }) => {
                     </a>
                     <div
                         className={isOpen ? "hamburger open" : "hamburger"}
-                        onClick={() => setOpen(!isOpen)}
+                        onClick={() => {
+                            scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                            setOpen(!isOpen);
+                        }}
                     >
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
                 </div>
+                <div className="mobileTopSpacer" />
                 <div className={isOpen ? "mobileMenu menuOpen" : "mobileMenu"}>
                     {links.map(({ href, text }, i) => (
                         <a

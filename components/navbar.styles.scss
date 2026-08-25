@@ -116,6 +116,7 @@
     margin: auto;
     align-items: center;
     position: relative;
+    height: 100%;
 
     .link::before,
     .link.active::before {
@@ -145,7 +146,19 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    position: relative;
+    position: absolute;
+
+    height: 120px;
+
+    &.menuOpen {
+        position: fixed;
+        z-index: 106;
+    }
+}
+
+.mobileTopSpacer {
+    position: relative; 
+    height: 120px;
 }
 
 .hamburger {
@@ -212,7 +225,7 @@
 .mobileMenu {
     // display: none;
     margin-top: -150%;
-    position: absolute;
+    position: fixed;
     background-color: #95d8d2;
     display: flex;
     flex-direction: column;
@@ -222,8 +235,8 @@
     margin-bottom: 20px;
     width: 100%;
     padding-top: 60px;
-    height: 50vh;
-    z-index: 1000;
+    height: 100vh;
+    z-index: 105;
     transition: margin-top 0.7s ease;
 
     a {
