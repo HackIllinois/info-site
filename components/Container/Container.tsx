@@ -7,11 +7,11 @@ interface ContainerProps {
     compact?: boolean;
 }
 
-const defaultProps = {
-    compact: false
-};
-
-const Container: React.FC<ContainerProps> = ({ children, style, compact }) => {
+const Container: React.FC<ContainerProps> = ({
+    children,
+    style,
+    compact = false
+}) => {
     return (
         <div
             className={compact ? styles.compactContainer : styles.container}
@@ -21,7 +21,5 @@ const Container: React.FC<ContainerProps> = ({ children, style, compact }) => {
         </div>
     );
 };
-
-Container.defaultProps = defaultProps;
 
 export default Container;
