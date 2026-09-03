@@ -22,19 +22,19 @@ export const data = [
         teamName: "Systems",
         teamMembers: [
             {
+                name: "Quinten Schafer",
+                position: "Systems Lead",
+                funFact: "I love to hike and spend time outdoors :D",
+                photo: "/team/2027/QuintenSchafer.jpg",
+                emoji: "🌳"
+            },
+            {
                 name: "Yaseen Halabi",
                 position: "Systems Lead",
                 funFact:
                     "I still haven't lost on the Siebel CS ping pong table",
                 photo: "/team/2027/YaseenHalabi.jpg",
                 emoji: "🇸🇾"
-            },
-            {
-                name: "Quinten Schafer",
-                position: "Systems Lead",
-                funFact: "I love to hike and spend time outdoors :D",
-                photo: "/team/2027/QuintenSchafer.jpg",
-                emoji: "🌳"
             }
         ]
     },
@@ -73,19 +73,20 @@ export const data = [
         teamName: "Marketing",
         teamMembers: [
             {
-                name: "Bhanu Sadhu",
-                position: "Marketing Lead",
-                funFact: "I'm ambidextrous !!",
-                photo: "/team/2027/BhanuSadhu.jpg",
-                emoji: "🫨"
-            },
-            {
                 name: "Akul Sharma",
                 position: "Marketing Lead",
                 funFact:
                     "i have a 1200 snapstreak with a random person, it's the only reason why i use the app",
                 photo: "/team/2027/AkulSharma.jpg",
                 emoji: "✌️"
+            },
+            {
+                name: "Jasmine Liu",
+                position: "Marketing Lead",
+                funFact:
+                    "I kept buying Smiskis so many times that the store owner started recognizing me",
+                photo: "/team/2027/JasmineLiu.jpg",
+                emoji: "😛"
             }
         ]
     },
