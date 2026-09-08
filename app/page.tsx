@@ -31,25 +31,19 @@ const Page = () => {
                         />
                     </div>
                     <br />
-                    <a
-                        href="https://hackillinois.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <Button
-                            text={"Join the Team!"}
-                            navigateTo="/join-us"
-                            backgroundColor={"#FBA036"}
-                            textColor={"#FFFFFF"}
-                        />
-                    </a>
-                    {/* <br />
+                    {/* <Button
+                        text={"Join the Team!"}
+                        navigateTo="/join-us"
+                        backgroundColor={"#FBA036"}
+                        textColor={"#FFFFFF"}
+                    /> 
+                    <br /> */}
                     <Button
                         text={"Get updates on HackIllinois"}
                         navigateTo="#connect-with-us"
                         backgroundColor={"#68C8BF"}
                         textColor={"#FCE891"}
-                    /> */}
+                    />
                 </div>
             </div>
 

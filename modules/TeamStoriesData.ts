@@ -1,9 +1,9 @@
 export const storiesData = [
     {
         id: "banner",
-        name: "Aydan Pirani, Co-Director 2024-25",
-        avatar: "/team/2024/AydanPirani.jpg",
-        quote: "“HackIllinois has been nothing short of a dream come true - I've found lifelong friends, created memories I'll never forget, and lost more sleep than I can ever catch up on! Jokes aside, the organization has given me so much in terms of my college experience, and I'll forever be grateful for the opportunity to be a part of it :)”",
+        name: "Rachel Madamba, Design 2025-26",
+        avatar: "/team/2026/RachelMadamba.jpg",
+        quote: "“HackIllinois gave me such a supportive community when I still lacked confidence in my skills and was unsure about what I wanted to do in the future. I received a lot of beneficial mentorship from the design team and was constantly inspired by both my co-leads and teammates—I wouldn't be where I am today without them. Everyone in this organization is incredibly passionate and innovative, and I will never forget how rewarding it felt to see all of our hard work pay off during the event weekend. I am so grateful I was able to return to Hack as a design team co-lead so I could continue to spread the encouragement and motivation I received from this organization to others.”",
         carousel: [
             {
                 image: "/stories/carousel/1.jpg"
@@ -15,9 +15,9 @@ export const storiesData = [
     },
     {
         id: "top-left",
-        name: "Megh Patel, Systems 2025-26",
-        avatar: "/team/2026/MeghPatel.jpg",
-        quote: "“Being on the mobile app team at hack was great because I got to build features that hundreds of attendees actually used, and I learned a ton from the people around me. The team always encouraged trying new ideas, even the weird ones, and there was never a bad time to pitch something ambitious. The Wednesday meetings were a highlight too. We’d start with a social activity, then get to work, and somehow both halves felt equally worth showing up for.”",
+        name: "Sada Challa, Co-Director 2025-26",
+        avatar: "/team/2026/SadaChalla.jpg",
+        quote: "“I joined HackIllinois as a freshman, and it quickly became one of the most defining parts of my college experience. Through it I found close friends, learned skills I never expected to pick up, and pushed myself further than I thought I could go. I'll forever be grateful for the community it gave me, and I can't recommend getting involved enough <3”",
         carousel: [
             {
                 image: "/stories/carousel/3.jpg"
@@ -43,9 +43,9 @@ export const storiesData = [
     },
     {
         id: "bottom-left",
-        name: "Hela Kasibhotla, Marketing 2024-25",
-        avatar: "/team/2025/HelaKasibhotla.jpg",
-        quote: "“My experience at HackIllinois was incredible; whether it was just as a team member or co-lead, I was always surrounded by passionate people who wanted to make something memorable. Every step of the way was an adventure, and seeing it all come together and how much fun people have is such a rewarding feeling!”",
+        name: "Zoeya Khan, Experience 2025-26",
+        avatar: "/team/2026/ZoeyaKhan.jpg",
+        quote: "“Being on the HackIllinois Staff is one of the highlights of my college experience. I’ve met some amazing people on the team and had so much fun putting together events that attendees would love and remember. For HackAstra, my team and I created guides, built events, and coordinated with corporate sponsors to maximize both fun and building time for attendees. One of the most important things about being Hack Staff is that you don’t have to be a CS major to be heard and make an impact. The Staff has a range of academic backgrounds, which is one of the things that makes HackIllinois so successful. Shoutout Eric, Mini, Ethan, Anushree, and Benji for being the best Events Team ever!”",
         carousel: [
             {
                 image: "/stories/carousel/7.jpg"
@@ -57,9 +57,9 @@ export const storiesData = [
     },
     {
         id: "bottom-right",
-        name: "Nancy Zhang, Co-Director 2024-25",
-        avatar: "/team/2025/NancyZhang.jpeg",
-        quote: "“HackIllinois gave me the opportunity to meet the best people at UIUC and to feel truly welcomed on campus. The most beautiful part is seeing what can be accomplished when the team is full of people that are driven by passion and a desire to help others :)”",
+        name: "Megh Patel, Systems 2024-25",
+        avatar: "/team/2026/MeghPatel.jpg",
+        quote: "“Being on the mobile app team at hack was great because I got to build features that hundreds of attendees actually used, and I learned a ton from the people around me. The team always encouraged trying new ideas, even the weird ones, and there was never a bad time to pitch something ambitious. The Wednesday meetings were a highlight too. We’d start with a social activity, then get to work, and somehow both halves felt equally worth showing up for.”",
         carousel: [
             {
                 image: "/stories/carousel/9.jpg"
@@ -71,9 +71,9 @@ export const storiesData = [
     },
     {
         id: "bottom-left",
-        name: "Emily Chen, Design 2024-25",
-        avatar: "/team/2025/EmilyChen.jpeg",
-        quote: "“Being part of the HackIllinois design team was such a rewarding experience. It was incredible to see how our design team work helped bring the event to life! What made it even more special was seeing all the other teams’ innovative ideas come together. Every single staff member put in so much effort, and watching it all unfold during the event reminded me how powerful collaboration and creativity can be!”",
+        name: "Nancy Zhang, Co-Director 2024-25",
+        avatar: "/team/2025/NancyZhang.jpeg",
+        quote: "“HackIllinois gave me the opportunity to meet the best people at UIUC and to feel truly welcomed on campus. The most beautiful part is seeing what can be accomplished when the team is full of people that are driven by passion and a desire to help others :)”",
         carousel: [
             {
                 image: "/stories/carousel/11.jpg"
@@ -83,6 +83,7 @@ export const storiesData = [
             }
         ]
     },
+
     {
         id: "bottom-right",
         name: "Alex Yang, Systems 2024-25",
