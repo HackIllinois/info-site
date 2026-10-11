@@ -148,7 +148,7 @@ export const data = [
                 name: "Hemanth Itte",
                 position: "Experience",
                 funFact: "I love to fossil hunt",
-                photo: "/team/2027/MingcheLi.jpg",
+                photo: "/team/2027/HemanthItte.jpg",
                 emoji: "🦖"
             },
             {
@@ -374,7 +374,7 @@ export const data = [
                 position: "Outreach",
                 funFact: "I went backpacking for 20 miles",
                 photo: "/team/2027/MeghPatel.jpg",
-                emoji: "🫩"
+                emoji: "🧬"
             },
             {
                 name: "Mousab Eltgani",
