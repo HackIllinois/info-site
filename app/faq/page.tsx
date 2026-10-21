@@ -15,7 +15,11 @@ const Page = () => {
                 <div className={styles.side1}>
                     <Container>
                         <Box
-                            title="I want to attend, mentor, or speak at one of HackIllinois’s events. How do I learn more?"
+                            title="How can I become a judge or mentor at HackIllinois?"
+                            description="Interested in becoming a judge or mentor? Email us at <a href='mailto:judging@hackillinois.org'>judging@hackillinois.org</a> to learn more about getting involved!"
+                        />
+                        <Box
+                            title="I want to attend or speak at one of HackIllinois’s events. How do I learn more?"
                             description="Contact us at <a href='mailto:contact@hackillinois.org'>contact@hackillinois.org</a> for involvement or questions regarding HackIllinois. In addition, check out our social medias for the latest information on our events!"
                         />
                         <Box
