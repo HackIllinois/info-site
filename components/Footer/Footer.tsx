@@ -13,16 +13,24 @@ const Footer = () => {
                             href="mailto:contact@hackillinois.org"
                             target="_blank"
                             rel="noopener noreferrer"
+                            className={styles.iconLink}
                         >
                             <img
                                 src="/icons/email-border.svg"
                                 className={styles.icon}
                             />
                         </a>
-                        <a className={styles.linkText} href="mailto:contact@hackillinois.org">
+                        <a
+                            className={styles.linkText}
+                            href="mailto:contact@hackillinois.org"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             contact@hackillinois.org
                         </a>
                     </div>
+                    <span>Interested in becoming a judge or mentor?</span>
+                    <span>Email us at judging@hackillinois.org</span>
                 </div>
                 <div>
                     <span>Want to stay up to date?</span>
@@ -63,7 +71,11 @@ const Footer = () => {
             </div>
             <div>
                 <span>Copyright@2023</span>
-                <Link href="/privacy-policy" target="_blank" rel="noopener noreferrer" >
+                <Link
+                    href="/privacy-policy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <span>Privacy Policy</span>
                 </Link>
             </div>

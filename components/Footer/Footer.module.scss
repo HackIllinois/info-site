@@ -7,7 +7,7 @@
 
     > div:nth-child(1) {
         background-color: #b4e4df;
-        padding: 2.5rem 5%; // Container has 5% left-right padding as well
+        padding: 2.5rem 5% 1.5rem 5%; // Container has 5% left-right padding as well
         display: flex;
         justify-content: space-between;
 
@@ -35,7 +35,8 @@
                 font-size: 1.25rem;
                 font-weight: 500;
                 line-height: 1.5rem;
-                margin-top: 1rem;
+                margin-top: 0.5rem;
+                margin-bottom: 0.5rem;
 
                 .linkText {
                     text-decoration: none;
@@ -77,6 +78,12 @@
     height: 3rem;
 }
 
+.iconLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 640px) {
     .footer {
         > div:nth-child(1) {
@@ -92,7 +99,8 @@
                     align-items: flex-start;
                     column-gap: 0.25rem;
                     font-size: 0.875rem;
-                    margin-top: 1rem;
+                    margin-top: 0.5rem;
+                    margin-bottom: 0.5rem;
                 }
             }
         }
@@ -117,5 +125,10 @@
     .icon {
         width: 1.5rem;
         height: 1.5rem;
+    }
+    .iconLink {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
