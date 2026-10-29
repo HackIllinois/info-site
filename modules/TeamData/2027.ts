@@ -95,7 +95,7 @@ export const data = [
                 funFact:
                     "I have 3000 hours in Rocket League & suck at every other game",
                 photo: "/team/2027/NeelKumar.jpg",
-                emoji: "🫪"
+                emoji: "😳"
             },
             {
                 name: "Shriya Kunnanath",
@@ -186,7 +186,7 @@ export const data = [
                 position: "Experience",
                 funFact: "I hate AI",
                 photo: "/team/2027/ZoeyaKhan.jpg",
-                emoji: "🫪"
+                emoji: "🥰"
             }
         ]
     },
@@ -294,7 +294,7 @@ export const data = [
                 position: "Marketing",
                 funFact: "I love jipbap",
                 photo: "/team/2027/JasonWang.jpg",
-                emoji: "🫪"
+                emoji: "😳"
             },
             {
                 name: "Nathan Wang",
@@ -390,7 +390,7 @@ export const data = [
                 funFact:
                     "i need music recs (ts aint a fun fact please give me new music)",
                 photo: "/team/2027/NeelVinchhi.jpg",
-                emoji: "🫩"
+                emoji: "🤑"
             }
         ]
     }
