@@ -4,17 +4,10 @@ export const data = [
         teamMembers: [
             {
                 name: "Advita Gelli",
-                position: "Co-Director",
+                position: "Director",
                 funFact: "I like my m&ms microwaved",
                 photo: "/team/2027/AdvitaGelli.jpg",
                 emoji: "‼️"
-            },
-            {
-                name: "Yash Jagtap",
-                position: "Co-Director",
-                funFact: "I can make perfectly cooked shin ramen",
-                photo: "/team/2027/YashJagtap.jpg",
-                emoji: "🤞"
             }
         ]
     },
@@ -119,7 +112,7 @@ export const data = [
             {
                 name: "Sherry Long",
                 position: "Experience Lead",
-                funFact: "I was a top 1% diner in Chicago on Beli for 4 months",
+                funFact: "I'm a top 5% Beli restaurant ranker in the world",
                 photo: "/team/2027/SherryLong.jpg",
                 emoji: "😋"
             },
@@ -221,6 +214,14 @@ export const data = [
                     "I once completed 97% of all achievements in Minecraft!",
                 photo: "/team/2027/KaylaSison.jpg",
                 emoji: "😸"
+            },
+            {
+                name: "Kyle Park",
+                position: "Design",
+                funFact:
+                    "I am really good at 25cc Mario Kart (they get out of the Kart and walk)",
+                photo: "/team/2027/KylePark.jpg",
+                emoji: "😛"
             },
             {
                 name: "Leqi Huang",
