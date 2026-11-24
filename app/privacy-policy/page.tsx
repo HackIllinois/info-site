@@ -17,13 +17,13 @@ type privacyPolicy = {
 
 type privacyPolicyPoints = {
     title: string;
-    description: string;
+    description: string[];
     subPoints: privacyPolicySubPoints[];
 };
 
 type privacyPolicySubPoints = {
     title: string;
-    description: string[];
+    description: (string | string[])[];
 };
 
 const PrivacyPolicy = () => {
@@ -47,9 +47,18 @@ const PrivacyPolicy = () => {
                                         <span className={styles.pointTitle}>
                                             {privacyPolicyPoint.title}
                                         </span>
-                                        <p className={styles.pointDescription}>
-                                            {privacyPolicyPoint.description}
-                                        </p>
+                                        {privacyPolicyPoint.description.map(
+                                            (el: string) => (
+                                                <p
+                                                    className={
+                                                        styles.pointDescription
+                                                    }
+                                                    dangerouslySetInnerHTML={{
+                                                        __html: el
+                                                    }}
+                                                />
+                                            )
+                                        )}
                                         {privacyPolicyPoint.subPoints.length >
                                             0 && (
                                             <div
@@ -78,17 +87,43 @@ const PrivacyPolicy = () => {
                                                             <ul>
                                                                 {privacyPolicySubpoint.description.map(
                                                                     (
-                                                                        el: string
-                                                                    ) => (
-                                                                        <li
-                                                                            className={
-                                                                                styles.subPointDescription
-                                                                            }
-                                                                            dangerouslySetInnerHTML={{__html: el}}
-                                                                        >
-                                                                           
-                                                                        </li>
-                                                                    )
+                                                                        el:
+                                                                            | string
+                                                                            | string[]
+                                                                    ) =>
+                                                                        Array.isArray(
+                                                                            el
+                                                                        ) ? (
+                                                                            <ul
+                                                                                className={
+                                                                                    styles.nestedList
+                                                                                }
+                                                                            >
+                                                                                {el.map(
+                                                                                    (
+                                                                                        item: string
+                                                                                    ) => (
+                                                                                        <li
+                                                                                            className={
+                                                                                                styles.subPointDescription
+                                                                                            }
+                                                                                            dangerouslySetInnerHTML={{
+                                                                                                __html: item
+                                                                                            }}
+                                                                                        />
+                                                                                    )
+                                                                                )}
+                                                                            </ul>
+                                                                        ) : (
+                                                                            <li
+                                                                                className={
+                                                                                    styles.subPointDescription
+                                                                                }
+                                                                                dangerouslySetInnerHTML={{
+                                                                                    __html: el
+                                                                                }}
+                                                                            />
+                                                                        )
                                                                 )}
                                                             </ul>
                                                         </div>
