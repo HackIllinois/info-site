@@ -44,6 +44,9 @@
             font-weight: 500;
             line-height: 140%;
             margin-top: 0.5rem;
+            a {
+                color: #FBA036;
+            }
         }
     }
 }
@@ -68,6 +71,11 @@
         }
         a {
             color: #FBA036;
+        }
+        .nestedList {
+            margin-left: 2rem;
+            list-style-type: disc;
+            padding-left: 1.25rem;
         }
     }
 }
